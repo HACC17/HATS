@@ -28,10 +28,6 @@ Route::get('/dockets', function () {
     return view('dockets');
 });
 
-Route::get('/dockets', function () {
-    return view('dockets');
-});
-
 Route::get('/lucMaps', function () {
     return view('lucMaps');
 });
