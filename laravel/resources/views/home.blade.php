@@ -1,36 +1,15 @@
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Land Use Commission</title>
-<!--
-Upper Template
-http://www.templatemo.com/tm-497-upper
--->
-    <!-- load stylesheets -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  
-    <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">                
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">                                      
-    <!-- Bootstrap style -->
-    <link rel="stylesheet" href="css/hero-slider-style.css">                              
-    <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
-    <link rel="stylesheet" href="css/magnific-popup.css">                                 
-    <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
-    <link rel="stylesheet" href="css/templatemo-style.css">                                   
-    <!-- Templatemo style -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-          <![endif]-->
+	@include('head')
 </head>
-
+  <style>
+div.scroll {
+    background-color: #00FFFF;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+  </style>
     <body>
         
         <!-- Content -->
@@ -82,20 +61,17 @@ http://www.templatemo.com/tm-497-upper
                             <div class="row">
                                     <div class="tm-3-col-container">                                        
                                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 tm-3-col-textbox">
-                                                <div class="text-xs-left tm-textbox tm-textbox-padding tm-bg-white-translucent tm-3-col-textbox-inner">
+                                                <div class="text-xs-left tm-textbox tm-textbox-padding tm-bg-white-translucent tm-3-col-textbox-inner ">
                                                     <i class="fa fa-4x fa-pagelines tm-home-fa"></i>
-                                                    <h2 class="tm-text-title">Where to Start?</h2>                                           
+                                                    <h2 class="tm-text-title">Where to Start?</h2>
+                                                    
                                                     <p class="tm-text">Not sure where to begin? We are here to help you find your way. Click here</p>
                                                 </div>
                                             </div>
                                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 tm-3-col-textbox">
                                                 <div class="text-xs-left tm-textbox tm-textbox-padding tm-bg-white-translucent tm-3-col-textbox-inner">
                                                     <i class="fa fa-4x fa-bicycle tm-home-fa"></i>
-<<<<<<< HEAD
-                                                    <h2 class="tm-text-title">Who we are</h2>
-=======
                                                     <h2 class="tm-text-title">Who we are?</h2>
->>>>>>> 3a05841d9e7ee9656d846089cb8dac4d092a1611
                                                     <p class="tm-text">The Commissioners are non-paid volunteers who represent a cross-section of the community and to administer the Land Use Law. Want to know more? Click here</p>
                                                 </div>          
                                             </div>
@@ -110,27 +86,20 @@ http://www.templatemo.com/tm-497-upper
                             </div>
                         </div>
                     </div>
+
                 </li>
                 
-<<<<<<< HEAD
-                <!-- Page 2 About -->
-=======
                 <!-- Page 2 Gallery One -->
->>>>>>> 3a05841d9e7ee9656d846089cb8dac4d092a1611
                 <li>                    
                     <div class="cd-full-width">
                         <div class="container-fluid js-tm-page-content" data-page-no="2" data-page-type="gallery">
                             <div class="tm-img-gallery-container">
                                 <div class="tm-img-gallery gallery-one">
+<form>First name:<br><input type="text" name="firstname"><br>Last name:<br><input type="text" name="lastname"><br>Phone Number:<br><input type="text" name="number"><br>Email:<br><input type="email" name="email"><br>Organization<br><input type="text" name="org"><br><input type="submit" value="Submit"></form>
                                 <!-- Gallery One pop up connected with JS code below -->                                    
                                     <div class="tm-img-gallery-info-container">                                    
-<<<<<<< HEAD
-                                        <h2 class="tm-text-title tm-gallery-title tm-white"><span class="tm-white">Who are we?</span></h2>
-                                        <p class="tm-text"><p>The State Land Use Law (Chapter 205, Hawai`i Revised Statutes) was adopted in 1961, establishing a framework of land use management and regulation in which all lands in the State of Hawai`i are classified into one of four land use districts.  To administer the Land Use Law the State Legislature established the Land Use Commission composed of nine members, who are appointed by the Governor and confirmed by the State Senate.  One member is appointed from each of the four counties; five members are appointed at-large.  The Commissioners are non-paid volunteers who represent a cross-section of the community.</p>
-=======
                                         <h2 class="tm-text-title tm-gallery-title tm-white"><span class="tm-white">Who were are?</span></h2>
                                         <p class="tm-text">Learn about the Land Use Commissions history,who they are, procedures and what it is.
->>>>>>> 3a05841d9e7ee9656d846089cb8dac4d092a1611
                                         </p>
                                     </div>
                                     <div class="grid-item">
@@ -138,11 +107,7 @@ http://www.templatemo.com/tm-497-upper
                                             <img src="img/tm-img-01-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
                                                 <h2 class="tm-figure-title">History</h2>
-<<<<<<< HEAD
-                                                <p class="tm-figure-description">placeholder text.</p>
-=======
                                                 <p class="tm-figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
->>>>>>> 3a05841d9e7ee9656d846089cb8dac4d092a1611
                                                 <!--<a href="img/tm-img-01.jpg">View more</a>-->
                                             </figcaption>           
                                         </figure>
@@ -151,13 +116,8 @@ http://www.templatemo.com/tm-497-upper
                                         <figure class="effect-ruby">
                                             <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-<<<<<<< HEAD
-                                                <h2 class="tm-figure-title">District Boundary Amendment Procedures</h2>
-                                                <p class="tm-figure-description">placeholder text.</p>
-=======
                                                 <h2 class="tm-figure-title">About the LUC</h2>
                                                 <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
->>>>>>> 3a05841d9e7ee9656d846089cb8dac4d092a1611
                                                 <!--<a href="img/tm-img-02.jpg" >View more</a>-->
                                             </figcaption>
                                         </figure>
@@ -166,13 +126,8 @@ http://www.templatemo.com/tm-497-upper
                                         <figure class="effect-ruby">
                                             <img src="img/tm-img-03-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-<<<<<<< HEAD
-                                                <h2 class="tm-figure-title">Land Use Districts</h2>
-                                                <p class="tm-figure-description">placeholder text.</p>
-=======
                                                 <h2 class="tm-figure-title">Procedures</h2>
                                                 <p class="tm-figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
->>>>>>> 3a05841d9e7ee9656d846089cb8dac4d092a1611
                                                 <!--<a href="img/tm-img-03.jpg">View more</a>-->
                                             </figcaption>           
                                         </figure>
@@ -181,13 +136,8 @@ http://www.templatemo.com/tm-497-upper
                                         <figure class="effect-ruby">
                                             <img src="img/tm-img-04-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-<<<<<<< HEAD
-                                                <h2 class="tm-figure-title">Land Use Commission</h2>
-                                                <p class="tm-figure-description">placeholder text.</p>
-=======
                                                 <h2 class="tm-figure-title">Land Use</h2>
                                                 <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
->>>>>>> 3a05841d9e7ee9656d846089cb8dac4d092a1611
                                                 <!--<a href="img/tm-img-04.jpg">View more</a>-->
                                             </figcaption>           
                                         </figure>
@@ -198,11 +148,7 @@ http://www.templatemo.com/tm-497-upper
                     </div>                    
                 </li>
 
-<<<<<<< HEAD
-                <!-- Page 3 Dockets -->
-=======
                 <!-- Page 3 Gallery Two -->
->>>>>>> 3a05841d9e7ee9656d846089cb8dac4d092a1611
                 <li>                    
                     <div class="cd-full-width">
                         <div class="container-fluid js-tm-page-content" data-page-no="3" data-page-type="gallery">
@@ -281,11 +227,7 @@ http://www.templatemo.com/tm-497-upper
                     </div>
                 </li>
 
-<<<<<<< HEAD
-                <!-- Page 4 Self-service -->
-=======
                 <!-- Page 4 Gallery Three -->
->>>>>>> 3a05841d9e7ee9656d846089cb8dac4d092a1611
                 <li>
                     <div class="cd-full-width">
                         <div class="container-fluid js-tm-page-content" data-page-no="4" data-page-type="gallery">                        
@@ -305,6 +247,9 @@ http://www.templatemo.com/tm-497-upper
                                                 <h2 class="tm-figure-title">First Time</h2>
                                                 <p class="tm-figure-description">If this the first time visiting LUC click here.</p>
                                                 <a href="img/tm-img-11.jpg">View more</a>
+<div class="popup" onclick="myFunction()">Click me!
+  <span class="popuptext" id="myPopup">Popup text...</span>
+</div>
                                             </figcaption>           
                                         </figure>
                                     </div>
@@ -325,11 +270,7 @@ http://www.templatemo.com/tm-497-upper
                     </div>  
                 </li>
 
-<<<<<<< HEAD
-                <!-- Page 5 LUC Maps -->
-=======
                 <!-- Page 5 About -->
->>>>>>> 3a05841d9e7ee9656d846089cb8dac4d092a1611
                 <li>
                     <div class="cd-full-width">
                         <div class="container-fluid js-tm-page-content tm-page-width" data-page-no="5">
@@ -363,11 +304,7 @@ http://www.templatemo.com/tm-497-upper
 
                 </li>
 
-<<<<<<< HEAD
-                <!-- Page 6 Contact-->
-=======
                 <!-- Page 6 Contact Us -->
->>>>>>> 3a05841d9e7ee9656d846089cb8dac4d092a1611
                 <li>
                     <div class="cd-full-width">
                         <div class="container-fluid js-tm-page-content tm-page-pad" data-page-no="6">
@@ -420,19 +357,7 @@ http://www.templatemo.com/tm-497-upper
             </ul> <!-- .cd-hero-slider -->
             
             <footer class="tm-footer">
-            
-               <!-- <div class="tm-social-icons-container text-xs-center">
-                    <a href="#" class="tm-social-link"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="tm-social-link"><i class="fa fa-google-plus"></i></a>
-                    <a href="#" class="tm-social-link"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="tm-social-link"><i class="fa fa-behance"></i></a>
-                    <a href="#" class="tm-social-link"><i class="fa fa-linkedin"></i></a>
-                </div> -->
-                
-                <p class="tm-copyright-text">Copyright &copy; 2017 Hawaii Advanced Technology Society
-                
-                <!-- Design: <a rel="nofollow" href="http://www.templatemo.com/page/1" class="tm-footer-link" target="_parent">Templatemo</a></p> -->
-
+		@include('foot')  
             </footer>
                     
         </div> <!-- .cd-hero -->
@@ -448,12 +373,14 @@ http://www.templatemo.com/tm-497-upper
         </div>
         
         <!-- load JS files -->
-        <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
-        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) --> 
-        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
-        <script src="js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
-        <script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
+        <script src="{{ URL::asset('js/jquery-1.11.3.min.js') }}"></script>         <!-- jQuery (https://jquery.com/download/) -->
+        <script src="{{ URL::asset('https://www.atlasestateagents.co.uk/javascript/tether.min.js') }}"></script> <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) --> 
+        <script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
+        <script src="{{ URL::asset('js/hero-slider-main.js') }}"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
+        <script src="{{ URL::asset('js/jquery.magnific-popup.min.js') }}"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
         
+
+
         <script>
 
             function adjustHeightOfPage(pageNo) {
@@ -577,7 +504,7 @@ http://www.templatemo.com/tm-497-upper
             function loadGoogleMap(){
                 var script = document.createElement('script');
                 script.type = 'text/javascript';
-                script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
+                //script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
                 document.body.appendChild(script);
             }
         
