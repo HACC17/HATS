@@ -20,3 +20,22 @@ Route::get('/about', function () {
 });
 
    
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/dockets', function () {
+    return view('dockets');
+});
+
+Route::get('/dockets', function () {
+    return view('dockets');
+});
+
+Route::get('/lucMaps', function () {
+    return view('lucMaps');
+});
+
+Route::get('/self-service', function () {
+    return view('self-service');
+});
