@@ -1,35 +1,6 @@
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Land Use Commission</title>
-<!--
-Upper Template
-http://www.templatemo.com/tm-497-upper
--->
-    <!-- load stylesheets -->
-    <link rel="stylesheet" href="{{ URL::asset('https://fonts.googleapis.com/css?family=Open+Sans:300,400') }}">  
-    <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.min.css') }}">                
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}">                                      
-    <!-- Bootstrap style -->
-    <link rel="stylesheet" href="{{ URL::asset('css/hero-slider-style.css') }}">                              
-    <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
-    <link rel="stylesheet" href="{{ URL::asset('css/magnific-popup.css') }}">                                 
-    <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
-    <link rel="stylesheet" href="{{ URL::asset('css/templatemo-style.css') }}">                                   
-    <!-- Templatemo style -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-          <![endif]-->
-
+	@include('head')
 </head>
   <style>
 div.scroll {
@@ -115,7 +86,7 @@ div.scroll {
                             </div>
                         </div>
                     </div>
-<form>First name:<br><input type="text" name="firstname"><br>Last name:<br><input type="text" name="lastname"><br>Phone Number:<br><input type="text" name="number"><br>Email:<br><input type="email" name="email"><br>Organization<br><input type="text" name="org"><br><input type="submit" value="Submit"></form>
+
                 </li>
                 
                 <!-- Page 2 Gallery One -->
@@ -124,6 +95,7 @@ div.scroll {
                         <div class="container-fluid js-tm-page-content" data-page-no="2" data-page-type="gallery">
                             <div class="tm-img-gallery-container">
                                 <div class="tm-img-gallery gallery-one">
+<form>First name:<br><input type="text" name="firstname"><br>Last name:<br><input type="text" name="lastname"><br>Phone Number:<br><input type="text" name="number"><br>Email:<br><input type="email" name="email"><br>Organization<br><input type="text" name="org"><br><input type="submit" value="Submit"></form>
                                 <!-- Gallery One pop up connected with JS code below -->                                    
                                     <div class="tm-img-gallery-info-container">                                    
                                         <h2 class="tm-text-title tm-gallery-title tm-white"><span class="tm-white">Who were are?</span></h2>
@@ -275,6 +247,9 @@ div.scroll {
                                                 <h2 class="tm-figure-title">First Time</h2>
                                                 <p class="tm-figure-description">If this the first time visiting LUC click here.</p>
                                                 <a href="img/tm-img-11.jpg">View more</a>
+<div class="popup" onclick="myFunction()">Click me!
+  <span class="popuptext" id="myPopup">Popup text...</span>
+</div>
                                             </figcaption>           
                                         </figure>
                                     </div>
@@ -382,19 +357,7 @@ div.scroll {
             </ul> <!-- .cd-hero-slider -->
             
             <footer class="tm-footer">
-            
-               <!-- <div class="tm-social-icons-container text-xs-center">
-                    <a href="#" class="tm-social-link"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="tm-social-link"><i class="fa fa-google-plus"></i></a>
-                    <a href="#" class="tm-social-link"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="tm-social-link"><i class="fa fa-behance"></i></a>
-                    <a href="#" class="tm-social-link"><i class="fa fa-linkedin"></i></a>
-                </div> -->
-                
-                <p class="tm-copyright-text">Copyright &copy; 2017 Hawaii Advanced Technology Society
-                
-                <!-- Design: <a rel="nofollow" href="http://www.templatemo.com/page/1" class="tm-footer-link" target="_parent">Templatemo</a></p> -->
-
+		@include('foot')  
             </footer>
                     
         </div> <!-- .cd-hero -->
