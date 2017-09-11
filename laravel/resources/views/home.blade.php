@@ -1,18 +1,6 @@
-<html lang="en">
-<head>
-	@include('include.head')
-</head>
-  <style>
-div.scroll {
-    background-color: #00FFFF;
-    width: 100px;
-    height: 100px;
-    overflow: scroll;}
-  </style>
-    <body>
-        
+@extends('layout.default')
+@section('content')
         <!-- Content -->
-		@include('include.header')
         <div class="cd-hero">
             <ul class="cd-hero-slider">
 
@@ -316,11 +304,6 @@ div.scroll {
                     </div> <!-- .cd-full-width -->
                 </li>
             </ul> <!-- .cd-hero-slider -->
-            
-            <footer class="tm-footer">
-		@include('include.footer')  
-            </footer>
-                    
         </div> <!-- .cd-hero -->
         
 
@@ -467,6 +450,4 @@ div.scroll {
             });*/
 
         </script>            
-
-</body>
-</html>
+@stop
