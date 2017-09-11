@@ -1,57 +1,19 @@
 <html lang="en">
 <head>
-	@include('head')
+	@include('include.head')
 </head>
   <style>
 div.scroll {
     background-color: #00FFFF;
     width: 100px;
     height: 100px;
-    overflow: scroll;
-}
+    overflow: scroll;}
   </style>
     <body>
         
         <!-- Content -->
+		@include('include.header')
         <div class="cd-hero">
-
-            <!-- Navigation -->        
-            <div class="cd-slider-nav">
-                <nav class="navbar">
-                    <div class="tm-navbar-bg">
-                        
-                        <a class="navbar-brand text-uppercase" href="#"></i>LAND USE COMMISSION</a>
-
-                        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
-                            &#9776;
-                        </button>
-                        <div class="collapse navbar-toggleable-md text-xs-center text-uppercase tm-navbar" id="tmNavbar">
-                            <ul class="nav navbar-nav">
-                                <li class="nav-item active selected">
-                                    <a class="nav-link" href="#0" data-no="1">HOME <span class="sr-only">(current)</span></a>
-                                </li>                                
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#0" data-no="2">ABOUT</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#0" data-no="3">DOCKETS</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#0" data-no="4">SELF-SERVICE</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#0" data-no="5">LUC MAPS</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#0" data-no="6">CONTACT</a>
-                                </li>
-                            </ul>
-                        </div>                        
-                    </div>
-
-                </nav>
-            </div> 
-
             <ul class="cd-hero-slider">
 
                 <!-- Page 1 Home -->
@@ -66,6 +28,7 @@ div.scroll {
                                                     <h2 class="tm-text-title">Where to Start?</h2>
                                                     
                                                     <p class="tm-text">Not sure where to begin? We are here to help you find your way. Click here</p>
+                                                    <a href="history">History</a>
                                                 </div>
                                             </div>
                                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 tm-3-col-textbox">
@@ -95,7 +58,7 @@ div.scroll {
                         <div class="container-fluid js-tm-page-content" data-page-no="2" data-page-type="gallery">
                             <div class="tm-img-gallery-container">
                                 <div class="tm-img-gallery gallery-one">
-<form>First name:<br><input type="text" name="firstname"><br>Last name:<br><input type="text" name="lastname"><br>Phone Number:<br><input type="text" name="number"><br>Email:<br><input type="email" name="email"><br>Organization<br><input type="text" name="org"><br><input type="submit" value="Submit"></form>
+
                                 <!-- Gallery One pop up connected with JS code below -->                                    
                                     <div class="tm-img-gallery-info-container">                                    
                                         <h2 class="tm-text-title tm-gallery-title tm-white"><span class="tm-white">Who were are?</span></h2>
@@ -108,9 +71,10 @@ div.scroll {
                                             <figcaption>
                                                 <h2 class="tm-figure-title">History</h2>
                                                 <p class="tm-figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <!--<a href="img/tm-img-01.jpg">View more</a>-->
-                                            </figcaption>           
-                                        </figure>
+                                                <a href="history">View more</a>
+                                                <a href="history">History</a>
+                                            </figcaption>       
+                                        </figure>  
                                     </div>
                                     <div class="grid-item">
                                         <figure class="effect-ruby">
@@ -247,9 +211,6 @@ div.scroll {
                                                 <h2 class="tm-figure-title">First Time</h2>
                                                 <p class="tm-figure-description">If this the first time visiting LUC click here.</p>
                                                 <a href="img/tm-img-11.jpg">View more</a>
-<div class="popup" onclick="myFunction()">Click me!
-  <span class="popuptext" id="myPopup">Popup text...</span>
-</div>
                                             </figcaption>           
                                         </figure>
                                     </div>
@@ -357,7 +318,7 @@ div.scroll {
             </ul> <!-- .cd-hero-slider -->
             
             <footer class="tm-footer">
-		@include('foot')  
+		@include('include.footer')  
             </footer>
                     
         </div> <!-- .cd-hero -->
@@ -424,14 +385,6 @@ div.scroll {
             $(window).load(function(){
 
                 adjustHeightOfPage(1); // Adjust page height
-
-                /* Gallery One pop up
-                -----------------------------------------*/
-                $('.gallery-one').magnificPopup({
-                    delegate: 'a', // child items selector, by clicking on it popup will open
-                    type: 'image',
-                    gallery:{enabled:true}                
-                });
 				
 				/* Gallery Two pop up
                 -----------------------------------------*/
@@ -476,7 +429,7 @@ div.scroll {
 
             /* Google map
             ------------------------------------------------*/
-            var map = '';
+            /*var map = '';
             var center;
 
             function initialize() {
@@ -511,7 +464,7 @@ div.scroll {
             // DOM is ready
             $(function() {                
                 loadGoogleMap(); // Google Map
-            });
+            });*/
 
         </script>            
 
