@@ -12,7 +12,7 @@ http://www.templatemo.com/tm-497-upper
     <!-- load stylesheets -->
     <link rel="stylesheet" href="{{ URL::asset('https://fonts.googleapis.com/css?family=Open+Sans:300,400') }}">  
     <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="{{ URL::asset('font-awesome-4.5.0/css/font-awesome.min.css') }}">                
+    <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.min.css') }}">                
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}">                                      
     <!-- Bootstrap style -->
