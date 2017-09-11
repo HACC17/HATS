@@ -35,3 +35,5 @@ Route::get('/lucMaps', function () {
 Route::get('/self-service', function () {
     return view('self-service');
 });
+
+?>
