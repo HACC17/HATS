@@ -19,4 +19,6 @@ Route::get('/about', function () {
     return view('about');
 });
 
-   
+Route::get('/history', function () {
+    return view('individual_pages/about/history/history');
+});
