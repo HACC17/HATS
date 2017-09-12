@@ -18,8 +18,6 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
-
-<<<<<<< HEAD
    
 Route::get('/contact', function () {
     return view('contact');
@@ -35,12 +33,11 @@ Route::get('/lucMaps', function () {
 
 Route::get('/self-service', function () {
     return view('self-service');
-=======
+});
 Route::get('/history', function () {
     return view('individual_pages/about/history/history');
 });
 
 Route::get('/index', function () {
     return view('index');
->>>>>>> dev-gabe
 });
