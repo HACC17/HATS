@@ -14,19 +14,19 @@
 						<a class="nav-link" href="/" data-no="1">Home <span class="sr-only">(current)</span></a>
 					</li>                                
 					<li class="nav-item">
-						<a class="nav-link" href="#0" data-no="2">First Gallery</a>
+						<a class="nav-link" href="#0" data-no="2">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#0" data-no="3">Second</a>
+						<a class="nav-link" href="#0" data-no="3">Dockets</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#0" data-no="4">Third Grid</a>
+						<a class="nav-link" href="#0" data-no="4">Self-Service</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#0" data-no="5">About Us</a>
+						<a class="nav-link" href="#0" data-no="5">LUC Maps</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#0" data-no="6">Contact</a>
+						<a class="nav-link" href="#0" data-no="6">Contacts</a>
 					</li>
 				</ul>
 			</div>                        
