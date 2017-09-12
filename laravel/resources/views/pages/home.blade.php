@@ -1,95 +1,60 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.default')
 
-        <title>Laravel</title>
+@section('content')
+<!-- Start of HTML -->
+<html>
+<style>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
+.in-boxed {
+  
+  border: 1px solid red ;
+} 
 
-            .full-height {
-                height: 100vh;
-            }
+.boxed {
+  vertical-align: middle;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid red ;
+  background-color: #f8f8f8 ;
+  opacity: 0.8;
+} 
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+.center {
+ text-align: center;
+}
 
-            .position-ref {
-                position: relative;
-            }
+</style>
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
 
-            .content {
-                text-align: center;
-            }
 
-            .title {
-                font-size: 84px;
-            }
+<div class="in-boxed">
+<div class="boxed">
+  <h2 class="center">Where to Start?</h2>
+   <p>Not sure where to begin? We are here to help you find your way. Click here</p>
+</div> 
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
+<div class="boxed">
+  <h2 class="center">Who we are</h2>
+   <p>The Commissioners are non-paid volunteers who represent a cross-section of the community and to administer the Land Use Law. Want to know more? Click here</p>
+</div>
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
+<div class="boxed">
+  <h2 class="center">Request Assistance</h2>
+   <p>Not sure where to begin? We are here to help you find your way. Click here</p>
+</div>
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
+</div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+
+
+<body background="/imgs/home_imgs/lands3.jpg"> 
+
+
+</body>
+
+</html> 
+@stop
