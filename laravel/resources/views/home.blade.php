@@ -28,13 +28,13 @@ div.scroll {
                         <div class="collapse navbar-toggleable-md text-xs-center text-uppercase tm-navbar" id="tmNavbar">
                             <ul class="nav navbar-nav">
                                 <li class="nav-item active selected">
-                                    <a class="nav-link" href="#0" data-no="1">HOME <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="/" data-no="1">HOME <span class="sr-only">(current)</span></a>
                                 </li>                                
                                 <li class="nav-item">
                                     <a class="nav-link" href="#0" data-no="2">ABOUT</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#0" data-no="3">DOCKETS</a>
+                                    <a class="nav-link" href="/dockets" data-no="3">DOCKETS</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#0" data-no="4">SELF-SERVICE</a>
@@ -247,9 +247,6 @@ div.scroll {
                                                 <h2 class="tm-figure-title">First Time</h2>
                                                 <p class="tm-figure-description">If this the first time visiting LUC click here.</p>
                                                 <a href="img/tm-img-11.jpg">View more</a>
-<div class="popup" onclick="myFunction()">Click me!
-  <span class="popuptext" id="myPopup">Popup text...</span>
-</div>
                                             </figcaption>           
                                         </figure>
                                     </div>
