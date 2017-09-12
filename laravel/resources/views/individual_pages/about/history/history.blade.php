@@ -16,6 +16,7 @@
                                                     <h2 class="tm-text-title">Where to Start?</h2>
                                                     
                                                     <p class="tm-text">Not sure where to begin? We are here to help you find your way. Click here</p>
+                                                    <a href="history">History</a>
                                                 </div>
                                             </div>
                                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 tm-3-col-textbox">
@@ -45,6 +46,7 @@
                         <div class="container-fluid js-tm-page-content" data-page-no="2" data-page-type="gallery">
                             <div class="tm-img-gallery-container">
                                 <div class="tm-img-gallery gallery-one">
+
                                 <!-- Gallery One pop up connected with JS code below -->                                    
                                     <div class="tm-img-gallery-info-container">                                    
                                         <h2 class="tm-text-title tm-gallery-title tm-white"><span class="tm-white">Who were are?</span></h2>
@@ -57,9 +59,10 @@
                                             <figcaption>
                                                 <h2 class="tm-figure-title">History</h2>
                                                 <p class="tm-figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <!--<a href="img/tm-img-01.jpg">View more</a>-->
-                                            </figcaption>           
-                                        </figure>
+                                                <a href="history">View more</a>
+                                                <a href="history">History</a>
+                                            </figcaption>       
+                                        </figure>  
                                     </div>
                                     <div class="grid-item">
                                         <figure class="effect-ruby">
@@ -196,9 +199,6 @@
                                                 <h2 class="tm-figure-title">First Time</h2>
                                                 <p class="tm-figure-description">If this the first time visiting LUC click here.</p>
                                                 <a href="img/tm-img-11.jpg">View more</a>
-<div class="popup" onclick="myFunction()">Click me!
-  <span class="popuptext" id="myPopup">Popup text...</span>
-</div>
                                             </figcaption>           
                                         </figure>
                                     </div>
@@ -224,26 +224,35 @@
                     <div class="cd-full-width">
                         <div class="container-fluid js-tm-page-content tm-page-width" data-page-no="5">
                             <div class="row">
-                                <div class="col-xs-12">
+                                <div class="col-s-12">
                                     <div class="tm-flex">
-                                        <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-padding tm-white-box-margin-b">
-                                            <h2 class="tm-text-title">Lorem ipsum dolor</h2>
-                                            <p class="tm-text">Nulla efficitur, ligula et imperdiet volutpat, lacus tortor tempus massa, eget tempus quam nibh vel nulla. Vivamus non molestie leo, non tincidunt diam. Mauris sagittis elit in velit ultricies aliquet sed in magna. Pellentesque semper, est nec consequat viverra, sem augue tincidunt nisi, a posuere nisi sapien sed sapien. Nulla facilisi.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="tm-flex">
-                                        <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
-                                            <h2 class="tm-text-title">Nulla facilisi</h2>
-                                            <p class="tm-text">Donec vitae bibendum est, et ultrices urna. Curabitur ac bibendum augue, a convallis mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ultrices placerat arcu.</p>
-                                        </div>
-                                        <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
-                                            <h2 class="tm-text-title">Aliquam sem sem</h2>
-                                            <p class="tm-text">Proin sagittis mauris dolor, vel efficitur lectus dictum nec. Sed ultrices placerat arcu, id malesuada metus cursus suscipit. Donex quis consectetur ligula. Proin accumsan eros id nisi porttitor, a facilisis quam cursus.</p>     
+                                        <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-1-col-textbox-1 tm-textbox-padding">
+											<!--History sub page  -->
+											<strong><h4>History</h4></strong>
+											<!--First Paragraph-->
+											<p>The State Land Use Law (Chapter 205, Hawaii Revised Statutes) is unique in the history of Hawaii land use planning. Originally adopted by the State Legislature in 1961, the Land Use Law establishes an overall framework of land use management whereby all lands in the State of Hawaii are classified into one of four land use districts:</p>
+
+											<ol>
+											<li><strong>URBAN</strong></li>
+											<li><strong>RURAL</strong></li>
+											<li><strong>AGRICULTURAL</strong></li>
+											<li><strong>CONSERVATION</strong></li>
+											</ol>
+
+											<!--Second Paragraph-->
+											<strong><h4>PURPOSE OF THE LAW</h4></strong>
+											<p>In 1961, the Hawaii State Legislature determined that a lack of adequate controls had caused the development of Hawaii&rsquo;s limited and valuable land for short-term gain for the few while resulting in long-term loss to the income and growth potential of our State&rsquo;s economy. Development of scattered subdivisions, creating problems of expensive yet reduced public services, and the conversion of prime agricultural land to residential use, were key reasons for establishing the state-wide land use system.</p>
+											<p>To administer this state-wide land use law, the Legislature established the Land Use Commission. The Commission is responsible for preserving and protecting Hawaii&rsquo;s lands and encouraging those uses to which lands are best suited.</p>
+											<!--Third Paragraph-->
+											<strong><h4>COMPOSITION OF THE COMMISSION</h4></strong>
+											<p>The Commission is composed of nine members, who are appointed by the Governor and confirmed by the State Senate. One member is appointed from each of the four counties. Five members are appointed at-large. Commissioners are non-paid volunteers who represent a cross-section of the community.</p>
+
+											<!--Four Paragraph -->
+											<strong><h4>ROLE OF THE COMMISSION</h4></strong>
+											<p>The Commission&rsquo;s primary role is to ensure that areas of state concern are addressed and considered in the land use decision-making process.</p>
+											<p>The Commission establishes the district boundaries for the entire State. The Commission acts on petitions for boundary changes submitted by private landowners, developers and State and county agencies. The Commission also acts on requests for special use permits within the Agricultural and Rural Districts.</p>
+											<p class="tm-text">Learn about the Land Use Commissions history,who they are, procedures and what it is.</p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -304,10 +313,6 @@
                     </div> <!-- .cd-full-width -->
                 </li>
             </ul> <!-- .cd-hero-slider -->
-            
-            <footer class="tm-footer">
-            </footer>
-                    
         </div> <!-- .cd-hero -->
         
 
@@ -330,16 +335,21 @@
 
 
         <script>
+
             function adjustHeightOfPage(pageNo) {
+
                 var offset = 80;
                 var pageContentHeight = 0;
+
                 var pageType = $('div[data-page-no="' + pageNo + '"]').data("page-type");
+
                 if( pageType != undefined && pageType == "gallery") {
                     pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .tm-img-gallery-container").height();
                 }
                 else {
                     pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .js-tm-page-content").height();
                 }
+
                 if($(window).width() >= 992) { offset = 120; }
                 else if($(window).width() < 480) { offset = 40; }
                
@@ -347,6 +357,7 @@
                 var totalPageHeight = 15 + $('.cd-slider-nav').height()
                                         + pageContentHeight + offset
                                         + $('.tm-footer').height();
+
                 // Adjust layout based on page height and window height
                 if(totalPageHeight > $(window).height()) 
                 {
@@ -359,19 +370,14 @@
                     $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", "100%");
                 }
             }
+
             /*
                 Everything is loaded including images.
             */
             $(window).load(function(){
+
                 adjustHeightOfPage(1); // Adjust page height
-                /* Gallery One pop up
-                -----------------------------------------
-                $('.gallery-one').magnificPopup({
-                    delegate: 'a', // child items selector, by clicking on it popup will open
-                    type: 'image',
-                    gallery:{enabled:true}                
-                });
-				*/
+				
 				/* Gallery Two pop up
                 -----------------------------------------*/
 				$('.gallery-two').magnificPopup({
@@ -379,6 +385,7 @@
                     type: 'image',
                     gallery:{enabled:true}                
                 });
+
                 /* Gallery Three pop up
                 -----------------------------------------*/
                 $('.gallery-three').magnificPopup({
@@ -386,12 +393,15 @@
                     type: 'image',
                     gallery:{enabled:true}                
                 });
+
                 /* Collapse menu after click 
                 -----------------------------------------*/
                 $('#tmNavbar a').click(function(){
                     $('#tmNavbar').collapse('hide');
+
                     adjustHeightOfPage($(this).data("no")); // Adjust page height       
                 });
+
                 /* Browser resized 
                 -----------------------------------------*/
                 $( window ).resize(function() {
@@ -408,10 +418,12 @@
                 $('body').addClass('loaded');
                            
             });
+
             /* Google map
             ------------------------------------------------*/
-            var map = '';
+            /*var map = '';
             var center;
+
             function initialize() {
                 var mapOptions = {
                     zoom: 15,
@@ -420,6 +432,7 @@
                 };
             
                 map = new google.maps.Map(document.getElementById('google-map'),  mapOptions);
+
                 google.maps.event.addDomListener(map, 'idle', function() {
                   calculateCenter();
                 });
@@ -428,9 +441,11 @@
                   map.setCenter(center);
                 });
             }
+
             function calculateCenter() {
                 center = map.getCenter();
             }
+
             function loadGoogleMap(){
                 var script = document.createElement('script');
                 script.type = 'text/javascript';
@@ -441,7 +456,7 @@
             // DOM is ready
             $(function() {                
                 loadGoogleMap(); // Google Map
-            });
+            });*/
+
         </script>
 @stop
-
