@@ -15,7 +15,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: #fcfcfc;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 ul.topnav li {float: left;}
