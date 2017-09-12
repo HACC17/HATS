@@ -22,3 +22,7 @@ Route::get('/about', function () {
 Route::get('/history', function () {
     return view('individual_pages/about/history/history');
 });
+
+Route::get('/index', function () {
+    return view('index');
+});
