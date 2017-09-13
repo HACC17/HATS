@@ -1,8 +1,8 @@
 
 <style>
 
-.footer{
-  position: absolute;
+.footer {
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
