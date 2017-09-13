@@ -1,13 +1,14 @@
 
 <style>
 
-.footer{
-  position: absolute;
+.footer {
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   background-color: white;
+  overflow:hidden
   opacity: 0.8;
 }
 

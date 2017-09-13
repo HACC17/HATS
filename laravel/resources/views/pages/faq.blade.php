@@ -11,12 +11,20 @@ body {
     background-image: url('/imgs/self_service_imgs/land1.jpg');
     height: 50%; 
     background-position: center;
+    background-attachment: fixed;
 
     background-size: cover; 
+}
+
+.textcontainer {
+   border: red;
+   width: 50%;
+   background-color: rgba(248,248,248,0.7);
 }
 </style>
 
 <body> 
+<div class="textcontainer">
 <!-- Start of FAQ page -->
 <h3>FREQUENTLY ASKED QUESTIONS</h3>
 
@@ -100,7 +108,7 @@ Honolulu, Hawai`i 96804-2359.</p>
 <!-- 0B2 -->
 <strong><p><a name="0B2">How do I upload files to my docket?</a></p></strong>
 <p> </p>
-
+</div>
 </body>
 </html> 
 @stop

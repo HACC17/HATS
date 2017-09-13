@@ -14,7 +14,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #fcfcfc;
+    background-color: rgba(248,248,248,0.7);
     opacity: 0.8;
 }
 
