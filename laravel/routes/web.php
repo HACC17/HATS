@@ -19,9 +19,15 @@ Route::get('about', function()
 {
     return View::make('pages.about');
 });
+<<<<<<< HEAD
 Route::get('dockets', function()
 {
     return View::make('pages.dockets');
+=======
+   
+Route::get('/contact', function () {
+    return view('contact');
+>>>>>>> dev-gabe
 });
 Route::get('selfservice', function()
 {
@@ -35,4 +41,14 @@ Route::get('contact', function()
 {
     return View::make('pages.contact');
 });
+<<<<<<< HEAD
 
+=======
+Route::get('/history', function () {
+    return view('individual_pages/about/history/history');
+});
+
+Route::get('/index', function () {
+    return view('index');
+});
+>>>>>>> dev-gabe
