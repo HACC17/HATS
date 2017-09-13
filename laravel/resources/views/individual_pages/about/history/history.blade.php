@@ -222,6 +222,7 @@
                 <!-- Page 5 About -->
                 <li>
                     <div class="cd-full-width">
+
                         <div class="container-fluid js-tm-page-content tm-page-width" data-page-no="5">
                             <div class="row">
                                 <div class="col-s-12">
@@ -313,7 +314,7 @@
                     </div> <!-- .cd-full-width -->
                 </li>
             </ul> <!-- .cd-hero-slider -->
-        </div> <!-- .cd-hero -->
+        </div><!--  .cd-hero -->
         
 
         <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
