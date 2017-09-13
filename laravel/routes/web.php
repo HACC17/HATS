@@ -10,7 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//========================================
+//============MAIN NAVIGATION=============
+//========================================
 Route::get('/', function()
 {
     return View::make('pages.home');
@@ -36,3 +38,11 @@ Route::get('contact', function()
     return View::make('pages.contact');
 });
 
+//========================================
+//===============SELF SERVICE=============
+//========================================
+
+Route::get('faq', function()
+{
+    return View::make('pages.faq');
+});

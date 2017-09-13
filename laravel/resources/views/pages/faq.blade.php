@@ -1,4 +1,22 @@
+@extends('layouts.default')
+@section('content')
+<html> 
 
+<style>
+html{
+height: 100%; 
+}
+
+body { 
+    background-image: url('/imgs/self_service_imgs/land1.jpg');
+    height: 50%; 
+    background-position: center;
+
+    background-size: cover; 
+}
+</style>
+
+<body> 
 <!-- Start of FAQ page -->
 <h3>FREQUENTLY ASKED QUESTIONS</h3>
 
@@ -82,3 +100,7 @@ Honolulu, Hawai`i 96804-2359.</p>
 <!-- 0B2 -->
 <strong><p><a name="0B2">How do I upload files to my docket?</a></p></strong>
 <p> </p>
+
+</body>
+</html> 
+@stop
