@@ -2,7 +2,6 @@
 
 @section('content')
 <!-- Start of Body -->
-<html>
 <style>
 html{
 height: 100%; 
@@ -18,7 +17,6 @@ body {
 
 /* Outer Boxes */
 .in-boxed {
-  position: relative;
   padding-top: 120px;
   text-align: center;
   height: 300px;
@@ -32,6 +30,11 @@ body {
   height: 200px;
   padding: 20px;
   margin: 10px;
+<<<<<<< HEAD
+=======
+  background-color: #f8f8f8 ;
+
+>>>>>>> b98c733d01df3aa9b7cda0c4244f1aff31928d4e
 } 
 /* Buttons */
 .button {
@@ -101,7 +104,12 @@ body {
 
 </div>
 
+<<<<<<< HEAD
 </body>
 
 </html> 
+=======
+
+<!-- Background Image found in laravel/public -->  
+>>>>>>> b98c733d01df3aa9b7cda0c4244f1aff31928d4e
 @stop
