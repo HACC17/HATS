@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,6 +10,7 @@
 |
 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 //========================================
 //============MAIN NAVIGATION=============
 //========================================
@@ -21,12 +21,20 @@ Route::get('/', function()
 Route::get('/', function(){
 	
 >>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
+=======
+//========================================
+//============MAIN NAVIGATION=============
+//========================================
+Route::get('/', function(){
+	
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
     return View::make('pages.home');
 });
 Route::get('about', function(){
 	
     return View::make('pages.about');
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 Route::get('dockets', function()
 {
@@ -63,21 +71,26 @@ Route::get('dockets', function()
 });
 =======
 
+=======
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
 Route::get('dockets', function(){
 	
     return View::make('pages.dockets');
 });  
+<<<<<<< HEAD
 
 >>>>>>> dev-gabe
+=======
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
 Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
 });
-
 Route::get('lucmaps', function()
 {
     return View::make('pages.lucmaps');
 });
+<<<<<<< HEAD
 Route::get('contact', function()
 {
     return View::make('pages.contact');
@@ -107,10 +120,23 @@ Route::get('history', function () {
 	
     return view('pages.history');
 >>>>>>> dev-gabe
-});
+=======
+Route::get('contact', function(){
+	
+    return View::make('pages.contact');
 
+//========================================
+//===============ABOUT====================
+//========================================
+});
+Route::get('history', function () {
+	
+    return View::make('pages.history');
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
+});
 Route::get('procedures', function () {
 	
+<<<<<<< HEAD
     return view('pages.procedures');
 });
 <<<<<<< HEAD
@@ -120,10 +146,14 @@ Route::get('procedures', function () {
 =======
 
 <<<<<<< HEAD
+=======
+    return View::make('pages.procedures');
+});
+
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
 //========================================
 //===============SELF SERVICE=============
 //========================================
-
 Route::get('faq', function()
 {
     return View::make('pages.faq');

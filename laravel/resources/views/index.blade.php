@@ -1,7 +1,10 @@
 @extends('layout.default')
 @section('content')
+
+    <body>
+        
         <!-- Content -->
-        <div class="cd-hero">
+        <div class="cd-hero">	
             <ul class="cd-hero-slider">
 
                 <!-- Page 1 Home -->
@@ -11,33 +14,31 @@
                             <div class="row">
                                     <div class="tm-3-col-container">                                        
                                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 tm-3-col-textbox">
-                                                <div class="text-xs-left tm-textbox tm-textbox-padding tm-bg-white-translucent tm-3-col-textbox-inner ">
+                                                <div class="text-xs-left tm-textbox tm-textbox-padding tm-bg-white-translucent tm-3-col-textbox-inner">
                                                     <i class="fa fa-4x fa-pagelines tm-home-fa"></i>
                                                     <h2 class="tm-text-title">Where to Start?</h2>
-                                                    
-                                                    <p class="tm-text">Not sure where to begin? We are here to help you find your way. Click here</p>
-                                                    <a href="history">History</a>
+                                                    <p class="tm-text">Not sure where to begin? We are here to help you find your way.
+													<a href="img/tm-img-01.jpg">Click Here</a></p>
                                                 </div>
                                             </div>
                                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 tm-3-col-textbox">
                                                 <div class="text-xs-left tm-textbox tm-textbox-padding tm-bg-white-translucent tm-3-col-textbox-inner">
                                                     <i class="fa fa-4x fa-bicycle tm-home-fa"></i>
-                                                    <h2 class="tm-text-title">Who we are?</h2>
-                                                    <p class="tm-text">The Commissioners are non-paid volunteers who represent a cross-section of the community and to administer the Land Use Law. Want to know more? Click here</p>
+                                                    <h2 class="tm-text-title">Welcome!</h2>
+                                                    <p class="tm-text">There are 3 different gallaries in this template. You can customize them in any suitable way you prefer. You can also modify the content columns as you wish. Images are from Unsplash website. Good Luck!</p>
                                                 </div>          
                                             </div>
                                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 tm-3-col-textbox">
                                                 <div class="text-xs-left tm-textbox tm-textbox-padding tm-bg-white-translucent tm-3-col-textbox-inner">
                                                     <i class="fa fa-4x fa-plane tm-home-fa"></i>
-                                                    <h2 class="tm-text-title">Request Assistance</h2>
-                                                    <p class="tm-text">Click here to finds way to contact people. </p>
+                                                    <h2 class="tm-text-title">Stay relaxed</h2>
+                                                    <p class="tm-text">You can easily change icons in HTML codes by <a href="http://fontawesome.io/icons/" target="_parent">Font Awesome</a>. Praesent tempus dapibus. Curabitur sodales, est auctor congue vulputate, nisl tellus finibus nunc, vitae consectetur enim.</p>
                                                 </div>          
                                             </div>                                        
                                     </div>
                             </div>
                         </div>
                     </div>
-
                 </li>
                 
                 <!-- Page 2 Gallery One -->
@@ -46,31 +47,29 @@
                         <div class="container-fluid js-tm-page-content" data-page-no="2" data-page-type="gallery">
                             <div class="tm-img-gallery-container">
                                 <div class="tm-img-gallery gallery-one">
-
                                 <!-- Gallery One pop up connected with JS code below -->                                    
                                     <div class="tm-img-gallery-info-container">                                    
-                                        <h2 class="tm-text-title tm-gallery-title tm-white"><span class="tm-white">Who were are?</span></h2>
-                                        <p class="tm-text">Learn about the Land Use Commissions history,who they are, procedures and what it is.
+                                        <h2 class="tm-text-title tm-gallery-title tm-white"><span class="tm-white">First Image Gallery</span></h2>
+                                        <p class="tm-text">Curabitur quis tellus sed orci rhoncus fermentum. Praesent sollicitudin scelerisque nunc et vehicula. Sed ex magna, elementum ut volutpat ut, vehicula quis metus.
                                         </p>
                                     </div>
                                     <div class="grid-item">
                                         <figure class="effect-ruby">
                                             <img src="img/tm-img-01-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">History</h2>
+                                                <h2 class="tm-figure-title">Image <span>One</span></h2>
                                                 <p class="tm-figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <a href="history">View more</a>
-                                                <a href="history">History</a>
-                                            </figcaption>       
-                                        </figure>  
+                                                <a href="img/tm-img-01.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
                                     </div>
                                     <div class="grid-item">
                                         <figure class="effect-ruby">
                                             <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">About the LUC</h2>
+                                                <h2 class="tm-figure-title">Image <span>Two</span></h2>
                                                 <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
-                                                <!--<a href="img/tm-img-02.jpg" >View more</a>-->
+                                                <a href="img/tm-img-02.jpg">View more</a>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -78,9 +77,9 @@
                                         <figure class="effect-ruby">
                                             <img src="img/tm-img-03-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Procedures</h2>
+                                                <h2 class="tm-figure-title">Image <span>Three</span></h2>
                                                 <p class="tm-figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <!--<a href="img/tm-img-03.jpg">View more</a>-->
+                                                <a href="img/tm-img-03.jpg">View more</a>
                                             </figcaption>           
                                         </figure>
                                     </div>
@@ -88,9 +87,9 @@
                                         <figure class="effect-ruby">
                                             <img src="img/tm-img-04-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Land Use</h2>
+                                                <h2 class="tm-figure-title">Image <span>Four</span></h2>
                                                 <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
-                                                <!--<a href="img/tm-img-04.jpg">View more</a>-->
+                                                <a href="img/tm-img-04.jpg">View more</a>
                                             </figcaption>           
                                         </figure>
                                     </div>                                                                          
@@ -109,7 +108,7 @@
                                 <!-- Gallery Two pop up connected with JS code below -->
                                     
                                     <div class="tm-img-gallery-info-container">                                    
-                                        <h2 class="tm-text-title tm-gallery-title"><span class="tm-white">Dockets</h2>
+                                        <h2 class="tm-text-title tm-gallery-title"><span class="tm-white">Second Gallery</span></h2>
                                         <p class="tm-text"><span class="tm-white">Aenean nulla lorem, laoreet eu nibh et, lacinia ullamcorper dui. Nullam ut tincidunt odio. Morbi accumsan diam vel enim cursus, in dapibus eros tristique.</span>
                                         </p>
                                     </div>
@@ -188,16 +187,16 @@
                                 <!-- Gallery Two pop up connected with JS code below -->
                                     
                                     <div class="tm-img-gallery-info-container">                                    
-                                        <h2 class="tm-text-title tm-gallery-title"><span class="tm-white">What to do next?</span></h2>
-                                        <p class="tm-text"><span class="tm-white">We want to assist you the best we can. Please select one from the following choices.</span>
+                                        <h2 class="tm-text-title tm-gallery-title"><span class="tm-white">Third Image Grid</span></h2>
+                                        <p class="tm-text"><span class="tm-white">Nulla efficitur, ligula et imperdiet volutpat, lacus tortor tempus massa, eget tempus quam nibh vel nulla. Maecenas purus sem, lobortis id odio in, ultrices scelerisque sapien.</span>
                                         </p>                                     
                                     </div>
                                     <div class="grid-item">
                                         <figure class="effect-ruby">
-                                            <img src="img/tm-img-11.jpg" alt="Image" class="img-fluid tm-img">
+                                            <img src="img/tm-img-11-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">First Time</h2>
-                                                <p class="tm-figure-description">If this the first time visiting LUC click here.</p>
+                                                <h2 class="tm-figure-title">Picture <span>One</span></h2>
+                                                <p class="tm-figure-description">Suspendisse id placerat risus. Mauris quis luctus risus.</p>
                                                 <a href="img/tm-img-11.jpg">View more</a>
                                             </figcaption>           
                                         </figure>
@@ -206,13 +205,52 @@
                                         <figure class="effect-ruby">
                                             <img src="img/tm-img-12-tn.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
-                                                <h2 class="tm-figure-title">Returning</h2>
-                                                <p class="tm-figure-description">If you are a returning user but need assistance click here.</p>
+                                                <h2 class="tm-figure-title">Picture <span>Two</span></h2>
+                                                <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
                                                 <a href="img/tm-img-12.jpg">View more</a>
                                             </figcaption>           
                                         </figure>
                                     </div>
-                                                                                           
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="img/tm-img-13-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Picture <span>Three</span></h2>
+                                                <p class="tm-figure-description">Suspendisse id placerat risus. Mauris quis luctus risus.</p>
+                                                <a href="img/tm-img-13.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="img/tm-img-14-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Picture <span>Four</span></h2>
+                                                <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
+                                                <a href="img/tm-img-14.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="img/tm-img-15-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Picture <span>Five</span></h2>
+                                                <p class="tm-figure-description">Suspendisse id placerat risus. Mauris quis luctus risus.</p>
+                                                <a href="img/tm-img-15.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="img/tm-img-16-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Picture <span>Six</span></h2>
+                                                <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
+                                                <a href="img/tm-img-16.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>                                                                                                 
                                 </div>                                 
                             </div> <!-- .tm-img-gallery-container -->
                         </div>         
@@ -222,41 +260,28 @@
                 <!-- Page 5 About -->
                 <li>
                     <div class="cd-full-width">
-<<<<<<< HEAD
-
-=======
->>>>>>> b98c733d01df3aa9b7cda0c4244f1aff31928d4e
                         <div class="container-fluid js-tm-page-content tm-page-width" data-page-no="5">
                             <div class="row">
-                                <div class="col-s-12">
+                                <div class="col-xs-12">
                                     <div class="tm-flex">
-                                        <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-1-col-textbox-1 tm-textbox-padding">
-											<!--History sub page  -->
-											<strong><h4>History</h4></strong>
-											<!--First Paragraph-->
-											<p>The State Land Use Law (Chapter 205, Hawaii Revised Statutes) is unique in the history of Hawaii land use planning. Originally adopted by the State Legislature in 1961, the Land Use Law establishes an overall framework of land use management whereby all lands in the State of Hawaii are classified into one of four land use districts:</p>
-
-											<ol>
-											<li><strong>URBAN</strong></li>
-											<li><strong>RURAL</strong></li>
-											<li><strong>AGRICULTURAL</strong></li>
-											<li><strong>CONSERVATION</strong></li>
-											</ol>
-
-											<!--Second Paragraph-->
-											<strong><h4>PURPOSE OF THE LAW</h4></strong>
-											<p>In 1961, the Hawaii State Legislature determined that a lack of adequate controls had caused the development of Hawaii&rsquo;s limited and valuable land for short-term gain for the few while resulting in long-term loss to the income and growth potential of our State&rsquo;s economy. Development of scattered subdivisions, creating problems of expensive yet reduced public services, and the conversion of prime agricultural land to residential use, were key reasons for establishing the state-wide land use system.</p>
-											<p>To administer this state-wide land use law, the Legislature established the Land Use Commission. The Commission is responsible for preserving and protecting Hawaii&rsquo;s lands and encouraging those uses to which lands are best suited.</p>
-											<!--Third Paragraph-->
-											<strong><h4>COMPOSITION OF THE COMMISSION</h4></strong>
-											<p>The Commission is composed of nine members, who are appointed by the Governor and confirmed by the State Senate. One member is appointed from each of the four counties. Five members are appointed at-large. Commissioners are non-paid volunteers who represent a cross-section of the community.</p>
-
-											<!--Four Paragraph -->
-											<strong><h4>ROLE OF THE COMMISSION</h4></strong>
-											<p>The Commission&rsquo;s primary role is to ensure that areas of state concern are addressed and considered in the land use decision-making process.</p>
-											<p>The Commission establishes the district boundaries for the entire State. The Commission acts on petitions for boundary changes submitted by private landowners, developers and State and county agencies. The Commission also acts on requests for special use permits within the Agricultural and Rural Districts.</p>
-											<p class="tm-text">Learn about the Land Use Commissions history,who they are, procedures and what it is.</p>
-
+                                        <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-padding tm-white-box-margin-b">
+                                            <h2 class="tm-text-title">Lorem ipsum dolor</h2>
+                                            <p class="tm-text">Nulla efficitur, ligula et imperdiet volutpat, lacus tortor tempus massa, eget tempus quam nibh vel nulla. Vivamus non molestie leo, non tincidunt diam. Mauris sagittis elit in velit ultricies aliquet sed in magna. Pellentesque semper, est nec consequat viverra, sem augue tincidunt nisi, a posuere nisi sapien sed sapien. Nulla facilisi.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="tm-flex">
+                                        <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
+                                            <h2 class="tm-text-title">Nulla facilisi</h2>
+                                            <p class="tm-text">Donec vitae bibendum est, et ultrices urna. Curabitur ac bibendum augue, a convallis mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ultrices placerat arcu.</p>
+                                        </div>
+                                        <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
+                                            <h2 class="tm-text-title">Aliquam sem sem</h2>
+                                            <p class="tm-text">Proin sagittis mauris dolor, vel efficitur lectus dictum nec. Sed ultrices placerat arcu, id malesuada metus cursus suscipit. Donex quis consectetur ligula. Proin accumsan eros id nisi porttitor, a facilisis quam cursus.</p>     
                                         </div>
                                     </div>
                                 </div>
@@ -317,11 +342,10 @@
                     </div> <!-- .cd-full-width -->
                 </li>
             </ul> <!-- .cd-hero-slider -->
-<<<<<<< HEAD
-        </div><!--  .cd-hero -->
-=======
+            
+
+                    
         </div> <!-- .cd-hero -->
->>>>>>> b98c733d01df3aa9b7cda0c4244f1aff31928d4e
         
 
         <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
@@ -334,14 +358,12 @@
         </div>
         
         <!-- load JS files -->
-        <script src="{{ URL::asset('js/jquery-1.11.3.min.js') }}"></script>         <!-- jQuery (https://jquery.com/download/) -->
-        <script src="{{ URL::asset('https://www.atlasestateagents.co.uk/javascript/tether.min.js') }}"></script> <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) --> 
-        <script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
-        <script src="{{ URL::asset('js/hero-slider-main.js') }}"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
-        <script src="{{ URL::asset('js/jquery.magnific-popup.min.js') }}"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
+        <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
+        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) --> 
+        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
+        <script src="js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
+        <script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
         
-
-
         <script>
 
             function adjustHeightOfPage(pageNo) {
@@ -385,6 +407,14 @@
             $(window).load(function(){
 
                 adjustHeightOfPage(1); // Adjust page height
+
+                /* Gallery One pop up
+                -----------------------------------------*/
+                $('.gallery-one').magnificPopup({
+                    delegate: 'a', // child items selector, by clicking on it popup will open
+                    type: 'image',
+                    gallery:{enabled:true}                
+                });
 				
 				/* Gallery Two pop up
                 -----------------------------------------*/
@@ -429,7 +459,7 @@
 
             /* Google map
             ------------------------------------------------*/
-            /*var map = '';
+            var map = '';
             var center;
 
             function initialize() {
@@ -457,14 +487,15 @@
             function loadGoogleMap(){
                 var script = document.createElement('script');
                 script.type = 'text/javascript';
-                //script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
+                script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
                 document.body.appendChild(script);
             }
         
             // DOM is ready
             $(function() {                
                 loadGoogleMap(); // Google Map
-            });*/
+            });
 
-        </script>
+        </script>            
+
 @stop
