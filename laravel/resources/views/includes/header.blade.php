@@ -16,6 +16,7 @@ ul.topnav {
     overflow: hidden;
     background-color: rgba(248,248,248,0.7);
     opacity: 0.8;
+
 }
 
 ul.topnav li {float: left;}
@@ -54,6 +55,10 @@ ul.topnav li.right {float: right;}
     background-color: #fcfcfc;
     font-family: CheapProFonts Serif Pro;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
 .container a {
     float: center;
     font-size: 16px;
@@ -62,10 +67,18 @@ ul.topnav li.right {float: right;}
     padding: 14px 16px;
     text-decoration: none;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
 .dropdown {
     float: left;
     overflow: hidden;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
 .dropdown .dropbtn {
     font-size: 16px;    
     border: none;
@@ -76,6 +89,10 @@ ul.topnav li.right {float: right;}
     text-decoration: none;
     font-family: Serif;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
 .dropdown-content {
     display: none;
     position: absolute;
@@ -84,6 +101,10 @@ ul.topnav li.right {float: right;}
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
 .dropdown-content a {
     float: none;
     color: black;
@@ -91,9 +112,17 @@ ul.topnav li.right {float: right;}
     text-decoration: none;
     display: block;	
 }
+<<<<<<< HEAD
 .dropdown-content a:hover {
     background-color: #ddd;
 }
+=======
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -107,8 +136,11 @@ ul.topnav li.right {float: right;}
   <li class="right"><a href="/contact">CONTACT</a></li>
 <!------LUC Maps------>
   <li class="right"><a href="/lucmaps">LUC MAPS</a></li>
+<<<<<<< HEAD
 
 <!------Procedures-------->
+=======
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
   <li class="right">
     <div class="container">
       <div class="dropdown">
@@ -123,6 +155,7 @@ ul.topnav li.right {float: right;}
         </div>
       </div>
     </div>
+<<<<<<< HEAD
 </li>'
 
 <!------Self Service------>
@@ -140,6 +173,10 @@ ul.topnav li.right {float: right;}
 </li>
 
 <!------Dockets------>
+=======
+  </li>
+  <li class="right"><a href="/selfservice">SELF-SERVICE</a></li>
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
   <li class="right"><a href="/dockets">DOCKETS</a></li>
 <!------About------>
   <li class="right"><a href="/about">ABOUT</a></li>
@@ -147,6 +184,7 @@ ul.topnav li.right {float: right;}
   <li class="right"><a href="/">HOME</a></li>
   <li><b>LAND USE COMMISSION</b></li>
 </ul>
+
 
 </body>
 </html>
