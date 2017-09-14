@@ -30,11 +30,9 @@ body {
   height: 200px;
   padding: 20px;
   margin: 10px;
-<<<<<<< HEAD
-=======
   background-color: #f8f8f8 ;
 
->>>>>>> b98c733d01df3aa9b7cda0c4244f1aff31928d4e
+
 } 
 /* Buttons */
 .button {
@@ -48,7 +46,6 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    opacity: 0.8;
 }
 
 .center {
@@ -104,12 +101,9 @@ body {
 
 </div>
 
-<<<<<<< HEAD
+
 </body>
 
 </html> 
-=======
 
-<!-- Background Image found in laravel/public -->  
->>>>>>> b98c733d01df3aa9b7cda0c4244f1aff31928d4e
 @stop
