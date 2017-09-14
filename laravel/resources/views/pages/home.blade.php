@@ -17,7 +17,6 @@ body {
 
 /* Outer Boxes */
 .in-boxed {
-  position: relative;
   padding-top: 120px;
   text-align: center;
   height: 300px;
@@ -32,7 +31,7 @@ body {
   padding: 20px;
   margin: 10px;
   background-color: #f8f8f8 ;
-  opacity: 0.8;
+
 } 
 
 .center {
