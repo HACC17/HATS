@@ -15,8 +15,6 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: rgba(248,248,248,0.7);
-    opacity: 0.8;
-    background-color: #5F6A6A;
     z-index: 500;
 
 
@@ -53,7 +51,7 @@ ul.topnav li.right {float: right;}
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 }
-
+*********************************************************************
 .container {
     overflow: hidden;
     background-color: #fcfcfc;
@@ -152,6 +150,7 @@ ul.topnav li.right {float: right;}
 <!------LUC Maps------>
   <li class="right"><a href="/lucmaps">LUC MAPS</a></li>
 
+
 <!------Procedures-------->
 
   <li class="right">
@@ -186,9 +185,6 @@ ul.topnav li.right {float: right;}
 </li>
 
 <!------Dockets------>
-
-  </li>
-  <li class="right"><a href="/selfservice">SELF-SERVICE</a></li>
   <li class="right"><a href="/dockets">DOCKETS</a></li>
 <!------About------>
   <li class="right"><a href="/about">ABOUT</a></li>

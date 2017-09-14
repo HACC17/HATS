@@ -10,13 +10,22 @@ body {
     background-image: url('/imgs/about_imgs/land1.jpg');
     height: 50%; 
     background-position: center;
-
+    background-attachment: fixed;
     background-size: cover; 
+}
+
+.textcontainer {
+   width: 50%;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: auto;
+   background-color: rgba(248,248,248,0.7);
 }
 
 </style>
 <!-- Background Image found in laravel/public -->  
 <body> 
+<div class="textcontainer">
 <h2>Who we are</h2>
 
 <p>The State Land Use Law (Chapter 205, Hawai`i Revised Statutes) was adopted in 1961, establishing a framework of land use management and regulation in which all lands in the State of Hawai`i are classified into one of four land use districts. To administer the Land Use Law the State Legislature established the Land Use Commission composed of nine members, who are appointed by the Governor and confirmed by the State Senate. One member is appointed from each of the four counties; five members are appointed at-large. The Commissioners are non-paid volunteers who represent a cross-section of the community.</p>
@@ -46,7 +55,7 @@ body {
 <p>The Commission&rsquo;s primary role is to ensure that areas of state concern are addressed and considered in the land use decision-making process.</p>
 <p>The Commission establishes the district boundaries for the entire State. The Commission acts on petitions for boundary changes submitted by private landowners, developers and State and county agencies. The Commission also acts on requests for special use permits within the Agricultural and Rural Districts.</p>
 <p class="tm-text">Learn about the Land Use Commissions history,who they are, procedures and what it is.</p>
-
+</div>
 </body>
 
 </html> 
