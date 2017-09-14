@@ -7,7 +7,7 @@
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: white;
+  background-color: rgba(248,248,248,0.7);
   overflow:hidden
   opacity: 0.8;
 }
