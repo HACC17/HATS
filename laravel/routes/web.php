@@ -9,6 +9,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+//========================================
+//============MAIN NAVIGATION=============
+//========================================
 Route::get('/', function(){
 	
     return View::make('pages.home');
@@ -17,26 +20,10 @@ Route::get('about', function(){
 	
     return View::make('pages.about');
 });
-<<<<<<< .merge_file_B6tHQu
-<<<<<<< .merge_file_ryRCzd
 Route::get('dockets', function(){
 	
     return View::make('pages.dockets');
 });  
-=======
-=======
->>>>>>> .merge_file_nljhJu
-<<<<<<< HEAD
-   
-Route::get('/contact', function () {
-    return view('contact');
-=======
-Route::get('dockets', function()
-{
-    return View::make('pages.dockets');
->>>>>>> e480ed9d85c1dc007d6f8e3881f7c606e594a825
-});
->>>>>>> .merge_file_r8n6rd
 Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
@@ -48,32 +35,32 @@ Route::get('lucmaps', function()
 Route::get('contact', function(){
 	
     return View::make('pages.contact');
+
+//========================================
+//===============ABOUT====================
+//========================================
 });
-<<<<<<< .merge_file_B6tHQu
-<<<<<<< .merge_file_ryRCzd
 Route::get('history', function () {
 	
-    return view('pages.history');
+    return View::make('pages.history');
 });
 Route::get('procedures', function () {
 	
-    return view('pages.procedures');
-});
-=======
-=======
->>>>>>> .merge_file_nljhJu
-<<<<<<< HEAD
-Route::get('/history', function () {
-    return view('individual_pages/about/history/history');
+    return View::make('pages.procedures');
 });
 
-Route::get('/index', function () {
-    return view('index');
+//========================================
+//===============SELF SERVICE=============
+//========================================
+Route::get('faq', function()
+{
+    return View::make('pages.faq');
 });
-=======
-
->>>>>>> e480ed9d85c1dc007d6f8e3881f7c606e594a825
-<<<<<<< .merge_file_B6tHQu
->>>>>>> .merge_file_r8n6rd
-=======
->>>>>>> .merge_file_nljhJu
+Route::get('first_time', function()
+{
+    return View::make('pages.first_time');
+});
+Route::get('returning', function()
+{
+    return View::make('pages.returning');
+});
