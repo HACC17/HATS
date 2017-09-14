@@ -7,16 +7,100 @@ height: 100%;
 }
 
 body { 
+    /* Background Image found in laravel/public */
     background-image: url('/imgs/self_service_imgs/land1.jpg');
     height: 50%; 
     background-position: center;
-
+    background-attachment: fixed;
     background-size: cover; 
 }
+
+.textcontainer {
+   width: 50%;
+   margin-right: auto;
+   margin-left: auto;
+   background-color: rgba(248,248,248,0.7);
+}
+
+ /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
 </style>
-<!-- Background Image found in laravel/public -->  
+
 <body> 
 
+<div class="textcontainer">
+<h2> WE ARE HERE TO HELP </h2>
+<p>We are here to help you find the information you are looking for. To begin we recommend selecting one of the buttons below to help answer any questions you may have.</p>
+</div>
+
+
+<!------- Modal --------->
+
+ <!-- Trigger/Open The Modal -->
+<button id="myBtn">FIRST TIME</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div> 
+<script>
+document.getElementsByClassName("tablink")[0].click();
+
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].classList.remove("w3-light-grey");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.classList.add("w3-light-grey");
+}
+</script>
 
 </body>
 

@@ -12,13 +12,13 @@ body {
     height: 50%; 
     background-position: center;
     background-attachment: fixed;
-
     background-size: cover; 
 }
 
 .textcontainer {
-   border: red;
    width: 50%;
+   margin-right: auto;
+   margin-left: auto;
    background-color: rgba(248,248,248,0.7);
 }
 </style>
