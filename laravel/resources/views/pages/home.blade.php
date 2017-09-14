@@ -2,7 +2,6 @@
 
 @section('content')
 <!-- Start of Body -->
-<html>
 <style>
 html{
 height: 100%; 
@@ -78,10 +77,4 @@ body {
 
 
 <!-- Background Image found in laravel/public -->  
-<body> 
-
-
-</body>
-
-</html> 
 @stop
