@@ -16,6 +16,7 @@ ul.topnav {
     overflow: hidden;
     background-color: #fcfcfc;
     opacity: 0.8;
+
 }
 
 ul.topnav li {float: left;}
@@ -48,6 +49,62 @@ ul.topnav li.right {float: right;}
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 }
+*********************************************************************
+.container {
+    overflow: hidden;
+    background-color: #fcfcfc;
+    font-family: CheapProFonts Serif Pro;
+}
+
+.container a {
+    float: center;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    text-decoration: none;
+    font-family: Serif;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fcfcfc	;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;	
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 </style>
 </head>
 <body>
@@ -56,12 +113,28 @@ ul.topnav li.right {float: right;}
 <ul class="topnav">
   <li class="right"><a href="/contact">CONTACT</a></li>
   <li class="right"><a href="/lucmaps">LUC MAPS</a></li>
+  <li class="right">
+    <div class="container">
+      <div class="dropdown">
+        <button class="dropbtn">PROCEDURES</button>
+        <div class="dropdown-content">
+		  <a href="procedures#ahp">Affordable Housing Projects</a>
+		  <a href="procedures#dmc">Decision-making Criteria</a>
+		  <a href="procedures#dbap">District Boundary Amendment Procedures</a>
+		  <a href="procedures#far">Fifteen Acre Rule</a>
+		  <a href="procedures#qjp">Quasi-judicial Proceedings</a>
+		  <a href="procedures#supp">Special Use Permit Procedures</a>
+        </div>
+      </div>
+    </div>
+  </li>
   <li class="right"><a href="/selfservice">SELF-SERVICE</a></li>
   <li class="right"><a href="/dockets">DOCKETS</a></li>
   <li class="right"><a href="/about">ABOUT</a></li>
   <li class="right"><a href="/">HOME</a></li>
   <li><b>LAND USE COMMISSION</b></li>
 </ul>
+
 
 </body>
 </html>
