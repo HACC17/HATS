@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,21 +9,18 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-//========================================
-//============MAIN NAVIGATION=============
-//========================================
-Route::get('/', function()
-{
+Route::get('/', function(){
+	
     return View::make('pages.home');
 });
-Route::get('about', function()
-{
+Route::get('about', function(){
+	
     return View::make('pages.about');
 });
-Route::get('dockets', function()
-{
+Route::get('dockets', function(){
+	
     return View::make('pages.dockets');
-});
+});  
 Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
@@ -33,24 +29,15 @@ Route::get('lucmaps', function()
 {
     return View::make('pages.lucmaps');
 });
-Route::get('contact', function()
-{
+Route::get('contact', function(){
+	
     return View::make('pages.contact');
 });
-
-//========================================
-//===============SELF SERVICE=============
-//========================================
-
-Route::get('faq', function()
-{
-    return View::make('pages.faq');
+Route::get('history', function () {
+	
+    return view('pages.history');
 });
-Route::get('first_time', function()
-{
-    return View::make('pages.first_time');
-});
-Route::get('returning', function()
-{
-    return View::make('pages.returning');
+Route::get('procedures', function () {
+	
+    return view('pages.procedures');
 });
