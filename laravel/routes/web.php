@@ -19,9 +19,21 @@ Route::get('about', function()
 {
     return View::make('pages.about');
 });
+<<<<<<< HEAD
 Route::get('dockets', function()
 {
     return View::make('pages.dockets');
+=======
+<<<<<<< HEAD
+   
+Route::get('/contact', function () {
+    return view('contact');
+=======
+Route::get('dockets', function()
+{
+    return View::make('pages.dockets');
+>>>>>>> cc17c2cff106f8a99e37368b031c507270a410f7
+>>>>>>> dev-qat
 });
 Route::get('selfservice', function()
 {
@@ -30,9 +42,28 @@ Route::get('selfservice', function()
 Route::get('lucmaps', function()
 {
     return View::make('pages.lucmaps');
+<<<<<<< HEAD
 });
 Route::get('contact', function()
 {
     return View::make('pages.contact');
 });
 
+=======
+});
+Route::get('contact', function()
+{
+    return View::make('pages.contact');
+});
+<<<<<<< HEAD
+Route::get('/history', function () {
+    return view('individual_pages/about/history/history');
+});
+
+Route::get('/index', function () {
+    return view('index');
+});
+=======
+
+>>>>>>> cc17c2cff106f8a99e37368b031c507270a410f7
+>>>>>>> dev-qat
