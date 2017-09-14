@@ -14,8 +14,10 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #fcfcfc;
-    opacity: 0.8;
+    background-color: #5F6A6A;
+
+    z-index: 500;
+
 
 }
 
@@ -27,6 +29,7 @@ ul.topnav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 /* Style for list b tags */
 ul.topnav li b {
@@ -54,6 +57,7 @@ ul.topnav li.right {float: right;}
     overflow: hidden;
     background-color: #fcfcfc;
     font-family: CheapProFonts Serif Pro;
+    position: fixed;
 }
 
 .container a {
@@ -68,6 +72,7 @@ ul.topnav li.right {float: right;}
 .dropdown {
     float: left;
     overflow: hidden;
+
 }
 
 .dropdown .dropbtn {
@@ -79,15 +84,16 @@ ul.topnav li.right {float: right;}
     background-color: inherit;
     text-decoration: none;
     font-family: Serif;
+		
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #fcfcfc	;
+    background-color: #5F6A6A	;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+
 }
 
 .dropdown-content a {
@@ -96,6 +102,7 @@ ul.topnav li.right {float: right;}
     padding: 12px 16px;
     text-decoration: none;
     display: block;	
+ 
 }
 
 .dropdown-content a:hover {
@@ -104,6 +111,7 @@ ul.topnav li.right {float: right;}
 
 .dropdown:hover .dropdown-content {
     display: block;
+    
 }
 </style>
 </head>
