@@ -132,8 +132,8 @@ ul.topnav li.right {float: right;}
         <a href="/selfservice">SELF-SERVICE</a>
         <div class="dropdown-content">
         <a href="/faq">FAQ</a>
-        <a href="/selfservice">First Time</a>
-        <a href="/selfservice">Returning</a>
+        <a href="/first_time">First Time</a>
+        <a href="/returning">Returning</a>
         </div>
       </div>
     </div>

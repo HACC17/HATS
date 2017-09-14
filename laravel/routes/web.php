@@ -46,3 +46,11 @@ Route::get('faq', function()
 {
     return View::make('pages.faq');
 });
+Route::get('first_time', function()
+{
+    return View::make('pages.first_time');
+});
+Route::get('returning', function()
+{
+    return View::make('pages.returning');
+});
