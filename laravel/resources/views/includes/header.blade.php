@@ -15,8 +15,9 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: rgba(248,248,248,0.7);
-    z-index: 999;
-    opacity: 0.8;
+    z-index: 500;
+
+
 }
 
 ul.topnav li {float: left;}
@@ -27,6 +28,7 @@ ul.topnav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 /* Style for list b tags */
 ul.topnav li b {
@@ -54,7 +56,10 @@ ul.topnav li.right {float: right;}
     overflow: hidden;
     background-color: #fcfcfc;
     font-family: CheapProFonts Serif Pro;
+
 }
+
+
 .container a {
     float: center;
     font-size: 16px;
@@ -63,10 +68,20 @@ ul.topnav li.right {float: right;}
     padding: 14px 16px;
     text-decoration: none;
 }
+
 .dropdown {
     float: left;
     overflow: hidden;
 }
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+
+}
+
+
 .dropdown .dropbtn {
     font-size: 16px;    
     border: none;
@@ -76,6 +91,7 @@ ul.topnav li.right {float: right;}
     background-color: inherit;
     text-decoration: none;
     font-family: Serif;
+
 }
 .dropdown-content {
     display: none;
@@ -85,18 +101,43 @@ ul.topnav li.right {float: right;}
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
+		
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5F6A6A	;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+
+}
+
 .dropdown-content a {
     float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;	
+
 }
 .dropdown-content a:hover {
     background-color: #ddd;
 }
 .dropdown:hover .dropdown-content {
     display: block;
+
+ 
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+
 }
 </style>
 </head>
@@ -109,7 +150,9 @@ ul.topnav li.right {float: right;}
 <!------LUC Maps------>
   <li class="right"><a href="/lucmaps">LUC MAPS</a></li>
 
+
 <!------Procedures-------->
+
   <li class="right">
     <div class="container">
       <div class="dropdown">
@@ -124,7 +167,8 @@ ul.topnav li.right {float: right;}
         </div>
       </div>
     </div>
-</li>'
+
+</li>
 
 <!------Self Service------>
   <li class="right">
@@ -149,5 +193,7 @@ ul.topnav li.right {float: right;}
   <li><b>LAND USE COMMISSION</b></li>
 </ul>
 
+
 </body>
 </html>
+

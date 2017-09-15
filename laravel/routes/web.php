@@ -1,5 +1,5 @@
-<?php
 
+<?php
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,18 +13,18 @@
 //========================================
 //============MAIN NAVIGATION=============
 //========================================
-Route::get('/', function()
-{
+Route::get('/', function(){
+	
     return View::make('pages.home');
 });
-Route::get('about', function()
-{
+Route::get('about', function(){
+	
     return View::make('pages.about');
 });
-Route::get('dockets', function()
-{
+Route::get('dockets', function(){
+	
     return View::make('pages.dockets');
-});
+});  
 Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
@@ -33,15 +33,24 @@ Route::get('lucmaps', function()
 {
     return View::make('pages.lucmaps');
 });
-Route::get('contact', function()
-{
+Route::get('contact', function(){
+	
     return View::make('pages.contact');
+//========================================
+//===============ABOUT====================
+//========================================
 });
-
+Route::get('history', function () {
+	
+    return View::make('pages.history');
+});
+Route::get('procedures', function () {
+	
+    return View::make('pages.procedures');
+});
 //========================================
 //===============SELF SERVICE=============
 //========================================
-
 Route::get('faq', function()
 {
     return View::make('pages.faq');

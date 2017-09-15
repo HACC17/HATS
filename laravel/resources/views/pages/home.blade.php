@@ -2,7 +2,6 @@
 
 @section('content')
 <!-- Start of Body -->
-<html>
 <style>
 html{
 height: 100%; 
@@ -18,7 +17,6 @@ body {
 
 /* Outer Boxes */
 .in-boxed {
-  position: relative;
   padding-top: 120px;
   text-align: center;
   height: 300px;
@@ -32,6 +30,9 @@ body {
   height: 200px;
   padding: 20px;
   margin: 10px;
+  background-color: #f8f8f8 ;
+
+
 } 
 /* Buttons */
 .button {
@@ -45,7 +46,6 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    opacity: 0.8;
 }
 
 .center {
@@ -68,7 +68,7 @@ body {
 ---------------------------------
 --------------------------------->
 <body> 
-
+<h3>
 <!-- Start of clickable boxes -->
 <!-- Where to Start box -->
 <div class="in-boxed">
@@ -101,7 +101,9 @@ body {
 
 </div>
 
+
 </body>
 
 </html> 
+
 @stop
