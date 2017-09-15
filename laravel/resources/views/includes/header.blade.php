@@ -14,8 +14,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #5F6A6A;
-
+    background-color: rgba(248,248,248,0.7);
     z-index: 500;
 
 
@@ -57,9 +56,17 @@ ul.topnav li.right {float: right;}
     overflow: hidden;
     background-color: #fcfcfc;
     font-family: CheapProFonts Serif Pro;
-    position: fixed;
-}
 
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
+=======
+
+
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
 .container a {
     float: center;
     font-size: 16px;
@@ -68,6 +75,25 @@ ul.topnav li.right {float: right;}
     padding: 14px 16px;
     text-decoration: none;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
+=======
+
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
+=======
+
 
 .dropdown {
     float: left;
@@ -75,6 +101,8 @@ ul.topnav li.right {float: right;}
 
 }
 
+
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
 .dropdown .dropbtn {
     font-size: 16px;    
     border: none;
@@ -84,6 +112,30 @@ ul.topnav li.right {float: right;}
     background-color: inherit;
     text-decoration: none;
     font-family: Serif;
+<<<<<<< HEAD
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
+=======
+
+}
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fcfcfc	;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
+=======
 		
 }
 
@@ -96,31 +148,68 @@ ul.topnav li.right {float: right;}
 
 }
 
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
 .dropdown-content a {
     float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;	
+<<<<<<< HEAD
+}
+<<<<<<< HEAD
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+=======
+=======
+
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+
  
 }
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
 
 .dropdown-content a:hover {
     background-color: #ddd;
 }
 
+<<<<<<< HEAD
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
+=======
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
 .dropdown:hover .dropdown-content {
     display: block;
     
+
 }
 </style>
 </head>
 <body>
 
-<!-- Navigation Bar links -->
+<!------Navigation Bar links------>
 <ul class="topnav">
+<!------Contact------>
   <li class="right"><a href="/contact">CONTACT</a></li>
+<!------LUC Maps------>
   <li class="right"><a href="/lucmaps">LUC MAPS</a></li>
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+<!------Procedures-------->
+=======
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
+=======
+
+
+<!------Procedures-------->
+
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
   <li class="right">
     <div class="container">
       <div class="dropdown">
@@ -135,10 +224,40 @@ ul.topnav li.right {float: right;}
         </div>
       </div>
     </div>
+<<<<<<< HEAD
+<<<<<<< HEAD
+</li>'
+=======
+
+</li>
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
+
+<!------Self Service------>
+  <li class="right">
+  <div class="container">
+      <div class="dropdown">
+        <a href="/selfservice">SELF-SERVICE</a>
+        <div class="dropdown-content">
+        <a href="/faq">FAQ</a>
+        <a href="/first_time">First Time</a>
+        <a href="/returning">Returning</a>
+        </div>
+      </div>
+    </div>
+</li>
+
+<!------Dockets------>
+<<<<<<< HEAD
+=======
   </li>
   <li class="right"><a href="/selfservice">SELF-SERVICE</a></li>
+>>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
+=======
+>>>>>>> e9729107b15305da204a366f2d92b454251c62ae
   <li class="right"><a href="/dockets">DOCKETS</a></li>
+<!------About------>
   <li class="right"><a href="/about">ABOUT</a></li>
+<!------Home------>
   <li class="right"><a href="/">HOME</a></li>
   <li><b>LAND USE COMMISSION</b></li>
 </ul>
