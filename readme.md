@@ -6,9 +6,8 @@
 <li>Technical Notes</li>
 <li>Showcase Images</li>
 
-### SETUP
+### Setup
 To ensure that you are able to run our website locally you will need to complete the following steps. Each step is crucial and not doing one may result in an error.
-<ol>
 <li>sudo apt update</li>
 <li>yes | sudo apt upgrade</li>
 <li>yes | sudo apt instalal composer</li>
@@ -29,8 +28,8 @@ If working with pulled files
 <li>cp .env.example .env</li>
 <li>php artisan key:generate</li>
 <li>php artisan serve</li>
-</ol>
-### USAGE
+
+### Usage<br>
 Once the installation steps are completed you can start laravel locally with the follow command:
 php artisan serve
 
