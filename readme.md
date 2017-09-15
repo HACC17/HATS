@@ -1,34 +1,35 @@
 # Land Use Commission v2
 ###### Last modified:09/14/2017
-###Table of Contens
-<li>SETUP</li>
+###Table of Contents
+<li>Setup</li>
 <li>Usage</li>
 <li>Technical Notes</li>
 <li>Showcase Images</li>
 
 ### SETUP
 To ensure that you are able to run our website locally you will need to complete the following steps. Each step is crucial and not doing one may result in an error.
--sudo apt update
-yes | sudo apt upgrade
-yes | sudo apt instalal composer
-yes | sudo apt install php-mbstring
-yes | sudo apt install php-dom
+<ol>
+<li>sudo apt update</li>
+<li>yes | sudo apt upgrade</li>
+<li>yes | sudo apt instalal composer</li>
+<li>yes | sudo apt install php-mbstring</li>
+<li>yes | sudo apt install php-dom</li>
 
 If starting a new project
-composer create-project laravel/laravel --prefer-dist
-cd laravel
-cp .env.example .env
-php artisan key:generate
-php artisan serve
+<li>composer create-project laravel/laravel --prefer-dist</li>
+<li>cd laravel</li>
+<li>cp .env.example .env</li>
+<li>php artisan key:generate</li>
+<li>php artisan serve</li>
 
 If working with pulled files
-cd laravel
-sudo composer install
-sudo composer update
-cp .env.example .env
-php artisan key:generate
-php artisan serve
-
+<li>cd laravel</li>
+<li>sudo composer install</li>
+<li>sudo composer update</li>
+<li>cp .env.example .env</li>
+<li>php artisan key:generate</li>
+<li>php artisan serve</li>
+</ol>
 ### USAGE
 Once the installation steps are completed you can start laravel locally with the follow command:
 php artisan serve
