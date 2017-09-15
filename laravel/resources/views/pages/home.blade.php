@@ -68,7 +68,6 @@ body {
 ---------------------------------
 --------------------------------->
 <body> 
-<h3>
 <!-- Start of clickable boxes -->
 <!-- Where to Start box -->
 <div class="in-boxed">

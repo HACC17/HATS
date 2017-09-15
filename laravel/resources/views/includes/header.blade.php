@@ -185,7 +185,19 @@ ul.topnav li.right {float: right;}
 </li>
 
 <!------Dockets------>
-  <li class="right"><a href="/dockets">DOCKETS</a></li>
+  
+  <li class="right">
+  <div class="container">
+      <div class="dropdown">
+        <a href="/dockets">DOCKETS</a>
+        <div class="dropdown-content">
+        <a href="/search">Search</a>
+        </div>
+      </div>
+    </div>
+</li>
+
+
 <!------About------>
   <li class="right"><a href="/about">ABOUT</a></li>
 <!------Home------>
