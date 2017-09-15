@@ -1,5 +1,5 @@
-<?php
 
+<?php
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,31 +10,36 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function()
-{
+//========================================
+//============MAIN NAVIGATION=============
+//========================================
+Route::get('/', function(){
+	
     return View::make('pages.home');
 });
-Route::get('about', function()
-{
+Route::get('about', function(){
+	
     return View::make('pages.about');
 });
-<<<<<<< HEAD
-Route::get('dockets', function()
-{
+//========================================
+//================DOCKETS=================
+//========================================
+Route::get('dockets', function(){
+	
     return View::make('pages.dockets');
-=======
-<<<<<<< HEAD
-   
-Route::get('/contact', function () {
-    return view('contact');
-=======
-Route::get('dockets', function()
-{
-    return View::make('pages.dockets');
->>>>>>> cc17c2cff106f8a99e37368b031c507270a410f7
->>>>>>> dev-qat
 });
+Route::get('pending', function(){
+	
+    return View::make('pages.pending');
+}); 
+Route::get('completed', function(){
+	
+    return View::make('pages.completed');
+}); 
+Route::get('search', function(){
+	
+    return View::make('pages.search');
+}); 
 Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
@@ -42,28 +47,35 @@ Route::get('selfservice', function()
 Route::get('lucmaps', function()
 {
     return View::make('pages.lucmaps');
-<<<<<<< HEAD
 });
-Route::get('contact', function()
-{
+Route::get('contact', function(){
+	
     return View::make('pages.contact');
+//========================================
+//===============ABOUT====================
+//========================================
 });
-
-=======
+Route::get('history', function () {
+	
+    return View::make('pages.history');
 });
-Route::get('contact', function()
+Route::get('procedures', function () {
+	
+    return View::make('pages.procedures');
+});
+//========================================
+//===============SELF SERVICE=============
+//========================================
+Route::get('faq', function()
 {
-    return View::make('pages.contact');
+    return View::make('pages.faq');
 });
-<<<<<<< HEAD
-Route::get('/history', function () {
-    return view('individual_pages/about/history/history');
+Route::get('first_time', function()
+{
+    return View::make('pages.first_time');
+});
+Route::get('returning', function()
+{
+    return View::make('pages.returning');
 });
 
-Route::get('/index', function () {
-    return view('index');
-});
-=======
-
->>>>>>> cc17c2cff106f8a99e37368b031c507270a410f7
->>>>>>> dev-qat
