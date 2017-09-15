@@ -30,6 +30,11 @@ body {
 margin-right: 100px;
 display: inline-block;
 vertical-align: top;
+
+}
+
+.loccontainer{
+    border-bottom: thick dotted rgba(248,248,248);
 }
 
 </style>  
@@ -37,8 +42,10 @@ vertical-align: top;
 <body> 
 <div class="textcontainer">
 
-<!--------- LOCATION --------->
-<h1>Contact Us</h1>
+<!--------- LOCATION CONTAINER--------->
+<div class="loccontainer">
+<!--------- LOCATION INFO--------->
+<h1 style="border-bottom: thick solid black">Contact Us</h1>
 <div class="locationBox">
 <h3>Our location</h3>
 <p>State Office Tower<br>
@@ -52,14 +59,14 @@ Honolulu, Hawai`i 96813<br>
 <div class="locationBox">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.0409905089614!2d-157.86026068506263!3d21.309396585847058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c006e759d0c0d79%3A0xabf9211f0f0d24e!2s235+S+Beretania+St%2C+Honolulu%2C+HI+96813!5e0!3m2!1sen!2sus!4v1505392296274" width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
-
+</div>
 <!---------CONTACT INFORMATION--------->
 <h2>Contact Information</h2>
 <p>You can reach us at:<br>
 Telephone: (808) 587-3822<br>
 Fax: (808) 587-3827<br>
 </p>
-<p class="center">
+<p class="center" style="border-bottom: thick dotted rgba(248,248,248)">
 <br>State of Hawai`i Land Use Commission<br>
 Department of Business, Economic Development & Tourism<br>
 P.O. Box 2359<br>
