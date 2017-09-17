@@ -21,6 +21,7 @@ Route::get('about', function(){
 	
     return View::make('pages.about');
 });
+<<<<<<< HEAD
 //========================================
 //================DOCKETS=================
 //========================================
@@ -40,6 +41,12 @@ Route::get('search', function(){
 	
     return View::make('pages.search');
 }); 
+=======
+Route::get('dockets', function(){
+	
+    return View::make('pages.dockets');
+});  
+>>>>>>> 2091b6ccd6716e61e8ad766b1e788c1046dc4742
 Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
@@ -78,4 +85,7 @@ Route::get('returning', function()
 {
     return View::make('pages.returning');
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2091b6ccd6716e61e8ad766b1e788c1046dc4742
