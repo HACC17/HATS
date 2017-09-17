@@ -156,7 +156,6 @@ ul.topnav li.right {float: right;}
   </li>
 
 <!------Dockets------>
-<<<<<<< HEAD
   <li class="right">
     <div class="container">
       <div class="dropdown">
@@ -169,21 +168,6 @@ ul.topnav li.right {float: right;}
       </div>
     </div>
   </li>
-=======
-  
-  <li class="right">
-  <div class="container">
-      <div class="dropdown">
-        <a href="/dockets">DOCKETS</a>
-        <div class="dropdown-content">
-        <a href="/search">Search</a>
-        </div>
-      </div>
-    </div>
-</li>
-
-
->>>>>>> dev-Rob
 <!------About------>
   <li class="right"><a href="/about">ABOUT</a></li>
 <!------Home------>
@@ -194,4 +178,3 @@ ul.topnav li.right {float: right;}
 
 </body>
 </html>
-
