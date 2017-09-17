@@ -23,6 +23,7 @@ Route::get('about', function(){
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    
 Route::get('/contact', function () {
     return view('contact');
@@ -38,6 +39,27 @@ Route::get('dockets', function(){
     return View::make('pages.dockets');
 });  
 >>>>>>> working
+=======
+//========================================
+//================DOCKETS=================
+//========================================
+Route::get('dockets', function(){
+	
+    return View::make('pages.dockets');
+});
+Route::get('pending', function(){
+	
+    return View::make('pages.pending');
+}); 
+Route::get('completed', function(){
+	
+    return View::make('pages.completed');
+}); 
+Route::get('search', function(){
+	
+    return View::make('pages.search');
+}); 
+>>>>>>> master
 Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
@@ -55,6 +77,7 @@ Route::get('contact', function(){
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Route::get('/history', function () {
     return view('individual_pages/about/history/history');
 =======
@@ -62,6 +85,11 @@ Route::get('history', function () {
 	
     return View::make('pages.history');
 >>>>>>> working
+=======
+Route::get('history', function () {
+	
+    return View::make('pages.history');
+>>>>>>> master
 });
 Route::get('procedures', function () {
 	
@@ -83,8 +111,12 @@ Route::get('returning', function()
     return View::make('pages.returning');
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> e480ed9d85c1dc007d6f8e3881f7c606e594a825
 =======
 >>>>>>> working
+=======
+
+>>>>>>> master
