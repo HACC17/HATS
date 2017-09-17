@@ -1,6 +1,5 @@
-@extends('layouts.sidebar')
+@extends('layouts.default')
 @section('content')
-<html> 
 <style>
 html{
 height: 50%; 
@@ -14,17 +13,11 @@ body {
     background-size: cover; 
 }
 
-.textcontainer {
-   width: 50%;
-   margin-right: auto;
-   margin-left: auto;
-   margin-bottom: auto;
-   background-color: rgba(248,248,248,0.7);
-}
+
 
 </style>
 <!-- Background Image found in laravel/public -->  
-<body> 
+ 
 <div class="textcontainer">
 <h2>Who we are</h2>
 
@@ -56,8 +49,6 @@ body {
 <p>The Commission establishes the district boundaries for the entire State. The Commission acts on petitions for boundary changes submitted by private landowners, developers and State and county agencies. The Commission also acts on requests for special use permits within the Agricultural and Rural Districts.</p>
 <p class="tm-text">Learn about the Land Use Commissions history,who they are, procedures and what it is.</p>
 </div>
-</body>
 
-</html> 
 @stop
 

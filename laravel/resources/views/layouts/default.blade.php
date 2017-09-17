@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+	
     @include('includes.head')
 </head>
 <body>
@@ -21,6 +22,7 @@
     </footer>
 
 </div>
+</style>
 </body>
 </html>
 

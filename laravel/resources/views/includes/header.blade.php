@@ -5,6 +5,7 @@ This file contains a standardized responsive navigation bar accross all pages.
 -->
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="css/app.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 body {margin: 0;}
@@ -14,8 +15,11 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(248,248,248,0.7);
-    z-index: 500;
+    background-color: rgba(248,248,248);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
 }
 
 ul.topnav li {float: left;}
@@ -82,7 +86,7 @@ ul.topnav li.right {float: right;}
     background-color: #fcfcfc	;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    position: fixed;
 }
 .dropdown-content a {
     float: none;
@@ -90,12 +94,26 @@ ul.topnav li.right {float: right;}
     padding: 12px 16px;
     text-decoration: none;
     display: block;	
+
 }
 .dropdown-content a:hover {
     background-color: #ddd;
 }
 .dropdown:hover .dropdown-content {
     display: block;
+}
+************************************************************************
+.textcontainer {
+   width: 80%;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 5%;
+   background-color: rgba(248,248,248,0.9);
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   box-shadow: 0px 0px 20px 1px #888888;
 }
 </style>
 </head>
@@ -111,7 +129,7 @@ ul.topnav li.right {float: right;}
 <li class="right">
     <div class="container">
       <div class="dropdown">
-        <button class="dropbtn">PROCEDURES</button>
+		<a href="procedures">PROCEDURES</a>
         <div class="dropdown-content">
 		  <a href="procedures#ahp">Affordable Housing Projects</a>
 		  <a href="procedures#dmc">Decision-making Criteria</a>
