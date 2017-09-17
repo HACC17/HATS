@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default-head')
 
 @section('content')
 <!-- Start of Body -->

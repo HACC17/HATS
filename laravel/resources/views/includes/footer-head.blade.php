@@ -1,13 +1,13 @@
 <style>
-
-.footer-other {
-  position: sticky;
+	
+.footer-home {
+  position: relative;
   font-size: 10pt;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(248,248,248,0.8);
   overflow: hidden;
   width: 80%;
   margin-left: auto;
@@ -17,7 +17,6 @@
   padding-right: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
-  color: white;
 }
 
 .footer ul li {
@@ -46,7 +45,7 @@ ul.site {
     margin-left: 2%;
 }
 </style>
-<div class="footer-other" id="copyright text-right">
+<div class="footer-home" id="copyright text-right">
 Copyright©2017&middot;All Rights Reserved&middot;Land Use Commission
 <br>235 South Beretania Street, Room 406 Honolulu, Hawai`i 96813;</br>	
 
@@ -59,7 +58,7 @@ Copyright©2017&middot;All Rights Reserved&middot;Land Use Commission
         <li><b><u>Contact</b></u></li>
 </ul>
 <ul class="site">
-        <li><a href="/dockets"><b><u>Dockets</u></b></a></li>
+        <li><b><u><a href="/dockets">Dockets</a></u></b></li>
         <li><a href="/pending"> - Pending Dockets</a></li>
         <li><a href="/completed"> - Completed Dockets</a></li>
         <li><a href="/search"> - Search for a Docket</a></li>
