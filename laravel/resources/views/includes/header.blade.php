@@ -60,10 +60,8 @@ ul.topnav li.right {float: right;}
 }
 .container a {
     float: center;
-    font-size: 16px;
-    color: black;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 .dropdown {
