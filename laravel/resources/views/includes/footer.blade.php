@@ -1,4 +1,22 @@
 <style>
+.footer-home {
+  position: relative;
+  font-size: 10pt;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgba(248,248,248,0.8);
+  overflow: hidden;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 
 .footer-other {
   position: sticky;
@@ -6,6 +24,10 @@
   right: 0;
   bottom: 0;
   left: 0;
+<<<<<<< HEAD
+=======
+  padding: 1rem;
+>>>>>>> dev-qat
   background-color: rgba(0,0,0,0.4);
   overflow: hidden;
   width: 80%;
@@ -19,11 +41,18 @@
   color: white;
 }
 
+<<<<<<< HEAD
 .footer ul li{
   list-style-type: none;
   margin: 2px;
 }
 
+=======
+.footer ul li {
+  list-style-type: none;
+  margin: 2px;
+}
+>>>>>>> dev-qat
 ul.site {
     list-style-type: none;
     margin: 10px;
@@ -33,7 +62,10 @@ ul.site {
     display: inline-block;
     width: 25%;
     float: left;
+<<<<<<< HEAD
 
+=======
+>>>>>>> dev-qat
 }
 
 .inner-footer {
@@ -54,14 +86,25 @@ Copyright©2017&middot;All Rights Reserved&middot;Land Use Commission
         <li><a href="/about"> - About LUC</li></a>
         <li> - Land Use Districts</li>
         <li> - LUC Members and Staff</li>
+<<<<<<< HEAD
+=======
+        
+>>>>>>> dev-qat
         <li><b><u>LUC Maps</b></u></li>
         <li><b><u>Contact</b></u></li>
 </ul>
 <ul class="site">
+<<<<<<< HEAD
         <li><a href="/dockets"><b><u>Dockets</u></b></a></li>
         <li><a href="/pending"> - Pending Dockets</a></li>
         <li><a href="/completed"> - Completed Dockets</a></li>
         <li><a href="/search"> - Search for a Docket</a></li>
+=======
+        <li><a href="/dockets"><b><u>Dockets</li></b></u></a>
+        <li><a href="/pending"> - Pending Dockets</li></a>
+        <li><a href="/completed"> - Completed Dockets</li></a>
+        <li><a href="/search"> - Search for a Docket</li></a>
+>>>>>>> dev-qat
                 
         <li><b><u>Self Service</li></b></u>
         <li> - FAQ</li>
