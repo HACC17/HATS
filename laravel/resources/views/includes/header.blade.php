@@ -169,7 +169,18 @@ ul.topnav li.right {float: right;}
     </div>
   </li>
 <!------About------>
-  <li class="right"><a href="/about">ABOUT</a></li>
+<li class="right">
+    <div class="container">
+      <div class="dropdown">
+		<a href="about">ABOUT</a>
+        <div class="dropdown-content">
+		  <a href="about">History</a>
+		  <a href="members">Members & Staff</a>
+		  <a href="state_land_use_districts">State Land Use Districts</a>
+        </div>
+      </div>
+    </div>
+</li>
 <!------Home------>
   <li class="right"><a href="/">HOME</a></li>
   <li><b>LAND USE COMMISSION</b></li>
