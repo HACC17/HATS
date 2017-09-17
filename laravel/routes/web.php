@@ -21,10 +21,25 @@ Route::get('about', function(){
 	
     return View::make('pages.about');
 });
+//========================================
+//================DOCKETS=================
+//========================================
 Route::get('dockets', function(){
 	
     return View::make('pages.dockets');
-});  
+});
+Route::get('pending', function(){
+	
+    return View::make('pages.pending');
+}); 
+Route::get('completed', function(){
+	
+    return View::make('pages.completed');
+}); 
+Route::get('search', function(){
+	
+    return View::make('pages.search');
+}); 
 Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
@@ -63,3 +78,4 @@ Route::get('returning', function()
 {
     return View::make('pages.returning');
 });
+
