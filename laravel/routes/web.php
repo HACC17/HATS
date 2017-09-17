@@ -1,5 +1,5 @@
-<?php
 
+<?php
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,15 +10,18 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function()
-{
+//========================================
+//============MAIN NAVIGATION=============
+//========================================
+Route::get('/', function(){
+	
     return View::make('pages.home');
 });
-Route::get('about', function()
-{
+Route::get('about', function(){
+	
     return View::make('pages.about');
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
    
 Route::get('/contact', function () {
@@ -29,6 +32,12 @@ Route::get('dockets', function()
     return View::make('pages.dockets');
 >>>>>>> e480ed9d85c1dc007d6f8e3881f7c606e594a825
 });
+=======
+Route::get('dockets', function(){
+	
+    return View::make('pages.dockets');
+});  
+>>>>>>> working
 Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
@@ -37,18 +46,45 @@ Route::get('lucmaps', function()
 {
     return View::make('pages.lucmaps');
 });
-Route::get('contact', function()
-{
+Route::get('contact', function(){
+	
     return View::make('pages.contact');
+//========================================
+//===============ABOUT====================
+//========================================
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 Route::get('/history', function () {
     return view('individual_pages/about/history/history');
+=======
+Route::get('history', function () {
+	
+    return View::make('pages.history');
+>>>>>>> working
 });
-
-Route::get('/index', function () {
-    return view('index');
+Route::get('procedures', function () {
+	
+    return View::make('pages.procedures');
 });
+//========================================
+//===============SELF SERVICE=============
+//========================================
+Route::get('faq', function()
+{
+    return View::make('pages.faq');
+});
+Route::get('first_time', function()
+{
+    return View::make('pages.first_time');
+});
+Route::get('returning', function()
+{
+    return View::make('pages.returning');
+});
+<<<<<<< HEAD
 =======
 
 >>>>>>> e480ed9d85c1dc007d6f8e3881f7c606e594a825
+=======
+>>>>>>> working
