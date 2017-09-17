@@ -16,14 +16,17 @@
         background-size: cover; 
         }
         .textcontainer {
-        width: 100%;
+        width: 70%;
  text-align: center;
         background-color: rgba(248,248,248,0.8);
-        border: 5px solid black;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0.3in;
+        margin-bottom: 1in;
+        padding: 20px;
         }
         .formatcon{
         height: 10%;
-        border: 5px solid red;
         }        
         .boxedLeft {
   text-align: left;
@@ -32,6 +35,7 @@
   width: 600px;
   padding: 20px;
   margin: 10px;
+  border-right: 6px dotted rgba(248,248,248,0.8);;
   /*background-color: #f8f8f8 ;*/
 
 } 
@@ -42,13 +46,9 @@
   width: 400px;
   padding: 20px;
   margin: 10px;
+  
 
 }
-
-.in-boxed {
- 
-border: 6px solid red;
-} 
     </style>
     <body>
 <div class="textcontainer">
