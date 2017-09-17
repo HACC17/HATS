@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitdb1ee02975e7a511979a01b9c9bb23d0
+class ComposerStaticInit9439e9b8e18c9c01a44c013dd44b4189
 {
     public static $files = array (
         '1d1b89d124cc9cb8219922c9d5569199' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest.php',
@@ -3544,10 +3544,10 @@ class ComposerStaticInitdb1ee02975e7a511979a01b9c9bb23d0
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitdb1ee02975e7a511979a01b9c9bb23d0::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitdb1ee02975e7a511979a01b9c9bb23d0::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitdb1ee02975e7a511979a01b9c9bb23d0::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitdb1ee02975e7a511979a01b9c9bb23d0::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9439e9b8e18c9c01a44c013dd44b4189::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9439e9b8e18c9c01a44c013dd44b4189::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit9439e9b8e18c9c01a44c013dd44b4189::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit9439e9b8e18c9c01a44c013dd44b4189::$classMap;
 
         }, null, ClassLoader::class);
     }
