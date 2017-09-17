@@ -44,9 +44,13 @@ Route::get('history', function () {
 	
     return View::make('pages.history');
 });
-Route::get('procedures', function () {
+Route::get('members', function () {
 	
-    return View::make('pages.procedures');
+    return View::make('pages.members');
+});
+Route::get('state_land_use_districts', function () {
+	
+    return View::make('pages.state_land_use_districts');
 });
 //========================================
 //===============SELF SERVICE=============
@@ -62,4 +66,11 @@ Route::get('first_time', function()
 Route::get('returning', function()
 {
     return View::make('pages.returning');
+});
+//========================================
+//===============PROCEDURES=============
+//========================================
+Route::get('procedures', function () {
+	
+    return View::make('pages.procedures');
 });
