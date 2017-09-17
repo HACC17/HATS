@@ -40,6 +40,14 @@ Route::get('contact', function(){
 //===============ABOUT====================
 //========================================
 });
+Route::get('search', function () {
+	
+    return View::make('pages.search_form');
+});
+Route::post('search', function () {
+	
+    return View::make('pages.search');
+});
 Route::get('history', function () {
 	
     return View::make('pages.history');
