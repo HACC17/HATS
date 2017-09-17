@@ -5,7 +5,6 @@
 	$docketNumber = NULL;
 	$docketName = NULL;
 	$project = NULL;
-	$island = NULL;
 
 	if(isset($_POST["docketType"]))
 	{
@@ -28,11 +27,8 @@
 		$project = $_POST["project"];
 	}
 
-
-
-
 	$docket = DB::table('docket')
-	->where(function($query) use ($docketType, $docketYear, $docketName, $docketNumber, $project, $island)
+	->where(function($query) use ($docketType, $docketYear, $docketName, $docketNumber, $project)
 	{
 		if(isset($docketType))
 		{
@@ -54,12 +50,18 @@
 		{
 			$query->where('projectName', 'LIKE', '%'.$project.'%');
 		}
-		if(isset($island))
-		{
-			$query->where('island', $island);
-		}
 	})
 	->get();
-	print_r($docket);
+
+	foreach($docket as $item)
+	{
+		print("Docket Type: " . $item->docketType . "\n");
+		print("Docket Year: " . $item->docketYear . "\n");
+		print("Docket Number: " . $item->docketNumber . "\n");
+		print("Docket Name: " .$item->docketName . "\n");
+		print("Project Name: " .$item->project . "\n");
+		print("Island: " . $item->island . "\n");
+		print("\n");
+	}
 
 ?>
