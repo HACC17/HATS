@@ -27,12 +27,14 @@ border: 6px solid red;
         }
 .pagecontainer {
 border: 6px solid red;
+display: inline-block
 }
 /* Outer Boxes */
 .in-boxed {
 
   text-align: center;
   height: 300px;
+  display: inline-block;
 border: 6px solid red;
 } 
 
@@ -57,7 +59,6 @@ border: 6px solid red;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-border: 6px solid red;
 }
 
 .center {
