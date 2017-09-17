@@ -222,10 +222,14 @@
                 <!-- Page 5 About -->
                 <li>
                     <div class="cd-full-width">
+<<<<<<< .merge_file_2NWJMe
 <<<<<<< HEAD
 
 =======
 >>>>>>> b98c733d01df3aa9b7cda0c4244f1aff31928d4e
+=======
+
+>>>>>>> .merge_file_Smvuye
                         <div class="container-fluid js-tm-page-content tm-page-width" data-page-no="5">
                             <div class="row">
                                 <div class="col-s-12">
@@ -317,11 +321,15 @@
                     </div> <!-- .cd-full-width -->
                 </li>
             </ul> <!-- .cd-hero-slider -->
+<<<<<<< .merge_file_2NWJMe
 <<<<<<< HEAD
         </div><!--  .cd-hero -->
 =======
         </div> <!-- .cd-hero -->
 >>>>>>> b98c733d01df3aa9b7cda0c4244f1aff31928d4e
+=======
+        </div><!--  .cd-hero -->
+>>>>>>> .merge_file_Smvuye
         
 
         <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
