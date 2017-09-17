@@ -63,3 +63,11 @@ Route::get('returning', function()
 {
     return View::make('pages.returning');
 });
+//========================================
+//============== DOCKETS =================
+//========================================
+Route::get('search', function()
+{
+    return View::make('pages.search');
+});
+
