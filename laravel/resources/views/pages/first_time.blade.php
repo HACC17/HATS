@@ -89,8 +89,8 @@
 vertical-align: top;
 height: 100px;
 width: 200px;
-margin-left: 50px;
-margin-bottom: 50px;
+margin-left: 20px;
+margin-bottom: 20px;
 display: inline-block;
 background-color: rgba(248,248,248);
 }
@@ -110,6 +110,8 @@ border: 1px solid red;
 <!-- Start of Table -->
 <table>
 <!-- Table row one -->
+<tr>
+</tr>
 <tr>
 <!-- Modal:01: What does LUC mean?-->
 <td>
@@ -147,7 +149,7 @@ border: 1px solid red;
 </tr>
 <!-- Second Row -->
 <tr>
-<th>
+<td>
 <!-- Modal:04 -->
             <a class="modalCon" href="#openModal4">What are dockets?</a>
             <div id="openModal4" class="modalDialog">
@@ -157,8 +159,8 @@ border: 1px solid red;
                     <p>Dockets a summary of information related to specific property or case. </p>
                 </div>
             </div>
-</th>
-<th>
+</td>
+<td>
 <!-- Modal:05 -->
             <a class="modalCon" href="#openModal5">What do I need to process a request?</a>
             <div id="openModal5" class="modalDialog">
@@ -178,8 +180,8 @@ border: 1px solid red;
 </p>
                 </div>
             </div>
-</th>
-<th>
+</td>
+<td>
 <!-- Modal:06 -->
             <a class="modalCon" href="#openModal6">Where can I get additional assistance?</a>
             <div id="openModal6" class="modalDialog">
@@ -189,11 +191,11 @@ border: 1px solid red;
                     <p>LUC offers assistance by email, phone or in person. You can visit the contact tab for this information or<a href="/contact">click here to go directly there.</a></p>
                 </div>
             </div>
-</th>
+</td>
 </tr>
 <!-- Third Row -->
 <tr>
-<th>
+<td>
 <!-- Modal:07 -->
             <a class="modalCon" href="#openModal7">What is a Tax map key?</a>
             <div id="openModal7" class="modalDialog">
@@ -213,8 +215,8 @@ border: 1px solid red;
 </p>
                 </div>
             </div>
-</th>
-<th>
+</td>
+<td>
 <!-- Modal:08 -->
             <a class="modalCon" href="#openModal8">Where is LUC located?</a>
             <div id="openModal8" class="modalDialog">
@@ -226,8 +228,8 @@ State Office Towe Leiopapa A Kamehameha Building 235 South Beretania Street, Roo
 Honolulu,Hawai`i 96804-2359. </p>
                 </div>
             </div>
-</th>
-<th>
+</td>
+<td>
 <!-- Modal:09 -->
             <a class="modalCon" href="#openModal9">How do I obtain a Tax map key?</a>
             <div id="openModal9" class="modalDialog">
