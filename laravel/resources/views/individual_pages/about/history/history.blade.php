@@ -225,11 +225,7 @@
 <<<<<<< HEAD
 
 =======
-<<<<<<< HEAD
-
-=======
 >>>>>>> b98c733d01df3aa9b7cda0c4244f1aff31928d4e
->>>>>>> dev-gabe
                         <div class="container-fluid js-tm-page-content tm-page-width" data-page-no="5">
                             <div class="row">
                                 <div class="col-s-12">
@@ -324,12 +320,8 @@
 <<<<<<< HEAD
         </div><!--  .cd-hero -->
 =======
-<<<<<<< HEAD
-        </div><!--  .cd-hero -->
-=======
         </div> <!-- .cd-hero -->
 >>>>>>> b98c733d01df3aa9b7cda0c4244f1aff31928d4e
->>>>>>> dev-gabe
         
 
         <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
