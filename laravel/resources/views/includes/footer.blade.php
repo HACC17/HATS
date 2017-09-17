@@ -16,7 +16,7 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 20px;  
 }
 
 .footer ul li {
@@ -33,11 +33,12 @@
 }
 </style>
 <div class="footer" id="copyright text-right">
+<div class="inner-footer">
 Copyright©2017&middot;All Rights Reserved&middot;Land Use Commission
 <br>235 South Beretania Street, Room 406 Honolulu, Hawai`i 96813;</br>	
 <ul>
 	<li>This is it</li>
 	<li>This is it</li>
 </ul>
-<div class="inner-footer"></div>
+
 </div>
