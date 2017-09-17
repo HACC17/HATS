@@ -61,11 +61,11 @@
             
             <form action="form.blade.php" method="post">
                 *Full Name: <br>
-                <br>First<input type="text" name="full_name"><br>
+                <input type="text" name="full_name" size="50"><br>
                 <br>*E-mail: 
-                <br><input type="text" name="email"><br>
+                <br><input type="text" name="email" size="50"><br>
                 <br>*Phone: 
-                <br><input type="text" name="phone"><br>
+                <br><input type="text" name="phone" size="50"><br>
                 <br>Reason for your request:<br>
                 Check all items that apply.</br>
                 <input type="checkbox" name="reason" value="dockets">Dockets</br>
@@ -73,7 +73,7 @@
                 <input type="checkbox" name="reason" value="procedures">Procedures</br>
                 <input type="checkbox" name="reason" value="services">Services</br>
                 <input type="checkbox" name="reason" value="generala">General Assistance</br>
-                <input type="checkbox" name="reason" value="other">Other - Add comment below</br>
+                <input type="checkbox" name="reason" value="other" >Other - Add comment below</br>
                 <br>Add your comment:<br>
                 <textarea rows="5" cols="50" name="comment" id="cmntbox"></textarea><br>
                 <br>How would you like to be contacted?<br>
