@@ -24,7 +24,6 @@
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
   background-color: rgba(0,0,0,0.4);
   overflow: hidden;
   width: 80%;
@@ -38,7 +37,7 @@
   color: white;
 }
 
-.footer ul li {
+.footer ul li{
   list-style-type: none;
   margin: 2px;
 }
