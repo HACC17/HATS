@@ -25,6 +25,7 @@
 
 .qabox{
  text-align:left;
+ margin-bottom: 15px;
  padding: 10px;
  border: 5px solid rgba(248,248,248,0.5);
  background-color: rgba(248,248,248,0.8);
@@ -78,20 +79,19 @@
 </div>
 
             <!-- 0A3 -->
-            <a name="0A3">
+            
 <div class="qabox">
-<h3>Who do I contact?</h3>
+<a name="0A3"><h3>Who do I contact?</h3></a>
             <p>You can contact us by email or phone number.</p>
             <p>Telephone:(808)587-3827</p>
             <p>Email:dbedt.luc.web@hawaii.gov</p>
             <br></br>
 <a href="#top">Back to top of page</a>
 </div>
-</a>
             <!-- 0A4 -->
-            <a name="0A4">
+            
 <div class="qabox">
-<h3>Where are we located</h3>
+<a name="0A4"><h3>Where are we located</h3></a>
             <p>State Office Towe
                 Leiopapa A Kamehameha Building
                 235 South Beretania Street, Room 406
@@ -100,20 +100,20 @@
             <br></br>
 <a href="#top">Back to top of page</a>
 </div>
-</a>
+
             <!-- 0A5 -->
-            <a name="0A5">
+            
 <div class="qabox">
-<h3>How long do I have to wait to process?</h3>
+<a name="0A5"><h3>How long do I have to wait to process?</h3></a>
             <p>Your process will take handled within 5 business days</p>
             <br></br>
 <a href="#top">Back to top of page</a>
 </div>
-</a>
+
             <!-- 0A6 -->
-            <a name="0A6">
+            
 <div class="qabox">
-<h3>What is TMK?</h3>
+<a name="0A6"><h3>What is TMK?</h3></a>
             <p>A Tax Map Key is a unique property identifier number.</p>
             <ul>
                 <li>It is used by staff to assist you.</li>
@@ -126,47 +126,47 @@
             <br></br>
 <a href="#top">Back to top of page</a>
 </div>
-</a>
+
             <!-- 0A7 -->
-            <a name="0A7">
+            
 <div class="qabox">
-<h3>How do I obtain the TMK for a property?</h3>
+<a name="0A7"><h3>How do I obtain the TMK for a property?</h3></a>
             <p>You can use the ArcGIS map application to find your address.</p>
             <p>To access the ArcGIS map application click here</p>
             <br></br>
 <a href="#top">Back to top of page</a>
             
 </div>
-</a>
+
 <!-- 0A8 -->
-            <a name="0A8">
+            
 <div class="qabox">
-<h3>What is a docket?</h3>
+<a name="0A8"><h3>What is a docket?</h3></a>
             <p>It is a summary of information related to specific property of case. </p>
             <br></br>
             
 <a href="#top">Back to top of page</a>
 </div>
-</a>
+
 <!-- 0A9  -->
-            <a name="0A9">
+            
 <div class="qabox">
-<h3>How  do I obtain a docket number?</h3>
+<a name="0A9"><h3>How  do I obtain a docket number?</h3></a>
             <p> </p>
             <br></br>
 <a href="#top">Back to top of page</a>
 </div>
-</a>
+
             <!-- 0B1 -->
 
-            <a name="0B1">
+            
 <div class="qabox">
-<h3>Can I edit active dockets?</h3>
+<a name="0B1"><h3>Can I edit active dockets?</h3></a>
             <p>Yes, active dockets are able to be editted. </p>
             <br></br>
 <a href="#top">Back to top of page</a>
 </div>
-</a>
+
         </div>
     </body>
 </html>

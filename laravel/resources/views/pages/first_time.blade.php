@@ -17,7 +17,7 @@
         }
 
         .textcontainer {
-        width: 70%;
+        width: 80%;
         margin-right: auto;
         margin-left: auto;
         margin-top: 0.3in;
@@ -34,6 +34,7 @@
         .left {
         text-align: left;
         }
+/* Modal */
         .modalDialog {
         position: fixed;
         font-family: Arial, Helvetica, sans-serif;
@@ -88,7 +89,7 @@
 .modalCon{
 text-align: center;
 vertical-align: top;
-height: 200px;
+height: 140px;
 width: 307px;
 margin-left: 20px;
 margin-bottom: 20px;
@@ -101,9 +102,9 @@ background-color: rgba(248,248,248,0.8);
 }
 
 .modalBox{
-        width: 80%;
+        width: 100%;
         margin-right: auto;
-        margin-left: auto;;
+        margin-left: auto;
 border: 1px solid red;
 }
     </style>
@@ -123,7 +124,7 @@ border: 1px solid red;
 <tr>
 <!-- Modal:01: What does LUC mean?-->
 <td>
-            <a class="modalCon" href="#openModal1"><p>What does LUC mean?</p></a>
+            <a class="modalCon" href="#openModal1" style="font-size: 150%; text-align:center; padding-top: 15%;"><p>What does LUC mean?</p></a>
             <div id="openModal1" class="modalDialog">
                 <div>
                     <a href="#close" title="Close" class="close">X</a>
@@ -134,7 +135,7 @@ border: 1px solid red;
 </td>
 <td>
 <!-- Modal:02: What services does LUC provide? -->
-            <a class="modalCon" href="#openModal2">What services does LUC provide?</a>
+            <a class="modalCon" href="#openModal2" style="font-size: 150%; text-align:center; padding-top: 15%;">What services does LUC provide?</a>
             <div id="openModal2" class="modalDialog">
                 <div>
                     <a href="#close" title="Close" class="close">X</a>
@@ -145,7 +146,7 @@ border: 1px solid red;
 </td>
 <td>
 <!-- Modal:03: Where can I learn more about LUC? -->
-            <a class="modalCon" href="#openModal3">Where can I learn more about LUC?</a>
+            <a class="modalCon" href="#openModal3" style="font-size: 150%; text-align:center; padding-top: 15%;">Where can I learn more about LUC?</a>
             <div id="openModal3" class="modalDialog">
                 <div>
                     <a href="#close" title="Close" class="close">X</a>
@@ -159,7 +160,7 @@ border: 1px solid red;
 <tr>
 <td>
 <!-- Modal:04 -->
-            <a class="modalCon" href="#openModal4">What are dockets?</a>
+            <a class="modalCon" href="#openModal4" style="font-size: 150%; text-align:center; padding-top: 15%;">What are dockets?</a>
             <div id="openModal4" class="modalDialog">
                 <div>
                     <a href="#close" title="Close" class="close">X</a>
@@ -170,7 +171,7 @@ border: 1px solid red;
 </td>
 <td>
 <!-- Modal:05 -->
-            <a class="modalCon" href="#openModal5">What do I need to process a request?</a>
+            <a class="modalCon" href="#openModal5" style="font-size: 150%; text-align:center; padding-top: 15%;">What do I need to process a request?</a>
             <div id="openModal5" class="modalDialog">
                 <div>
                     <a href="#close" title="Close" class="close">X</a>
@@ -191,7 +192,7 @@ border: 1px solid red;
 </td>
 <td>
 <!-- Modal:06 -->
-            <a class="modalCon" href="#openModal6">Where can I get additional assistance?</a>
+            <a class="modalCon" href="#openModal6" style="font-size: 150%; text-align:center; padding-top: 15%;">Where can I get additional assistance?</a>
             <div id="openModal6" class="modalDialog">
                 <div>
                     <a href="#close" title="Close" class="close">X</a>
@@ -205,7 +206,7 @@ border: 1px solid red;
 <tr>
 <td>
 <!-- Modal:07 -->
-            <a class="modalCon" href="#openModal7">What is a Tax map key?</a>
+            <a class="modalCon" href="#openModal7" style="font-size: 150%; text-align:center; padding-top: 15%;">What is a Tax map key?</a>
             <div id="openModal7" class="modalDialog">
                 <div>
                     <a href="#close" title="Close" class="close">X</a>
@@ -226,7 +227,7 @@ border: 1px solid red;
 </td>
 <td>
 <!-- Modal:08 -->
-            <a class="modalCon" href="#openModal8">Where is LUC located?</a>
+            <a class="modalCon" href="#openModal8" style="font-size: 150%; text-align:center; padding-top: 15%;">Where is LUC located?</a>
             <div id="openModal8" class="modalDialog">
                 <div>
                     <a href="#close" title="Close" class="close">X</a>
@@ -239,7 +240,7 @@ Honolulu,Hawai`i 96804-2359. </p>
 </td>
 <td>
 <!-- Modal:09 -->
-            <a class="modalCon" href="#openModal9">How do I obtain a Tax map key?</a>
+            <a class="modalCon" href="#openModal9" style="font-size: 150%; text-align:center; padding-top: 15%;">How do I obtain a Tax map key?</a>
             <div id="openModal9" class="modalDialog">
                 <div>
                     <a href="#close" title="Close" class="close">X</a>
