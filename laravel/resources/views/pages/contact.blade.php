@@ -16,12 +16,8 @@
         background-size: cover; 
         }
         .textcontainer {
-        width: 50%;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 0.3in;
-        margin-bottom: 1in;
-        padding: 20px;
+        width: 100%;
+ text-align: center;
         background-color: rgba(248,248,248,0.8);
         border: 5px solid black;
         }
@@ -36,7 +32,7 @@
   width: 600px;
   padding: 20px;
   margin: 10px;
-  background-color: #f8f8f8 ;
+  /*background-color: #f8f8f8 ;*/
 
 } 
       .boxedRight {
@@ -46,17 +42,16 @@
   width: 400px;
   padding: 20px;
   margin: 10px;
-  background-color: #f8f8f8 ;
 
 }
 
 .in-boxed {
-  text-align: center;
-  height: 300px;
+ 
 border: 6px solid red;
 } 
     </style>
     <body>
+<div class="textcontainer">
         <div class="in-boxed">
            <div class="boxedLeft">
             <!-- FORM -->
@@ -117,6 +112,7 @@ border: 6px solid red;
             </div>
         </div>
         </div>
+</div>
     </body>
 </html>
 @stop
