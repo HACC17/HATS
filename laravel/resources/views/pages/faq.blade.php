@@ -24,7 +24,7 @@
 
 
 .qabox{
- text-align: left;
+ text-align:left;
  padding: 10px;
  border: 5px solid rgba(248,248,248,0.5);
  background-color: rgba(248,248,248,0.8);
@@ -32,6 +32,7 @@
 
     </style>
     <body>
+
         <div class="textcontainer">
             <!-- Start of FAQ page -->
             <h3>FREQUENTLY ASKED QUESTIONS</h3>
@@ -46,14 +47,13 @@
                 <br><a href="#0A8">What is a docket?</a></br>
                 <br><a href="#0A9">How do I obtain a docket number?</a></br>
                 <br><a href="#0B1">Can I edit active dockets?</a></br>
-                <br><a href="#0B2">How do I upload files to my docket?</a></br>
             <br></br>
             <!-- Answers -->
 
             <!-- 0A1 -->
-<a name="0A1">
+
             <div class="qabox">
-            <h3>What do I need to make a request?</h3>
+            <a name="0A1"><h3>What do I need to make a request?</h3></a>
             <p>You will need to have the following:</p>
             <ul>
                 <li>Full Name</li>
@@ -65,18 +65,18 @@
                 <li>Docket ID</li>
             </ul>
             <br></br>
-            
+            <a href="#top">Back to top of page</a>
             </div>
-</a>
+
             <!-- 0A2 -->
-            <a name="0A2">
             <div class="qabox">
-            <h3>How do I process a request?</h3>
+            <a name="0A2"><h3>How do I process a request?</h3></a>
             <p>You can fill out this form here</p>
 
             <br></br>
+<a href="#top">Back to top of page</a>
 </div>
-</a>
+
             <!-- 0A3 -->
             <a name="0A3">
 <div class="qabox">
@@ -85,6 +85,7 @@
             <p>Telephone:(808)587-3827</p>
             <p>Email:dbedt.luc.web@hawaii.gov</p>
             <br></br>
+<a href="#top">Back to top of page</a>
 </div>
 </a>
             <!-- 0A4 -->
@@ -97,6 +98,7 @@
                 Honolulu, Hawai`i 96804-2359.
             </p>
             <br></br>
+<a href="#top">Back to top of page</a>
 </div>
 </a>
             <!-- 0A5 -->
@@ -105,6 +107,7 @@
 <h3>How long do I have to wait to process?</h3>
             <p>Your process will take handled within 5 business days</p>
             <br></br>
+<a href="#top">Back to top of page</a>
 </div>
 </a>
             <!-- 0A6 -->
@@ -121,6 +124,7 @@
                 <li>Used to request a service. </li>
             </ul>
             <br></br>
+<a href="#top">Back to top of page</a>
 </div>
 </a>
             <!-- 0A7 -->
@@ -130,22 +134,27 @@
             <p>You can use the ArcGIS map application to find your address.</p>
             <p>To access the ArcGIS map application click here</p>
             <br></br>
-            <!-- 0A8 -->
+<a href="#top">Back to top of page</a>
+            
 </div>
 </a>
+<!-- 0A8 -->
             <a name="0A8">
 <div class="qabox">
 <h3>What is a docket?</h3>
             <p>It is a summary of information related to specific property of case. </p>
             <br></br>
-            <!-- 0A9  -->
+            
+<a href="#top">Back to top of page</a>
 </div>
 </a>
+<!-- 0A9  -->
             <a name="0A9">
 <div class="qabox">
 <h3>How  do I obtain a docket number?</h3>
             <p> </p>
             <br></br>
+<a href="#top">Back to top of page</a>
 </div>
 </a>
             <!-- 0B1 -->
@@ -155,13 +164,9 @@
 <h3>Can I edit active dockets?</h3>
             <p>Yes, active dockets are able to be editted. </p>
             <br></br>
+<a href="#top">Back to top of page</a>
 </div>
 </a>
-            <!-- 0B2 -->
-            <a name="0B2">
-<div class="qabox">
-<h3>How do I upload files to my docket?</h3>
-            <p> </p>
         </div>
     </body>
 </html>
