@@ -86,16 +86,24 @@
         .close:hover { background: #00d9ff; }
 
 .modalCon{
+text-align: center;
 vertical-align: top;
-height: 100px;
-width: 200px;
+height: 200px;
+width: 307px;
 margin-left: 20px;
 margin-bottom: 20px;
 display: inline-block;
-background-color: rgba(248,248,248);
+background-color: rgba(248,248,248,0.8);
+}
+
+.modalCon:hover {
+    background-color: rgba(248,248,248);
 }
 
 .modalBox{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;;
 border: 1px solid red;
 }
     </style>
