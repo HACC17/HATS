@@ -20,6 +20,7 @@ body {
   padding-top: 120px;
   text-align: center;
   height: 300px;
+    opacity: 0.8;
 } 
 
 /* Inner Boxes */
@@ -31,8 +32,6 @@ body {
   padding: 20px;
   margin: 10px;
   background-color: #f8f8f8 ;
-
-
 } 
 /* Buttons */
 .button {
@@ -67,8 +66,6 @@ body {
 ---------------------------------
 ---------------------------------
 --------------------------------->
-<body> 
-<h3>
 <!-- Start of clickable boxes -->
 <!-- Where to Start box -->
 <div class="in-boxed">
@@ -101,20 +98,4 @@ body {
 
 </div>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-</body>
-
-</html> 
-=======
-
-<!-- Background Image found in laravel/public -->  
->>>>>>> d8ecfb73ec58e5330bf6a8a789d9c51b6752ee41
-=======
-
-</body>
-
-</html> 
-
->>>>>>> e9729107b15305da204a366f2d92b454251c62ae
 @stop
