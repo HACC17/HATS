@@ -11,7 +11,7 @@ body {
     background-image: url('/imgs/home_imgs/lands3.jpg');
     height: 50%; 
     background-position: center;
-
+    background-attachment: fixed;
     background-size: cover; 
 }
 

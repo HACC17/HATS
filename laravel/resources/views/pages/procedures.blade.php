@@ -14,11 +14,12 @@ body {
 }
 
 </style>
+<div class="textcontainer">
 <!--Boundary Amendment Procedures - Affordable Housing Projects  -->
-<strong><h4><a id="ahp">AFFORDABLE HOUSING PROJECTS</a></h4></strong>
+<strong><h2><a id="ahp">Affordable Housing Project</a></h2></strong>
 <p>Projects which qualify under Section 201G-118, Hawaii Revised Statutes, as affordable housing projects benefit from a “fast track” procedure whereby petitions for district boundary amendment are required to be heard and decided upon within 45 days after the filing of a petition.</p>
 <!--Boundary Amendment Procedures - Decision-making Criteria  -->
-<strong><h4><a id="dmc">DECISION-MAKING CRITERIA</a></h4></strong>
+<strong><h2><a id="dmc">Decision-Making Criteria</a></h2></strong>
 <p>The Land Use Law requires the Commission to specifically consider the following criteria in review of any petition for a boundary amendment:
 
 <ol>
@@ -38,7 +39,7 @@ body {
 Furthermore, the Commission must take into account the General Plan of the respective County; and, where applicable, the objectives, policies and guidelines of the State Coastal Zone Management Law (Chapter 205A, Hawaii Revised Statutes).</p>
 
 <!--Boundary Amendment Procedures - District Boundary  -->
-<strong><h4><a id="dbap">DISTRICT BOUNDARY AMENDMENT PROCEDURES</a></h4></strong>
+<strong><h2><a id="dbap">District Boundary Amendment Procedures</a></h2></strong>
 
 <p>District boundary amendments are obtained by petition to the Commission. Amendment petitions can be initiated by State departments or agencies; County departments or agencies in which the property is situated; and any person with a direct interest in the property sought to be reclassified. A $5000 fee is required from private landowners and developers when filing an application to amend district boundaries. This fee is waived for government agencies.
 
@@ -52,13 +53,13 @@ Amendment of a district boundary requires approval by at least six of the nine C
 
 <a href=".\DBA-Flowchart.pdf">DBA-Flowchart</a>
 <!--Boundary Amendment Procedures - Fifteen Acre Rule -->
-<strong><h4><a id="far">FIFTEEN ACRE RULE</a></h4></strong>
+<strong><h2><a id="far">Fifteen Acre Rule</a></h2></strong>
 
 <p>In an effort to streamline the decision-making process, the law was amended in 1985 to allow applicants for land use changes of 15 acres or less to apply directly to the counties. The Commission, therefore, no longer handles such requests except when the lands are situated within the Conservation District.
 
 All amendments approved by the counties are submitted to the State Land Use Commission Office in Honolulu for revision of the Official State Land Use District Boundaries Maps.</p>
 <!--Boundary Amendment Procedures - Quasi-Judicial proceedings  -->
-<strong><h4><a id="qjp">QUASI-JUDICIAL PROCEEDINGS</a></h4></strong>
+<strong><h2><a id="qjp">Quasi-Judical Proceedings</a></h2></strong>
 
 <p>District boundary amendments are obtained by petition to the Commission. Amendment petitions can be initiated by State departments or agencies; County departments or agencies in which the property is situated; and any person with a direct interest in the property sought to be reclassified. A $5000 fee is required from private landowners and developers when filing an application to amend district boundaries. This fee is waived for government agencies.
 
@@ -70,7 +71,7 @@ On petitions to redistrict Conservation lands, the requirements of the EIS law (
 
 Amendment of a district boundary requires approval by at least six of the nine Commissioners.</p>
 <!--Boundary Amendment Procedures - Special Use Permit Procedures-->
-<strong><h4><a id="supp">SPECIAL USE PERMIT PROCEDURES</a></h4></strong>
+<strong><h2><a id="supp">Special Use Permit Procedures</a></h2></strong>
 <p>This permitting process allows for “unusual and reasonable” uses within the Agricultural and Rural Districts; provided such uses comply with the objectives of the Land Use Law and meet the guidelines established by the Commission.
 
 Applications for special use permits are made initially to the appropriate planning commission of the county where the property is located. When the proposed permit area is greater than 15 acres, the approval of both the county and the Commission is required.
@@ -78,4 +79,5 @@ Applications for special use permits are made initially to the appropriate plann
 On an application that involves an area greater than 15 acres, the Commission must decide on the request within 45 days after receipt of the complete record of the proceeding held by the County. Five affirmative votes are required to approve such a request.
 
 Denial or modification of a Special Use Permit is appeal able to the circuit court of the circuit in which the land is situated.</p>
+</div>
 @stop

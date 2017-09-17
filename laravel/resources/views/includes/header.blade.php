@@ -113,6 +113,12 @@ ul.topnav li.right {float: right;}
    padding-top: 20px;
    box-shadow: 0px 0px 20px 1px #888888;
 }
+.textcontainer a {
+    float: center;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
 </style>
 </head>
 <body>
@@ -172,7 +178,7 @@ ul.topnav li.right {float: right;}
       <div class="dropdown">
 		<a href="about">ABOUT</a>
         <div class="dropdown-content">
-		  <a href="about">History</a>
+		  <a href="history">History</a>
 		  <a href="members">Members & Staff</a>
 		  <a href="state_land_use_districts">State Land Use Districts</a>
         </div>

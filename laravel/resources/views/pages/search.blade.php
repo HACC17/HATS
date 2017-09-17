@@ -5,6 +5,7 @@
 	$docketNumber = NULL;
 	$docketName = NULL;
 	$project = NULL;
+	$island = NULL;
 
 	if(isset($_POST["docketType"]))
 	{
