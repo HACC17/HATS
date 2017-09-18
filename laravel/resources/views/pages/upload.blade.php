@@ -1,7 +1,7 @@
 <?php
 	$count=0;
 	$docketNumber = $_POST['docketNumber'];
-	
+
 	if(isset($_POST['docketType']))
 	{
 		switch ($_POST['docketType'])
@@ -49,3 +49,23 @@
 
 	}
 ?>
+@extends('layouts.default')
+@section('content')
+<style>
+body { 
+    background-image: url('imgs/dockets_imgs/land1.jpg');
+    height: 50%; 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+</style>
+<div class="textcontainer">
+	<h2>Documents Upload:</h2>
+	<hr>
+	<h3>Upload Successful!!!</h3>
+<form>
+<input type="submit" value="Upload another file?">
+</form>
+</div>
+@stop
