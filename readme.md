@@ -65,7 +65,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-po
 ![alt text](https://github.com/HACC17/HATS/blob/master/imgs/about.png)
 
 ### Dockets
-![alt text](https://github.com/HACC17/imgs/dockets.png)
+![alt text](https://github.com/HACC17/HATS/blob/master/imgs/dockets.png)
 
 ### Self-Service
 ![alt text](https://github.com/HACC17/HATS/blob/master/imgs/selfservice.png)
