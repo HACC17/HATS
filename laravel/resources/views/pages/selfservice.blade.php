@@ -55,21 +55,21 @@
                     <div class="boxed" onclick="location.href = 'first_time';">
                         <h2 class="center">First Time</h2>
                         <p class="left">If this is your first time visiting and using Land Use Commission services.</p>
-                        <p class="center">Click here</p>
+                        
                     </div>
                 <!-- Returning -->
 
                     <div class="boxed" onclick="location.href = 'faq';">
                         <h2 class="center">Have a question?</h2>
                         <p class="left">If you are a returning user and have a question.</p>
-                        <p class="center">Click here</p>
+                        
                     </div>
 
                 <!-- First Time -->
                     <div class="boxed" onclick="location.href = 'contact';">
                         <h2 class="center">Process Request</h2>
                         <p class="left">Need to process a request?</p>
-                        <p class="center">Click here</p>
+                        
                     </div>
             </div>
 
