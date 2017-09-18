@@ -1,3 +1,36 @@
+@extends('layouts.default')
+@section('content')
+<style>
+body { 
+    background-image: url('imgs/dockets_imgs/land1.jpg');
+    height: 50%; 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+
+th {
+    background-color: #bce8ff;
+}
+
+tr:hover{background-color:#f5f5f5}
+</style>
+
+<body>
+<div class="textcontainer">
+<h2>Search Results:</h2>
+<p>Click on the docket number to view information about the docket.</p>
 <?php
 
 	$docketType = NULL;
@@ -70,7 +103,6 @@
 		<th>Docket Name</th>
 		<th>Project Name</th>
 		<th>Island</th>
-		<th>Status</th>
 	</tr>
 <?php
 	foreach($docket as $item)
@@ -115,36 +147,21 @@
 				$island = "Niʻihau";
 				break;
 		}
-		switch ($item->status)
-		{
-			case 0:
-				$status = "Pending";
-				break;
-			case 1:
-				$status = "Approved";
-				break;
-			case 2:
-				$status = "Defective";
-				break;
-			case 3:
-				$status = "Denied";
-				break;
-			case 4:
-				$status = "Withdrawn";
-				break;
-			case 5:
-				$status = "Dissmissed";
-				break;
-		}
 ?>
 	<tr>
 		<td><a href="docket/<?php echo $docket; ?>/"><?php echo $docket; ?></a></td>
 		<td><?php print($item->docketName); ?></td>
 		<td><?php print($item->project); ?></td>
 		<td><?php print($island); ?></td>
-		<td><?php print($status); ?></td>
 	</tr>
 <?php
 	}
 ?>
 </table>
+<br>
+<form>
+<button>Search again</button>
+</form>
+
+</div>
+@stop
