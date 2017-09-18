@@ -135,7 +135,7 @@
                                 <a href="#close" title="Close" class="close">X</a>
                                 <h2>Where can I learn more about LUC?</h2>
                                 <a href="/about">
-                                    <p>You can learn more about the LUC in the about section.Click here to go directly there.</p>
+                                    <p>You can learn more about the LUC in the about section. Click here to go directly there.</p>
                                 </a>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                             <div>
                                 <a href="#close" title="Close" class="close">X</a>
                                 <h2>What are dockets?</h2>
-                                <p>Dockets a summary of information related to specific property or case. </p>
+                                <p>Dockets are a set of documents that contain a summary of information related to a specific property or case. </p>
                             </div>
                         </div>
                     </td>
@@ -201,6 +201,7 @@
                                     <li>A Tax Map Key is a unique property identifier number.</li>
                                     <li>It is used by staff to assist you.</li>
                                     <li>Every legal piece of property is linked to a Tax Map Key.</li>
+				    <li>The Tax Map Key (TMK):</li>	
                                     <li>Allows you to search files on the Land Use Commission website. </li>
                                     <li>Allows you to search ArcGIS online mapping applications. </li>
                                     <li>Used to find information about a property. </li>
