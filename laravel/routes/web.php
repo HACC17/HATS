@@ -25,6 +25,14 @@ Route::get('dockets', function(){
 	
     return View::make('pages.dockets');
 });  
+Route::get('completed', function(){
+	
+    return View::make('pages.completed_dockets');
+});  
+Route::get('pending', function(){
+	
+    return View::make('pages.pending_dockets');
+});  
 Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
