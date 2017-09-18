@@ -116,7 +116,7 @@ tr:hover{background-color:#f5f5f5}
 	->get();
 	$linePerPage = 20;
 	$pages = count($docket) / $linePerPage;
-	$line = 1;
+	$line = 0;
 ?>
 <table>
 	<tr>
@@ -127,6 +127,11 @@ tr:hover{background-color:#f5f5f5}
 		<th>Status</th>
 	</tr>
 <?php
+	$line += 1;
+	if($line < $linePerPage * ($page -1))
+		continue;
+	if($line === $linePerPage * $page)
+		break;
 	foreach($docket as $item)
 	{
 		switch ($item->docketType)
@@ -213,10 +218,6 @@ tr:hover{background-color:#f5f5f5}
 		<td><?php print($status); ?></td>
 	</tr>
 <?php
-		if($line === $linePerPage)
-			break;
-		else
-			$line += 1;
 	}
 ?>
 </table>
