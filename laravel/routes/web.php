@@ -38,11 +38,11 @@ Route::get('completed', function(){
 }); 
 Route::get('search', function(){
 	
-    return View::make('pages.search_form');
-}); 
-Route::post('search', function(){
-	
     return View::make('pages.search');
+}); 
+Route::get('results', function(){
+	
+    return View::make('pages.results');
 }); 
 Route::get('selfservice', function()
 {
