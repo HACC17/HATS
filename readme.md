@@ -6,7 +6,7 @@
 <li>Setup</li>
 <li>Usage</li>
 <li>Technical Notes</li>
-<li>Showcase Images</li><br>
+<li>Showcase Images</li>
 
 ### Prerequisites
 The following are required to run our website:
