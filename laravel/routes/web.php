@@ -51,6 +51,10 @@ Route::post('upload', function(){
 Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 });
 Route::get('upload', function()
 {
