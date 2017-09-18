@@ -103,6 +103,7 @@ tr:hover{background-color:#f5f5f5}
 		<th>Docket Name</th>
 		<th>Project Name</th>
 		<th>Island</th>
+		<th>Status</th>
 	</tr>
 <?php
 	foreach($docket as $item)
@@ -147,12 +148,39 @@ tr:hover{background-color:#f5f5f5}
 				$island = "Niʻihau";
 				break;
 		}
+		switch ($item->status)
+		{
+			case 0:
+				$status = "Pending";
+				break;
+			case 1:
+				$status = "Approved";
+				break;
+			case 2:
+				$status = "Defective";
+				break;
+			case 3:
+				$status = "Denied";
+				break;
+			case 4:
+				$status = "Withdrawn";
+				break;
+			case 5:
+				$status = "Dissmissed";
+				break;
+			case 6:
+				$status = "Incremental";
+				break;
+			default:
+				$status = "Unknown";
+		}
 ?>
 	<tr>
 		<td><a href="docket/<?php echo $docket; ?>/"><?php echo $docket; ?></a></td>
 		<td><?php print($item->docketName); ?></td>
 		<td><?php print($item->project); ?></td>
 		<td><?php print($island); ?></td>
+		<td><?php print($status); ?></td>
 	</tr>
 <?php
 	}
