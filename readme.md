@@ -68,7 +68,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-po
 ![alt text](https://github.com/HACC17/imgs/dockets.png)
 
 ### Self-Service
-![alt text](https://github.com/HACC17/HATS/imgs/selfservice.png)
+![Alt text](https://github.com/HACC17/HATS/imgs/selfservice.png)
 
 ### LUC Maps
 ![alt text](https://github.com/HACC17/HATS/imgs/lucmaps.png)
