@@ -48,16 +48,19 @@ ul.site {
 </style>
 <div class="footer-other" id="copyright text-right">
 Copyright©2017&middot;All Rights Reserved&middot;Land Use Commission
-<br>235 South Beretania Street, Room 406 Honolulu, Hawai`i 96813;</br>	
+<br>235 South Beretania Street, Room 406 Honolulu, Hawai`i 96813;</br>
+<hr></hr>	
 
 <ul class="site">
         <li><b><u>About</b></u></li>
         <li><a href="/about"> - About LUC</li></a>
-        <li> - Land Use Districts</li>
-        <li> - LUC Members and Staff</li>
-        <li><b><u>LUC Maps</b></u></li>
-        <li><b><u>Contact</b></u></li>
+        <li><a href="/history"> - History</li>
+        <li><a href="/members"> - LUC Members and Staff</li>
+        <li><a href="/state_land_use_districts"> - Land Use Districts</li>
+        <li><b><u><a href="/lucmaps">LUC Maps</b></u></li></a>
+        <li><b><u><a href="/contact">Contact</b></u></li></a>
 </ul>
+
 <ul class="site">
         <li><a href="/dockets"><b><u>Dockets</u></b></a></li>
         <li><a href="/pending"> - Pending Dockets</a></li>
