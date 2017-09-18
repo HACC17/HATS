@@ -53,7 +53,7 @@
             <div class="in-boxed">
                 <!-- First Time -->
                     <div class="boxed" onclick="location.href = 'first_time';">
-                        <h2 class="center">First Time</h2>
+                        <h2 class="center">More Info</h2>
                         <p class="left">If this is your first time visiting and using Land Use Commission services.</p>
                         
                     </div>
