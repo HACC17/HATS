@@ -27,11 +27,11 @@ Route::get('dockets', function(){
 });  
 Route::get('completed', function(){
 	
-    return View::make('pages.completed_dockets');
+    return View::make('pages.completed');
 });  
 Route::get('pending', function(){
 	
-    return View::make('pages.pending_dockets');
+    return View::make('pages.pending');
 });  
 Route::get('selfservice', function()
 {
