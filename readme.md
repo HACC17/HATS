@@ -59,32 +59,32 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-po
 *Setup is compatible with Ubuntu versions after Ubuntu 14.04*
 
 ### Home Page
-![alt text](https://github.com/HACC17/HATS/blobs/master/imgs/home.png)
+![alt text](https://github.com/HACC17/HATS/blob/master/imgs/home.png)
 
 ### About Page
-![alt text](https://github.com/HACC17/HATS/blobs/master/imgs/about.png)
+![alt text](https://github.com/HACC17/HATS/blob/master/imgs/about.png)
 
 ### Dockets
 ![alt text](https://github.com/HACC17/imgs/dockets.png)
 
 ### Self-Service
-![alt text](https://github.com/HACC17/HATS/blobs/master/imgs/selfservice.png)
+![alt text](https://github.com/HACC17/HATS/blob/master/imgs/selfservice.png)
 
 ### LUC Maps
-![alt text](https://github.com/HACC17/HATS/blobs/master/imgs/lucmaps.png)
+![alt text](https://github.com/HACC17/HATS/blob/master/imgs/lucmaps.png)
 
 ### Contact
 ![alt text](https://github.com/HACC17/imgs/contact.png)
 
 ### Laravel Directory
-![alt text](https://github.com/HACC17/HATS/blobs/master/imgs/laravel-dir.png)
+![alt text](https://github.com/HACC17/HATS/blob/master/imgs/laravel-dir.png)
 
 ### Development Tools
-![alt text](https://github.com/HACC17/HATS/blobs/master/imgs/laravel-framework-logo.png)
+![alt text](https://github.com/HACC17/HATS/blob/master/imgs/laravel-framework-logo.png)
 
-![alt text](https://github.com/HACC17/HATS/blobs/master/imgs/php-sqlite.jpg)
+![alt text](https://github.com/HACC17/HATS/blob/master/imgs/php-sqlite.jpg)
 
-![alt text](https://github.com/HACC17/HATS/blobs/master/imgs/trello_1x.png)
+![alt text](https://github.com/HACC17/HATS/blob/master/imgs/trello_1x.png)
 
-![alt text](https://github.com/HACC17/HATS/blobs/master/imgs/ubuntu_logo.jpg)
+![alt text](https://github.com/HACC17/HATS/blob/master/imgs/ubuntu_logo.jpg)
 
