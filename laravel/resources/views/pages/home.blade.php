@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default-head')
 
 @section('content')
 <!-- Start of Body -->
@@ -11,7 +11,7 @@ body {
     background-image: url('/imgs/home_imgs/lands3.jpg');
     height: 50%; 
     background-position: center;
-
+    background-attachment: fixed;
     background-size: cover; 
 }
 
@@ -20,6 +20,7 @@ body {
   padding-top: 120px;
   text-align: center;
   height: 300px;
+    opacity: 0.8;
 } 
 
 /* Inner Boxes */
@@ -31,8 +32,6 @@ body {
   padding: 20px;
   margin: 10px;
   background-color: #f8f8f8 ;
-
-
 } 
 /* Buttons */
 .button {
@@ -67,7 +66,6 @@ body {
 ---------------------------------
 ---------------------------------
 --------------------------------->
-<body> 
 <!-- Start of clickable boxes -->
 <!-- Where to Start box -->
 <div class="in-boxed">
@@ -99,10 +97,5 @@ body {
 </button>
 
 </div>
-
-
-</body>
-
-</html> 
 
 @stop

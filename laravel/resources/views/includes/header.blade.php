@@ -5,6 +5,7 @@ This file contains a standardized responsive navigation bar accross all pages.
 -->
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="css/app.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 body {margin: 0;}
@@ -14,10 +15,11 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(248,248,248,0.7);
-    z-index: 500;
-
-
+    background-color: rgba(248,248,248);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
 }
 
 ul.topnav li {float: left;}
@@ -28,7 +30,6 @@ ul.topnav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
 }
 /* Style for list b tags */
 ul.topnav li b {
@@ -56,32 +57,17 @@ ul.topnav li.right {float: right;}
     overflow: hidden;
     background-color: #fcfcfc;
     font-family: CheapProFonts Serif Pro;
-
 }
-
-
 .container a {
     float: center;
-    font-size: 16px;
-    color: black;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
-
 .dropdown {
     float: left;
     overflow: hidden;
 }
-
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-
-}
-
-
 .dropdown .dropbtn {
     font-size: 16px;    
     border: none;
@@ -91,7 +77,6 @@ ul.topnav li.right {float: right;}
     background-color: inherit;
     text-decoration: none;
     font-family: Serif;
-
 }
 .dropdown-content {
     display: none;
@@ -99,20 +84,8 @@ ul.topnav li.right {float: right;}
     background-color: #fcfcfc	;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    position: fixed;
 }
-		
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #5F6A6A	;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
-
-}
-
 .dropdown-content a {
     float: none;
     color: black;
@@ -126,18 +99,25 @@ ul.topnav li.right {float: right;}
 }
 .dropdown:hover .dropdown-content {
     display: block;
-
- 
 }
-
-.dropdown-content a:hover {
-    background-color: #ddd;
+************************************************************************
+.textcontainer {
+   width: 80%;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 5%;
+   background-color: rgba(248,248,248,0.9);
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   box-shadow: 0px 0px 20px 1px #888888;
 }
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    
-
+.textcontainer a {
+    float: center;
+    color: black;
+    text-align: center;
+    text-decoration: none;
 }
 </style>
 </head>
@@ -149,14 +129,11 @@ ul.topnav li.right {float: right;}
   <li class="right"><a href="/contact">CONTACT</a></li>
 <!------LUC Maps------>
   <li class="right"><a href="/lucmaps">LUC MAPS</a></li>
-
-
 <!------Procedures-------->
-
-  <li class="right">
+<li class="right">
     <div class="container">
       <div class="dropdown">
-        <button class="dropbtn">PROCEDURES</button>
+		<a href="procedures">PROCEDURES</a>
         <div class="dropdown-content">
 		  <a href="procedures#ahp">Affordable Housing Projects</a>
 		  <a href="procedures#dmc">Decision-making Criteria</a>
@@ -167,38 +144,52 @@ ul.topnav li.right {float: right;}
         </div>
       </div>
     </div>
-
 </li>
-
 <!------Self Service------>
   <li class="right">
-  <div class="container">
+    <div class="container">
       <div class="dropdown">
-        <a href="/selfservice">SELF-SERVICE</a>
+        <a href="selfservice">SELF-SERVICE</a>
         <div class="dropdown-content">
+<<<<<<< HEAD
         <a href="/faq">FAQ</a>
         <a href="/first_time">First Time</a>
+=======
+        <a href="faq">FAQ</a>
+        <a href="first_time">First Time</a>
+        <a href="returning">Returning</a>
+>>>>>>> origin/master
         </div>
       </div>
     </div>
-</li>
+  </li>
 
 <!------Dockets------>
-  
   <li class="right">
-  <div class="container">
+    <div class="container">
       <div class="dropdown">
-        <a href="/dockets">DOCKETS</a>
+        <a href="dockets">DOCKETS</a>
         <div class="dropdown-content">
-        <a href="/search">Search</a>
+        <a href="pending">Pending Dockets</a>
+        <a href="completed">Completed Dockets</a>
+        <a href="search">Search A Docket</a>
+        </div>
+      </div>
+    </div>
+  </li>
+<!------About------>
+<li class="right">
+    <div class="container">
+      <div class="dropdown">
+		<a href="about">ABOUT</a>
+        <div class="dropdown-content">
+		  <a href="history">History</a>
+		  <a href="members">Members & Staff</a>
+		  <a href="state_land_use_districts">State Land Use Districts</a>
         </div>
       </div>
     </div>
 </li>
-
-
-<!------About------>
-  <li class="right"><a href="/about">ABOUT</a></li>
 <!------Home------>
   <li class="right"><a href="/">HOME</a></li>
   <li><b>LAND USE COMMISSION</b></li>
@@ -207,4 +198,3 @@ ul.topnav li.right {float: right;}
 
 </body>
 </html>
-

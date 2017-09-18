@@ -21,10 +21,29 @@ Route::get('about', function(){
 	
     return View::make('pages.about');
 });
+//========================================
+//================DOCKETS=================
+//========================================
 Route::get('dockets', function(){
 	
     return View::make('pages.dockets');
-});  
+});
+Route::get('pending', function(){
+	
+    return View::make('pages.pending');
+}); 
+Route::get('completed', function(){
+	
+    return View::make('pages.completed');
+}); 
+Route::get('search', function(){
+	
+    return View::make('pages.search_form');
+}); 
+Route::post('search', function(){
+	
+    return View::make('pages.search');
+}); 
 Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
@@ -44,9 +63,13 @@ Route::get('history', function () {
 	
     return View::make('pages.history');
 });
-Route::get('procedures', function () {
+Route::get('members', function () {
 	
-    return View::make('pages.procedures');
+    return View::make('pages.members');
+});
+Route::get('state_land_use_districts', function () {
+	
+    return View::make('pages.state_land_use_districts');
 });
 //========================================
 //===============SELF SERVICE=============
@@ -63,11 +86,11 @@ Route::get('returning', function()
 {
     return View::make('pages.returning');
 });
-//========================================
-//============== DOCKETS =================
-//========================================
-Route::get('search', function()
-{
-    return View::make('pages.search');
-});
 
+//========================================
+//===============PROCEDURES===============
+//========================================
+Route::get('procedures', function () {
+	
+    return View::make('pages.procedures');
+});

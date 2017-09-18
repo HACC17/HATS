@@ -1,5 +1,6 @@
 # Land Use Commission v2
-###### Last modified:09/14/2017
+###### Last modified:09/17/2017 ###### 
+
 ###Table of Contents
 <li>Prerequisites</li>
 <li>Setup</li>
