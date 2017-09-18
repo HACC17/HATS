@@ -201,8 +201,7 @@
                                 <h2>What is a Tax map key?</h2>
                                 <p>
                                 <ul>
-                                    A Tax Map Key is a unique property identifier number. It is used by staff to assist you. Every legal piece of property is linked to a Tax Map Key.<br>
-				    The Tax Map Key (TMK):
+                                    A Tax Map Key is a unique property identifier number. It is used by staff to assist you. Every legal piece of property is linked to a Tax Map Key. The Tax Map Key (TMK):<br>
                                     <li>Allows you to search files on the Land Use Commission website. </li>
                                     <li>Allows you to search ArcGIS online mapping applications. </li>
                                     <li>Used to find information about a property. </li>
