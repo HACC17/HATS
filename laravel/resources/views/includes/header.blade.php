@@ -153,7 +153,6 @@ ul.topnav li.right {float: right;}
         <div class="dropdown-content">
         <a href="faq">FAQ</a>
         <a href="first_time">First Time</a>
-        <a href="returning">Returning</a>
         </div>
       </div>
     </div>
