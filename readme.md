@@ -28,7 +28,7 @@ If starting a new project
 <li>cd laravel</li>
 <li>cp .env.example .env</li>
 <li>Edit .env file 
-DB_CONNECTION=sqlite <b>*Make sure DB connection is sqlite*</b>
+DB_CONNECTION=sqlite <b>*Make sure DB connection is sqlite*</b><br>
 DB_DATABASE=/home/<b>insert username</b>/HATS/laravel/database/database.sqlite</li>
 <li>php artisan key:generate</li>
 <li>php artisan serve</li><br>
@@ -39,7 +39,7 @@ If working with pulled files
 <li>sudo composer update</li>
 <li>cp .env.example .env</li>
 <li>Edit .env file 
-DB_CONNECTION=sqlite <b>*Make sure DB connection is sqlite*</b>
+DB_CONNECTION=sqlite <b>*Make sure DB connection is sqlite*</b><br>
 DB_DATABASE=/home/<b>insert username</b>/HATS/laravel/database/database.sqlite</li>
 <li>php artisan key:generate</li>
 <li>php artisan serve</li><br>
