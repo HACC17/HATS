@@ -1,6 +1,6 @@
 # Land Use Commission v2
 
-###Table of Contents
+### Table of Contents
 <li>Prerequisites</li>
 <li>Setup</li>
 <li>Usage</li>
