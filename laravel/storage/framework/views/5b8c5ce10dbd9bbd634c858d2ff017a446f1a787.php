@@ -48,35 +48,37 @@ ul.site {
 </style>
 <div class="footer-other" id="copyright text-right">
 Copyright©2017&middot;All Rights Reserved&middot;Land Use Commission
-<br>235 South Beretania Street, Room 406 Honolulu, Hawai`i 96813;</br>	
+<br>235 South Beretania Street, Room 406 Honolulu, Hawai`i 96813;</br>
+<hr></hr>	
 
 <ul class="site">
         <li><b><u>About</b></u></li>
         <li><a href="/about"> - About LUC</li></a>
-        <li> - Land Use Districts</li>
-        <li> - LUC Members and Staff</li>
-        <li><b><u>LUC Maps</b></u></li>
-        <li><b><u>Contact</b></u></li>
+        <li><a href="/history"> - History</li>
+        <li><a href="/members"> - LUC Members and Staff</li>
+        <li><a href="/state_land_use_districts"> - Land Use Districts</li>
+        <li><b><u><a href="/lucmaps">LUC Maps</b></u></li></a>
+        <li><b><u><a href="/contact">Contact</b></u></li></a>
 </ul>
+
 <ul class="site">
         <li><a href="/dockets"><b><u>Dockets</u></b></a></li>
         <li><a href="/pending"> - Pending Dockets</a></li>
         <li><a href="/completed"> - Completed Dockets</a></li>
         <li><a href="/search"> - Search for a Docket</a></li>
                 
-        <li><b><u>Self Service</li></b></u>
-        <li> - FAQ</li>
-        <li> - New User</li>
-        <li> - Returning User</li>
+        <li><b><u><a href="selfservice">Self Service</a></li></b></u>
+        <li><a href="faq"> - FAQ</a></li>
+        <li><a href="first_time"> - First Time</a></li>
 </ul>
 <ul class="site">
         <li><b><u>Procedures</li></u></b>
-        <li> - Affordable Housing Projects</li>
-        <li> - Decision-Making Criteria</li>
-        <li> - DBA Procedures</li>
-        <li> - Fifteen Acre Rule</li>
-        <li> - Quasi-judicial Proceedings</li>
-        <li> - Special Use Permit Procedures</li>
+        <li><a href="procedures#ahp"> - Affordable Housing Projects</a></li>
+        <li><a href="procedures#dmc"> - Decision-Making Criteria</a></li>
+        <li><a href="procedures#dbap"> - DBA Procedures</a></li>
+        <li><a href="procedures#far"> - Fifteen Acre Rule</a></li>
+        <li><a href="procedures#qjp"> - Quasi-judicial Proceedings</a></li>
+        <li><a href="procedures#supp"> - Special Use Permit Procedures</a></li>
 </ul>
 <ul class="site">
 	<img src="imgs/misc_imgs/footer-seal.png" alt="footer seal" align="right");

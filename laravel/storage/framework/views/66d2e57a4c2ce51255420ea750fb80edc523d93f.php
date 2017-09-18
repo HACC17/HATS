@@ -1,5 +1,4 @@
 <?php $__env->startSection('content'); ?>
-<html>
     <style>
         html{
         height: 100%; 
@@ -12,22 +11,15 @@
         background-attachment: fixed;
         background-size: cover; 
         }
-        .textcontainer {
-        width: 70%;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 0.3in;
-        margin-bottom: 1in;
-        padding: 20px;
-        background-color: rgba(248,248,248,0.8);
-        }
-        .pagecontainer {
-        }
+
         /* Outer Boxes */
         .in-boxed {
-        text-align: center;
-        height: 300px;
-        } 
+		  padding-top: 20px;
+		  text-align: center;
+		  height: 300px;
+		  opacity: 0.9;
+		  margin-bottom: -70px;
+		} 
         /* Inner Boxes */
         .boxed {
         vertical-align: middle;
@@ -36,19 +28,13 @@
         height: 150px;
         padding: 20px;
         margin: 10px;
-        background-color: #f8f8f8 ;
-        } 
-        /* Buttons */
-        .button {
-        background-color: #f8f8f8;
-        color: black;
-        padding: 15px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
+        margin-bottom: 500px;
+        background-color: rgba(248,248,248,0.8);
         }
+        .boxed:hover {
+		background-color: rgba(255,255,255);
+		cursor: pointer;
+		}
         .center {
         text-align: center;
         }
@@ -56,41 +42,34 @@
         text-align: left;
         }
     </style>
-    <body>
-        <div class="pagecontainer">
+
             <div class="textcontainer">
                 <h2> WE ARE HERE TO HELP </h2>
                 <p>We are here to help you find the information you are looking for. To begin we recommend selecting one of the buttons below to help answer any questions you may have.</p>
             </div>
             <div class="in-boxed">
                 <!-- First Time -->
-                <button class="button" onclick="location.href = 'first_time';">
-                    <div class="boxed">
+                    <div class="boxed" onclick="location.href = 'first_time';">
                         <h2 class="center">First Time</h2>
                         <p class="left">If this is your first time visiting and using Land Use Commission services.</p>
                         <p class="center">Click here</p>
                     </div>
-                </button>
                 <!-- Returning -->
-                <button class="button" onclick="location.href = 'faq';">
-                    <div class="boxed">
+
+                    <div class="boxed" onclick="location.href = 'faq';">
                         <h2 class="center">Have a question?</h2>
                         <p class="left">If you are a returning user and have a question.</p>
                         <p class="center">Click here</p>
                     </div>
-                </button>
+
                 <!-- First Time -->
-                <button class="button" onclick="location.href = 'contact';">
-                    <div class="boxed">
+                    <div class="boxed" onclick="location.href = 'contact';">
                         <h2 class="center">Process Request</h2>
                         <p class="left">Need to process a request?</p>
                         <p class="center">Click here</p>
                     </div>
-                </button>
             </div>
-        </div>
-    </body>
-</html>
+
 <?php $__env->stopSection(); ?>
 
 

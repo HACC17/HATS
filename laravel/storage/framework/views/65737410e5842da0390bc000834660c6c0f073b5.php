@@ -27,7 +27,7 @@ ul.topnav li {float: left;}
 ul.topnav li a {
     display: block;
     color: black;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -119,6 +119,29 @@ ul.topnav li.right {float: right;}
     text-align: center;
     text-decoration: none;
 }
+.textcontainermap {
+   width: 40%;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 5%;
+   background-color: rgba(248,248,248,0.9);
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   box-shadow: 0px 0px 20px 1px #888888;
+}
+.textcontainerbutton {
+   width: 80%;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 2%;
+   background-color: rgba(248,248,248,0);
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
 </style>
 </head>
 <body>
@@ -151,14 +174,8 @@ ul.topnav li.right {float: right;}
       <div class="dropdown">
         <a href="selfservice">SELF-SERVICE</a>
         <div class="dropdown-content">
-<<<<<<< HEAD
-        <a href="/faq">FAQ</a>
-        <a href="/first_time">First Time</a>
-=======
         <a href="faq">FAQ</a>
         <a href="first_time">First Time</a>
-        <a href="returning">Returning</a>
->>>>>>> origin/master
         </div>
       </div>
     </div>
@@ -173,6 +190,7 @@ ul.topnav li.right {float: right;}
         <a href="pending">Pending Dockets</a>
         <a href="completed">Completed Dockets</a>
         <a href="search">Search A Docket</a>
+        <a href="upload">Upload Document</a>
         </div>
       </div>
     </div>
