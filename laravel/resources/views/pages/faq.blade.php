@@ -102,9 +102,9 @@
             <!-- 0A5 -->
             <div class="qabox">
                 <a name="0A5">
-                    <h3>How long do I have to wait to process?</h3>
+                    <h3>How long do I have to wait to process a request?</h3>
                 </a>
-                <p>Your process will take handled within 5 business days</p>
+                <p>Your process will be handled within 5-7 business days.</p>
                 <br></br>
                 <a href="#top">Back to top of page</a>
             </div>
@@ -113,7 +113,7 @@
                 <a name="0A6">
                     <h3>What is TMK?</h3>
                 </a>
-                <p>A Tax Map Key is a unique property identifier number.</p>
+                <p>A Tax Map Key (TMK) is a unique property identifier number.</p>
                 <ul>
                     <li>It is used by staff to assist you.</li>
                     <li>Every legal piece of property is linked to a Tax Map Key.</li>
@@ -140,7 +140,7 @@
                 <a name="0A8">
                     <h3>What is a docket?</h3>
                 </a>
-                <p>It is a summary of information related to specific property of case. </p>
+                <p>A dockets is a set of documents that contain information related to a specific property, project, or case. </p>
                 <br></br>
                 <a href="#top">Back to top of page</a>
             </div>
@@ -158,7 +158,7 @@
                 <a name="0B1">
                     <h3>Can I edit active dockets?</h3>
                 </a>
-                <p>Yes, active dockets are able to be editted. </p>
+                <p>Yes, active dockets can be editted. </p>
                 <br></br>
                 <a href="#top">Back to top of page</a>
             </div>

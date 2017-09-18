@@ -27,6 +27,9 @@ If starting a new project
 <li>composer create-project laravel/laravel --prefer-dist</li>
 <li>cd laravel</li>
 <li>cp .env.example .env</li>
+<li>Edit .env file 
+DB_CONNECTION=sqlite <b>*Make sure DB connection is sqlite*</b>
+DB_DATABASE=/home/<b>insert username</b>/HATS/laravel/database/database.sqlite</li>
 <li>php artisan key:generate</li>
 <li>php artisan serve</li><br>
 

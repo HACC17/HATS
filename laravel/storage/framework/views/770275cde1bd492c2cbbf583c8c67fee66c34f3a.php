@@ -191,15 +191,14 @@
                 <tr>
                     <td>
                         <!-- Modal:07 -->
-                        <a class="modalCon" href="#openModal7">What is a Tax map key?</a>
+                        <a class="modalCon" href="#openModal7">What is a Tax Map Key?</a>
                         <div id="openModal7" class="modalDialog">
                             <div>
                                 <a href="#close" title="Close" class="close">X</a>
-                                <h2>What is a Tax map key?</h2>
+                                <h2>What is a Tax Map Key?</h2>
                                 <p>
                                 <ul>
-                                    A Tax Map Key is a unique property identifier number. It is used by staff to assist you. Every legal piece of property is linked to a Tax Map Key.<br>
-				    The Tax Map Key (TMK):
+                                    A Tax Map Key is a unique property identifier number. It is used by staff to assist you. Every legal piece of property is linked to a Tax Map Key. The Tax Map Key (TMK):<br>
                                     <li>Allows you to search files on the Land Use Commission website. </li>
                                     <li>Allows you to search ArcGIS online mapping applications. </li>
                                     <li>Used to find information about a property. </li>
@@ -225,11 +224,11 @@
                     </td>
                     <td>
                         <!-- Modal:09 -->
-                        <a class="modalCon" href="#openModal9">How do I obtain a Tax map key?</a>
+                        <a class="modalCon" href="#openModal9">How do I obtain a Tax Map Key?</a>
                         <div id="openModal9" class="modalDialog">
                             <div>
                                 <a href="#close" title="Close" class="close">X</a>
-                                <h2>How do I obtain a Tax map key?</h2>
+                                <h2>How do I obtain a Tax Map Key?</h2>
                                 <p>LUC utilizes ArcGIS to select and retrieve the coordinates of a prpoerty and determine the location's Tax Map Key.</p>
                             </div>
                         </div>

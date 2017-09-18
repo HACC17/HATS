@@ -1,150 +1,41 @@
-<?php
+<?php $__env->startSection('content'); ?>
+<style>
+body { 
+    background-image: url('imgs/dockets_imgs/land1.jpg');
+    height: 50%; 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+</style>
+<div class='textcontainer'>
+<h2>Looking for a docket?</h2>
+<p>Enter the docket number, project name, or docket name and press the Search button.</p>
+<hr>
+<form action="results" method="get">
+	<p>
+		Docket Number:
+		<select name="docketType">
+			<option value=""></option>
+			<option value="A">A</option>
+			<option value="SP">SP</option>
+			<option value="DR">DR</option>
+		</select>
+		<input type="text" name="docketYear" maxlength="2" size="2" placeholder="##">
+		-
+		<input type="text" name="docketNumber" maxlength="4" size="4" placeholder="####">
+	</p>
+	<p>
+		Docket Name: 
+		<input type="text" name="docketName" placeholder="Docket Name">
+	</p>
+	<p>
+		Project Name: 
+		<input type="text" name="project" placeholder ="Project Name">
+	</p>
+	<button>Search</button>
+</form>
+</div>
+<?php $__env->stopSection(); ?>
 
-	$docketType = NULL;
-	$docketYear = NULL;
-	$docketNumber = NULL;
-	$docketName = NULL;
-	$project = NULL;
-
-	if(isset($_POST["docketType"]))
-	{
-		switch ($_POST["docketType"])
-		{
-			case "A":
-				$docketType = 1;
-				break;
-			case "SP":
-				$docketType = 2;
-				break;
-			case "DR":
-				$docketType = 3;
-				break;
-		}
-	}
-	if(isset($_POST["docketYear"]) && !empty($_POST["docketYear"]))
-	{
-		$docketYear = $_POST["docketYear"];
-	}
-	if(isset($_POST["docketNumber"])&& !empty($_POST["docketNumber"]))
-	{
-		$docketNumber = $_POST["docketNumber"];
-	}
-	if(isset($_POST["docketName"]))
-	{
-		$docketName = $_POST["docketName"];
-	}
-	if(isset($_POST["project"]))
-	{
-		$project = $_POST["project"];
-	}
-
-	$docket = DB::table('docket')
-	->where(function($query) use ($docketType, $docketYear, $docketName, $docketNumber, $project)
-	{
-		if(isset($docketType))
-		{
-			$query->where('docketType', $docketType);
-		}
-		if(isset($docketYear))
-		{
-			$query->where('docketYear', $docketYear);
-		}
-		if(isset($docketName))
-		{
-			$query->where('docketName', 'LIKE', '%'.$docketName.'%');
-		}
-		if(isset($docketNumber))
-		{
-			$query->where('docketNumber', $docketNumber);
-		}
-		if(isset($project))
-		{
-			$query->where('projectName', 'LIKE', '%'.$project.'%');
-		}
-	})
-	->get();
-?>
-<table>
-	<tr>
-		<th>Docket</th>
-		<th>Docket Name</th>
-		<th>Project Name</th>
-		<th>Island</th>
-		<th>Status</th>
-	</tr>
-<?php
-	foreach($docket as $item)
-	{
-		switch ($item->docketType)
-		{
-			case 1:
-				$docketType = "A";
-				break;
-			case 2:
-				$docketType = "SP";
-				break;
-			case 3:
-				$docketType = "DR";
-		}
-		$docket = $docketType.$item->docketYear."-".$item->docketNumber;
-
-		switch ($item->island)
-		{
-			case 1:
-				$island = "Hawaiʻi";
-				break;
-			case 2:
-				$island = "Maui";
-				break;
-			case 3:
-				$island = "Kahoʻolawe"; //Is this needed?
-				break;
-			case 4:
-				$island = "Lanaʻi";
-				break;
-			case 5:
-				$island = "Molokaʻi";
-				break;
-			case 6:
-				$island = "Oʻahu";
-				break;
-			case 7:
-				$island = "Kauaʻi";
-				break;
-			case 8:
-				$island = "Niʻihau";
-				break;
-		}
-		switch ($item->status)
-		{
-			case 0:
-				$status = "Pending";
-				break;
-			case 1:
-				$status = "Approved";
-				break;
-			case 2:
-				$status = "Defective";
-				break;
-			case 3:
-				$status = "Denied";
-				break;
-			case 4:
-				$status = "Withdrawn";
-				break;
-			case 5:
-				$status = "Dissmissed";
-				break;
-		}
-?>
-	<tr>
-		<td><a href="docket/<?php echo $docket; ?>/"><?php echo $docket; ?></a></td>
-		<td><?php print($item->docketName); ?></td>
-		<td><?php print($item->project); ?></td>
-		<td><?php print($island); ?></td>
-		<td><?php print($status); ?></td>
-	</tr>
-<?php
-	}
-?>
-</table>
+<?php echo $__env->make('layouts.default', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
