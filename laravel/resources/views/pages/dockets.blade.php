@@ -13,9 +13,9 @@ height: 100%;
 }
 /* Outer Boxes */
 .in-boxed {
-  padding-top: 120px;
+  padding-top: 70px;
   text-align: center;
-  height: 300px;
+  height: 160px;
     opacity: 0.8;
 } 
 
@@ -23,9 +23,8 @@ height: 100%;
 .boxed {
   vertical-align: middle;
   display: inline-block;
-  width: 300px;
+  width: 275px;
   height: 200px;
-  padding: 20px;
   margin: 10px;
   background-color: rgba(248,248,248,0.9);
 } 
@@ -43,10 +42,10 @@ cursor: pointer;
 }
 </style>
 <div class="in-boxed">
-<div class="boxed" onclick="location.href = 'pending';">
+<div class="boxed" onclick="location.href = 'pending';"><br></br>
   <h2 class="center">Pending Dockets</h2>
    <p class="left">View all pending dockets.</p>
-   <p class="center">Click here</p>
+   
 </div> 
 <!--</a>-->
 
@@ -54,20 +53,25 @@ cursor: pointer;
 <!-- Who we are box -->
 
 
-<div class="boxed" onclick="location.href = 'completed';">
+<div class="boxed" onclick="location.href = 'completed';"><br></br>
   <h2 class="center">Completed Dockets</h2>
    <p class="left">View all completed dockets.</p>
-   <p class="center">Click here</p>
+   
 </div>
-
+</div>
 <!-- Request Assistance boxes -->
-
-<div class="boxed" onclick="location.href = 'search';">
+<div class="in-boxed">
+<div class="boxed" onclick="location.href = 'search';"><br></br>
   <h2 class="center">Search Dockets</h2>
    <p class="left">Looking for a docket?</p>
-   <p class="center">Click here</p>
+   
 </div>
 
-
+<div class="boxed" onclick="location.href = 'upload';"><br></br>
+  <h2 class="center">Upload Dockets</h2>
+   <p class="left">Uploading a document?</p>
+   
+</div>
+</div>
 </div>
 @stop

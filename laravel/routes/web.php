@@ -52,9 +52,13 @@ Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
 });
-Route::get('upload', function()
+Route::post('upload', function()
 {
     return View::make('pages.upload');
+});
+Route::get('upload', function()
+{
+    return View::make('pages.upload_form');
 });
 //========================================
 //===============ABOUT====================
