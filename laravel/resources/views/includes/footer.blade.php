@@ -67,19 +67,18 @@ Copyright©2017&middot;All Rights Reserved&middot;Land Use Commission
         <li><a href="/completed"> - Completed Dockets</a></li>
         <li><a href="/search"> - Search for a Docket</a></li>
                 
-        <li><b><u>Self Service</li></b></u>
-        <li> - FAQ</li>
-        <li> - New User</li>
-        <li> - Returning User</li>
+        <li><b><u><a href="selfservice">Self Service</a></li></b></u>
+        <li><a href="faq"> - FAQ</a></li>
+        <li><a href="first_time"> - First Time</a></li>
 </ul>
 <ul class="site">
         <li><b><u>Procedures</li></u></b>
-        <li> - Affordable Housing Projects</li>
-        <li> - Decision-Making Criteria</li>
-        <li> - DBA Procedures</li>
-        <li> - Fifteen Acre Rule</li>
-        <li> - Quasi-judicial Proceedings</li>
-        <li> - Special Use Permit Procedures</li>
+        <li><a href="procedures#ahp"> - Affordable Housing Projects</a></li>
+        <li><a href="procedures#dmc"> - Decision-Making Criteria</a></li>
+        <li><a href="procedures#dbap"> - DBA Procedures</a></li>
+        <li><a href="procedures#far"> - Fifteen Acre Rule</a></li>
+        <li><a href="procedures#qjp"> - Quasi-judicial Proceedings</a></li>
+        <li><a href="procedures#supp"> - Special Use Permit Procedures</a></li>
 </ul>
 <ul class="site">
 	<img src="imgs/misc_imgs/footer-seal.png" alt="footer seal" align="right");

@@ -1,9 +1,5 @@
-
-
-@extends('layouts.default'
-)
+@extends('layouts.default')
 @section('content')
-<html>
     <style>
         html{
         height: 50%; 
@@ -15,16 +11,6 @@
         background-attachment: fixed;
         background-size: cover; 
         }
-        .textcontainer {
-        width: 70%;
-        text-align: center;
-        background-color: rgba(248,248,248,0.8);
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 0.3in;
-        margin-bottom: 1in;
-        padding: 20px;
-        }
         .formatcon{
         height: 10%;
         }        
@@ -34,7 +20,7 @@
         vertical-align: top;
         display: inline-block;
         width: 600px;
-        padding: 20px;
+        padding: 0px;
         margin: 10px;
         border-right: 6px dotted rgba(248,248,248,0.8);;
         /*background-color: #f8f8f8 ;*/
@@ -44,17 +30,16 @@
         text-align: left;
         vertical-align: top;
         display: inline-block;
-        width: 400px;
+        width: 300px;
         padding: 20px;
         margin: 10px;
         }
     </style>
-    <body>
         <div class="textcontainer">
             <div class="in-boxed">
                 <div class="boxedLeft">
                     <!-- FORM -->
-                    <h1 style="border-bottom: thick solid black">Contact Us</h1>
+                    <h2 style="border-bottom:  solid black">Contact Us</h2>
                     <p><br>You can also fill out the form below. Processed requests will be answered with 5 business days.</p>
                     <p>Fields thare required have an asterisk(*) next to them. Please include your name, phone number, email, your organization, and the nature of your request.</p>
                     <form action="form.blade.php" method="post">
@@ -64,8 +49,7 @@
                         <br><input type="text" name="email" size="50"><br>
                         <br>*Phone: 
                         <br><input type="text" name="phone" size="50"><br>
-                        <br>Reason for your request:<br>
-                        Check all items that apply.</br>
+                        <br>Reason for your request: (Check all items that apply)</br>
                         <input type="checkbox" name="reason" value="dockets">Dockets</br>
                         <input type="checkbox" name="reason" value="maps">Maps</br>
                         <input type="checkbox" name="reason" value="procedures">Procedures</br>
@@ -75,9 +59,8 @@
                         <br>Add your comment:<br>
                         <textarea rows="5" cols="50" name="comment" id="cmntbox"></textarea><br>
                         <br>How would you like to be contacted?<br>
-                        <input type="checkbox" name="reason" value="phone">phone</br>
-                        <input type="checkbox" name="reason" value="email">email</br>
-                        <input type="checkbox" name="reason" value="emailandphone">Phone and Email</br>
+                        <input type="checkbox" name="reason" value="phone">Phone</br>
+                        <input type="checkbox" name="reason" value="email">E-mail</br>
                         <input type="submit">
                     </form>
                 </div>
@@ -110,9 +93,7 @@
                 </div>
             </div>
         </div>
-        </div>
-    </body>
-</html>
+
 @stop
 
 

@@ -131,6 +131,17 @@ ul.topnav li.right {float: right;}
    padding-top: 20px;
    box-shadow: 0px 0px 20px 1px #888888;
 }
+.textcontainerbutton {
+   width: 80%;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 5%;
+   background-color: rgba(248,248,248,0);
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
 </style>
 </head>
 <body>
