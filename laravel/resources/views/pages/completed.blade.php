@@ -107,6 +107,11 @@ tr:hover{background-color:#f5f5f5}
 			case 5:
 				$status = "Dissmissed";
 				break;
+			case 6:
+				$status = "Incremental";
+				break;
+			default:
+				$status = "Unknown";
 		}
 ?>
 	<tr>
