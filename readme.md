@@ -74,7 +74,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-po
 ![alt text](https://github.com/HACC17/HATS/blob/master/imgs/lucmaps.png)
 
 ### Contact
-![alt text](https://github.com/HACC17/imgs/contact.png)
+![alt text](https://github.com/HACC17/HATS/blob/master/imgs/contact.png)
 
 ### Laravel Directory
 ![alt text](https://github.com/HACC17/HATS/blob/master/imgs/laravel-dir.png)
