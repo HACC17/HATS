@@ -43,6 +43,8 @@ tr:hover{background-color:#f5f5f5}
 <?php
 	$docket = DB::table('docket')
 	->where('status', '0')
+	->orderBy('docketType', 'asc')
+	->orderBy('docketNumber', 'desc')
 	->get();
 	$page = 1;
 	if(isset($_GET["page"]))
@@ -159,10 +161,6 @@ tr:hover{background-color:#f5f5f5}
 <center><?php for ($pageNum = 0; $pageNum <= $pages; $pageNum++) { ?>
 	<a href="pending?page=<?php echo $pageNum + 1?>"><?php echo $pageNum + 1 ?></a>
 <?php } ?>
-<br>
-<form method="get" action="search">
-	<button type="submit">Search again</button>
-</form>
 </center>
 </div>
 @stop
