@@ -1,10 +1,11 @@
 # Land Use Commission v2
 ###### Last modified:09/14/2017
 ###Table of Contents
+<li>Prerequisites</li>
 <li>Setup</li>
 <li>Usage</li>
 <li>Technical Notes</li>
-<li>Showcase Images</li>
+<li>Showcase Images</li><br>
 
 ### Setup
 To ensure that you are able to run our website locally you will need to complete the following steps. Each step is crucial and not doing one may result in an error.
@@ -12,14 +13,14 @@ To ensure that you are able to run our website locally you will need to complete
 <li>yes | sudo apt upgrade</li>
 <li>yes | sudo apt instalal composer</li>
 <li>yes | sudo apt install php-mbstring</li>
-<li>yes | sudo apt install php-dom</li>
+<li>yes | sudo apt install php-dom</li><br>
 
 If starting a new project
 <li>composer create-project laravel/laravel --prefer-dist</li>
 <li>cd laravel</li>
 <li>cp .env.example .env</li>
 <li>php artisan key:generate</li>
-<li>php artisan serve</li>
+<li>php artisan serve</li><br>
 
 If working with pulled files
 <li>cd laravel</li>
@@ -27,12 +28,20 @@ If working with pulled files
 <li>sudo composer update</li>
 <li>cp .env.example .env</li>
 <li>php artisan key:generate</li>
-<li>php artisan serve</li>
+<li>php artisan serve</li><br>
 
 ### Usage<br>
 Once the installation steps are completed you can start laravel locally with the follow command:
 php artisan serve
 
+### Technical Notes
+![alt text](https://github.com/HACC17/HATS/blob/dev-Rob/imgs/laravel-framework-logo.png)
+
+![alt text](https://github.com/HACC17/HATS/blob/dev-Rob/imgs/php-sqlite.jpg)
+
+![alt text](https://github.com/HACC17/HATS/blob/dev-Rob/imgs/trello_1x.png)
+
+![alt text](https://github.com/HACC17/HATS/blob/dev-Rob/imgs/ubuntu_logo.jpg)
 
 ### Home Page
 ![alt text](https://github.com/HACC17/HATS/blob/dev-Rob/imgs/home.png)
