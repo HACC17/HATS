@@ -1,4 +1,3 @@
-
 <?php
 /*
 |--------------------------------------------------------------------------
@@ -59,7 +58,6 @@ Route::get('upload', function()
 //========================================
 //===============ABOUT====================
 //========================================
-
 Route::get('about', function(){
 	
     return View::make('pages.about');
@@ -115,4 +113,9 @@ Route::get('lucmaps', function()
 Route::get('contact', function(){
 	
     return View::make('pages.contact');
+});
+Route::post('contact', function(){
+	
+    return View::make('pages.form');
+
 });
