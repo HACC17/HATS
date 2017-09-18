@@ -211,7 +211,7 @@ tr:hover{background-color:#f5f5f5}
 </table>
 <br>
 <?php for ($pageNum = 0; $pageNum <= $pages; $pageNum++) { ?>
-	<a href="results?docketType=<?php echo $_GET[docketType] ?>&docketYear=<?php echo $_GET[docketYear] ?>&docketNumber=<?php echo $_GET[docketNumber] ?>&docketName=<?php echo $_GET[docketName] ?>&project=<?php echo $_GET[project] ?>&page=<?php echo $pageNum + 1?>"><?php echo $pageNum + 1 ?></a>
+	<a href="results?docketType=<?php echo $_GET['docketType'] ?>&docketYear=<?php echo $_GET['docketYear'] ?>&docketNumber=<?php echo $_GET['docketNumber'] ?>&docketName=<?php echo $_GET['docketName'] ?>&project=<?php echo $_GET['project'] ?>&page=<?php echo $pageNum + 1?>"><?php echo $pageNum + 1 ?></a>
 <?php } ?>
 <form>
 <button>Search again</button>
