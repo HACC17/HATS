@@ -127,13 +127,13 @@ tr:hover{background-color:#f5f5f5}
 		<th>Status</th>
 	</tr>
 <?php
-	$line += 1;
-	if($line < $linePerPage * ($page -1))
-		continue;
-	if($line === $linePerPage * $page)
-		break;
 	foreach($docket as $item)
 	{
+		$line += 1;
+		if($line < $linePerPage * ($page -1))
+			continue;
+		if($line === $linePerPage * $page)
+			break;
 		switch ($item->docketType)
 		{
 			case 1:
