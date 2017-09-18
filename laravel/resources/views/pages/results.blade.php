@@ -9,8 +9,14 @@ body {
     background-size: cover; 
 }
 table {
-    border-collapse: collapse;
-    width: 70%;
+    border-collapse: separated;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textcontainer a {
+    text-decoration: underline;
 }
 
 th, td {
