@@ -44,6 +44,14 @@ Route::get('results', function(){
 	
     return View::make('pages.results');
 }); 
+Route::get('upload', function(){
+	
+    return View::make('pages.upload_form');
+}); 
+Route::post('upload', function(){
+	
+    return View::make('pages.upload');
+}); 
 Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
