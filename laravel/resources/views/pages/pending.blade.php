@@ -60,7 +60,15 @@ tr:hover{background-color:#f5f5f5}
 			case 3:
 				$docketType = "DR";
 		}
-		$docket = $docketType.$item->docketYear."-".$item->docketNumber;
+		if($item->docketYear < 10)
+		{
+			$docketYear = "0" . $item->docketYear;
+		}
+		else
+		{
+			$docketYear = $item->docketYear;
+		}
+		$docket = $docketType.$docketYear."-".$item->docketNumber;
 
 		switch ($item->island)
 		{
@@ -130,3 +138,4 @@ tr:hover{background-color:#f5f5f5}
 
 </div>
 @stop
+
