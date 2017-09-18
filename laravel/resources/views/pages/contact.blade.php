@@ -42,7 +42,7 @@
                     <h2 style="border-bottom:  solid black">Contact Us</h2>
                     <p><br>You can also fill out the form below. Processed requests will be answered with 5 business days.</p>
                     <p>Fields thare required have an asterisk(*) next to them. Please include your name, phone number, email, your organization, and the nature of your request.</p>
-                    <form action="form.blade.php" method="post">
+                    <form action="contact" method="post">
                         *Full Name: <br>
                         <input type="text" name="full_name" size="50"><br>
                         <br>*E-mail: 
