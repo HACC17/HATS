@@ -17,7 +17,8 @@
         }
 
         .textcontainer {
-        width: 80%;
+        text-align: center;
+        width: 70%;
         margin-right: auto;
         margin-left: auto;
         margin-top: 0.3in;
@@ -102,10 +103,10 @@ background-color: rgba(248,248,248,0.8);
 }
 
 .modalBox{
-        width: 100%;
-        margin-right: auto;
-        margin-left: auto;
-border: 1px solid red;
+width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
     </style>
     <body>
