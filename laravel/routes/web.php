@@ -39,8 +39,6 @@ Route::get('search', function(){
 Route::get('results', function(){
 	
     return View::make('pages.results');
-<<<<<<< HEAD
-=======
 }); 
 Route::get('upload', function(){
 	
@@ -53,7 +51,6 @@ Route::post('upload', function(){
 Route::get('selfservice', function()
 {
     return View::make('pages.selfservice');
->>>>>>> master
 });
 Route::get('upload', function()
 {
