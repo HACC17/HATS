@@ -59,7 +59,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-po
 *Setup is compatible with Ubuntu versions after Ubuntu 14.04*
 
 ### Home Page
-![alt text](https://github.com/HACC17/HATS/imgs/home.png)
+![alt text](https://github.com/HACC17/HATS/tree/master/imgs/home.png)
 
 ### About Page
 ![alt text](https://github.com/HACC17/HATS/imgs/about.png)
