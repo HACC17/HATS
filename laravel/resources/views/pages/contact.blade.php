@@ -43,6 +43,7 @@
                     <p><br>You can also fill out the form below. Processed requests will be answered with 5 business days.</p>
                     <p>Fields thare required have an asterisk(*) next to them. Please include your name, phone number, email, your organization, and the nature of your request.</p>
                     <form action="contact" method="post">
+						{{ csrf_field() }}
                         *Full Name: <br>
                         <input type="text" name="full_name" size="50" required><br>
                         <br>*E-mail: 
