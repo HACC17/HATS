@@ -39,10 +39,10 @@
             <br><a href="#0A1">What do I need to make a request?</a></br>
             <br><a href="#0A2">How do I process a request?</a></br>
             <br><a href="#0A3">Who do I contact?</a></br>
-            <br><a href="#0A4">Where are we located</a></br>
+            <br><a href="#0A4">Where are we located?</a></br>
             <br><a href="#0A5">How long do I have to wait to process?</a></br>
-            <br><a href="#0A6">What is TMK</a></br>
-            <br><a href="#0A7">How do I obtain the TMK for a property?</a></br>
+            <br><a href="#0A6">What is Tax Map Key (TMK)?</a></br>
+            <br><a href="#0A7">How do I obtain the Tax Map Key (TMK) for a property?</a></br>
             <br><a href="#0A8">What is a docket?</a></br>
             <br><a href="#0A9">How do I obtain a docket number?</a></br>
             <br><a href="#0B1">Can I edit active dockets?</a></br>
@@ -81,8 +81,8 @@
                     <h3>Who do I contact?</h3>
                 </a>
                 <p>You can contact us by email or phone number.</p>
-                <p>Telephone:(808)587-3827</p>
-                <p>Email:dbedt.luc.web@hawaii.gov</p>
+                <p>Telephone: (808)587-3827</p>
+                <p>Email: dbedt.luc.web@hawaii.gov</p>
                 <br></br>
                 <a href="#top">Back to top of page</a>
             </div>
@@ -91,7 +91,7 @@
                 <a name="0A4">
                     <h3>Where are we located</h3>
                 </a>
-                <p>State Office Towe
+                <p>State Office Tower
                     Leiopapa A Kamehameha Building
                     235 South Beretania Street, Room 406
                     Honolulu, Hawai`i 96804-2359.
@@ -104,14 +104,18 @@
                 <a name="0A5">
                     <h3>How long do I have to wait to process a request?</h3>
                 </a>
+<<<<<<< HEAD
                 <p>Your process will be handled within 5-7 business days.</p>
+=======
+                <p>Your process will be handled within 5 business days</p>
+>>>>>>> master
                 <br></br>
                 <a href="#top">Back to top of page</a>
             </div>
             <!-- 0A6 -->
             <div class="qabox">
                 <a name="0A6">
-                    <h3>What is TMK?</h3>
+                    <h3>What is Tax Map Key (TMK)?</h3>
                 </a>
                 <p>A Tax Map Key (TMK) is a unique property identifier number.</p>
                 <ul>
@@ -128,10 +132,10 @@
             <!-- 0A7 -->
             <div class="qabox">
                 <a name="0A7">
-                    <h3>How do I obtain the TMK for a property?</h3>
+                    <h3>How do I obtain the Tax Map Key (TMK) for a property?</h3>
                 </a>
                 <p>You can use the ArcGIS map application to find your address.</p>
-                <p>To access the ArcGIS map application click here</p>
+                <p>To access the ArcGIS map application <a href="lucmaps" ><u>Click Here</u></a></p>
                 <br></br>
                 <a href="#top">Back to top of page</a>
             </div>
@@ -149,7 +153,7 @@
                 <a name="0A9">
                     <h3>How  do I obtain a docket number?</h3>
                 </a>
-                <p> </p>
+                <p>To search for a docket <a href="search"><u>Click Here</u></a></p>
                 <br></br>
                 <a href="#top">Back to top of page</a>
             </div>

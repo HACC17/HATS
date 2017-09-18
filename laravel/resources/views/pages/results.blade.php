@@ -9,7 +9,7 @@ body {
     background-size: cover; 
 }
 table {
-    border-collapse: separated;
+    border-collapse: collapse;
     width: 98%;
     margin-left: auto;
     margin-right: auto;
@@ -31,14 +31,19 @@ th {
 }
 
 tr:hover{background-color:#f5f5f5}
+
 </style>
 
 <body>
 <div class="textcontainer">
 <h2>Search Results:</h2>
 <p>Click on the docket number to view information about the docket.</p>
+<hr>
 <?php
-
+	function issetor(&$var, $default = "")
+	{
+		return isset($var) ? $var : $default;
+	}
 	$docketType = NULL;
 	$docketYear = NULL;
 	$docketNumber = NULL;
@@ -111,7 +116,7 @@ tr:hover{background-color:#f5f5f5}
 	->get();
 	$linePerPage = 20;
 	$pages = count($docket) / $linePerPage;
-	$line = 1;
+	$line = 0;
 ?>
 <table>
 	<tr>
@@ -124,6 +129,11 @@ tr:hover{background-color:#f5f5f5}
 <?php
 	foreach($docket as $item)
 	{
+		$line += 1;
+		if($line < $linePerPage * ($page -1))
+			continue;
+		if($line === $linePerPage * $page)
+			break;
 		switch ($item->docketType)
 		{
 			case 1:
@@ -208,20 +218,18 @@ tr:hover{background-color:#f5f5f5}
 		<td><?php print($status); ?></td>
 	</tr>
 <?php
-		if($line === $linePerPage)
-			break;
-		else
-			$line += 1;
 	}
 ?>
 </table>
 <br>
-<?php for ($pageNum = 0; $pageNum <= $pages; $pageNum++) { ?>
-	<a href="results?docketType=<?php echo $_GET['docketType'] ?>&docketYear=<?php echo $_GET['docketYear'] ?>&docketNumber=<?php echo $_GET['docketNumber'] ?>&docketName=<?php echo $_GET['docketName'] ?>&project=<?php echo $_GET['project'] ?>&page=<?php echo $pageNum + 1?>"><?php echo $pageNum + 1 ?></a>
+<center><?php for ($pageNum = 0; $pageNum <= $pages; $pageNum++) { ?>
+	<a href="results?docketType=<?php echo issetor($_GET['docketType']) ?>&docketYear=<?php echo issetor($_GET['docketYear']) ?>&docketNumber=<?php echo issetor($_GET['docketNumber']) ?>&docketName=<?php echo issetor($_GET['docketName']) ?>&project=<?php echo issetor($_GET['project']) ?>&page=<?php echo $pageNum + 1?>"><?php echo $pageNum + 1 ?></a>
 <?php } ?>
-<form>
-<button>Search again</button>
+<br>
+<form method="get" action="search">
+	<button type="submit">Search again</button>
 </form>
+</center>
 
 </div>
 @stop

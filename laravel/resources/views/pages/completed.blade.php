@@ -41,7 +41,17 @@ tr:hover{background-color:#f5f5f5}
 <?php
 	$docket = DB::table('docket')
 	->where('status', '!=', '0')
+	->orderBy('docketType', 'asc')
+	->orderBy('docketNumber', 'desc')
 	->get();
+	$page = 1;
+	if(isset($_GET["page"]))
+	{
+		$page = $_GET["page"];
+	}
+	$linePerPage = 20;
+	$pages = count($docket) / $linePerPage;
+	$line = 0;
 ?>
 <table>
 	<tr>
@@ -54,6 +64,11 @@ tr:hover{background-color:#f5f5f5}
 <?php
 	foreach($docket as $item)
 	{
+		$line += 1;
+		if($line < $linePerPage * ($page -1))
+			continue;
+		if($line === $linePerPage * $page)
+			break;
 		switch ($item->docketType)
 		{
 			case 1:
@@ -140,9 +155,12 @@ tr:hover{background-color:#f5f5f5}
 	}
 ?>
 </table>
-
+<br>
+<center><?php for ($pageNum = 0; $pageNum <= $pages; $pageNum++) { ?>
+	<a href="completed?page=<?php echo $pageNum + 1?>"><?php echo $pageNum + 1 ?></a>
+<?php } ?>
+</center>
 </div>
 </body>
 
 @stop
-

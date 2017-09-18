@@ -42,13 +42,13 @@
                     <h2 style="border-bottom:  solid black">Contact Us</h2>
                     <p><br>You can also fill out the form below. Processed requests will be answered with 5 business days.</p>
                     <p>Fields thare required have an asterisk(*) next to them. Please include your name, phone number, email, your organization, and the nature of your request.</p>
-                    <form action="form.blade.php" method="post">
+                    <form action="contact" method="post">
                         *Full Name: <br>
-                        <input type="text" name="full_name" size="50"><br>
+                        <input type="text" name="full_name" size="50" required><br>
                         <br>*E-mail: 
-                        <br><input type="text" name="email" size="50"><br>
+                        <br><input type="text" name="email" size="50" required><br>
                         <br>*Phone: 
-                        <br><input type="text" name="phone" size="50"><br>
+                        <br><input type="text" name="phone" size="50" required><br>
                         <br>Reason for your request: (Check all items that apply)</br>
                         <input type="checkbox" name="reason" value="dockets">Dockets</br>
                         <input type="checkbox" name="reason" value="maps">Maps</br>
@@ -61,7 +61,7 @@
                         <br>How would you like to be contacted?<br>
                         <input type="checkbox" name="reason" value="phone">Phone</br>
                         <input type="checkbox" name="reason" value="email">E-mail</br>
-                        <input type="submit">
+                        <input type="submit" value="Submit">
                     </form>
                 </div>
                 <!---------CONTACT INFORMATION--------->

@@ -185,7 +185,7 @@
                             <div>
                                 <a href="#close" title="Close" class="close">X</a>
                                 <h2>Where can I get additional assistance?</h2>
-                                <p>LUC offers assistance by email, phone or in person. You can visit the contact tab for this information or<a href="/contact">click here to go directly there.</a></p>
+                                <p>LUC offers assistance by email, phone or in person. You can visit the contact tab for this information or<a href="/contact"> click here.</a></p>
                             </div>
                         </div>
                     </td>
