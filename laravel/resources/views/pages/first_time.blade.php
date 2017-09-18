@@ -83,6 +83,7 @@
         margin-bottom: 20px;
         display: inline-block;
         background-color: rgba(248,248,248,0.8);
+        box-shadow: 0px 0px 20px 1px #888888;
         }
         .modalCon:hover {
         background-color: rgba(248,248,248);
@@ -105,7 +106,6 @@
             <div class="textcontainerbutton">
             <div class="modalBox">
                 <!-- Start of Table -->
-                <table></table>
                 <!-- Table row one -->
                 <tr>
                     <!-- Modal:01: What does LUC mean?-->

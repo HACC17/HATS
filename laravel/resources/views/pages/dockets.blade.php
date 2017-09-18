@@ -27,22 +27,13 @@ height: 100%;
   height: 200px;
   padding: 20px;
   margin: 10px;
-  background-color: #f8f8f8 ;
+  background-color: rgba(248,248,248,0.9);
 } 
-/* Buttons */
-.button {
-    background-color: #f8f8f8;
-    border: none;
-    color: black;
-    padding-top: 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
 
+.boxed:hover {
+background-color: rgba(255,255,255);
+cursor: pointer;
+}
 .center {
  text-align: center;
 }
@@ -52,32 +43,31 @@ height: 100%;
 }
 </style>
 <div class="in-boxed">
-<button class="button" onclick="location.href = 'pending';">
-<div class="boxed">
+<div class="boxed" onclick="location.href = 'pending';">
   <h2 class="center">Pending Dockets</h2>
    <p class="left">View all pending dockets.</p>
    <p class="center">Click here</p>
 </div> 
 <!--</a>-->
-</button>
+
 
 <!-- Who we are box -->
-<button class="button" onclick="location.href = 'completed';">
 
-<div class="boxed">
+
+<div class="boxed" onclick="location.href = 'completed';">
   <h2 class="center">Completed Dockets</h2>
    <p class="left">View all completed dockets.</p>
    <p class="center">Click here</p>
 </div>
-</button>
+
 <!-- Request Assistance boxes -->
-<button class="button" onclick="location.href = 'search';">
-<div class="boxed">
+
+<div class="boxed" onclick="location.href = 'search';">
   <h2 class="center">Search Dockets</h2>
    <p class="left">Looking for a docket?</p>
    <p class="center">Click here</p>
 </div>
-</button>
+
 
 </div>
 @stop

@@ -17,10 +17,6 @@ Route::get('/', function(){
 	
     return View::make('pages.home');
 });
-Route::get('about', function(){
-	
-    return View::make('pages.about');
-});
 //========================================
 //================DOCKETS=================
 //========================================
@@ -43,21 +39,18 @@ Route::get('search', function(){
 Route::get('results', function(){
 	
     return View::make('pages.results');
-}); 
-Route::get('selfservice', function()
-{
-    return View::make('pages.selfservice');
 });
-Route::get('lucmaps', function()
+Route::get('upload', function()
 {
-    return View::make('pages.lucmaps');
+    return View::make('pages.upload');
 });
-Route::get('contact', function(){
-	
-    return View::make('pages.contact');
 //========================================
 //===============ABOUT====================
 //========================================
+
+Route::get('about', function(){
+	
+    return View::make('pages.about');
 });
 Route::get('history', function () {
 	
@@ -74,6 +67,10 @@ Route::get('state_land_use_districts', function () {
 //========================================
 //===============SELF SERVICE=============
 //========================================
+Route::get('selfservice', function()
+{
+    return View::make('pages.selfservice');
+});
 Route::get('faq', function()
 {
     return View::make('pages.faq');
@@ -86,11 +83,24 @@ Route::get('returning', function()
 {
     return View::make('pages.returning');
 });
-
 //========================================
 //===============PROCEDURES===============
 //========================================
 Route::get('procedures', function () {
 	
     return View::make('pages.procedures');
+});
+//========================================
+//===============LUC MAPS=================
+//========================================
+Route::get('lucmaps', function()
+{
+    return View::make('pages.lucmaps');
+});
+//========================================
+//===============CONTACT=================
+//========================================
+Route::get('contact', function(){
+	
+    return View::make('pages.contact');
 });

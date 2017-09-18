@@ -135,7 +135,7 @@ ul.topnav li.right {float: right;}
    width: 80%;
    margin-right: auto;
    margin-left: auto;
-   margin-top: 5%;
+   margin-top: 2%;
    background-color: rgba(248,248,248,0);
    padding-left: 20px;
    padding-right: 20px;
@@ -190,6 +190,7 @@ ul.topnav li.right {float: right;}
         <a href="pending">Pending Dockets</a>
         <a href="completed">Completed Dockets</a>
         <a href="search">Search A Docket</a>
+        <a href="upload">Upload Document</a>
         </div>
       </div>
     </div>
